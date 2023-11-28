@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-image: url("../menu\ heading.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2%;
+  font-size: 2rem;
+}
+
+.header h1 {
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+
+  color: aliceblue;
+}
+@media screen and (max-width: 960px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
