@@ -40,6 +40,9 @@ const router = createBrowserRouter([
       {
         path: "bodycare",
         element: <BodyCare />,
+      },   {
+        path: "bodycare",
+        element: <BodyCare />,
       },
       {
         path: "skincare",
