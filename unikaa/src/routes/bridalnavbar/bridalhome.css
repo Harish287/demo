@@ -1,0 +1,26 @@
+.bride-home-head{
+    font-size: 80px;
+    line-height: 162px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #bf135d;
+    margin: 0 383px;
+    color: white;
+    height: 100px;
+    
+}
+.bride-home-heads{
+    font-size: 80px;
+    line-height: 162px;
+    align-items: center;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    background-color: #bf135d;
+    /* margin: 0 360px; */
+    color: #ff92c8;
+    height: 100px;
+
+
+}

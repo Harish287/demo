@@ -6,6 +6,7 @@ import image1 from "./Assets/abc.jpg";
 import image2 from "./Assets/hair9.jpg";
 import image3 from "./Assets/peducure.jpg";
 import image4 from "./Assets/hair_cut1.jpg";
+// import Footer from "./components/Footer"
 
 export default function App() {
   return (
@@ -16,10 +17,11 @@ export default function App() {
         <img src={image3} className="sliderimg" alt="" />
         <img src={image4} className="sliderimg" alt="" />
       </AliceCarousel>
+     
       {/* <div className="ha">
       <p>hafro</p>
     </div> */}
+      {/* <Footer/> */}
     </div>
-  
   );
 }

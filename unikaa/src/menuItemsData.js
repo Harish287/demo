@@ -2,7 +2,7 @@ import "./App.css";
 export const menuItemsData = [
   {
     title: "Our Services",
-    url: "/",
+    url: "",
 
     submenu: [
       {
@@ -25,7 +25,7 @@ export const menuItemsData = [
   },
   {
     title: "Bridal",
-    url: "/bridal",
+    url: "/homes",
   },
   {
     title: "Franchise",
@@ -41,10 +41,10 @@ export const menuItemsData = [
       },
     ],
   },
-  {
-    title: "Salon Locator",
-    url: "/salonlocator",
-  },
+  // {
+  //   title: "Salon Locator",
+  //   url: "/salonlocator",
+  // },
   {
     title: "Pricing",
     url: "",

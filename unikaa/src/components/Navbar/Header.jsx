@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import Logo from ".//1.png";
 import "../Navbar/Header.css";
+
+
+
 const Header = () => {
   return (
     <header>
@@ -17,8 +20,9 @@ const Header = () => {
         </Link>
 
         {/* for large screen */}
+   
         <Navbar />
-
+ 
         {/* for small screen */}
         <MobileNav />
       </div>

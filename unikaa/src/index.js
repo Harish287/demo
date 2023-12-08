@@ -8,19 +8,32 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import ErrorPage from "./ErrorPage";
 
-import BodyCare from "./routes/bodycare";
-import HairCare from "./routes/haircare";
-import SkinCare from "./routes/skincare";
+import BodyCare from "./components/ourservices/bodycare";
+import HairCare from "./components/ourservices/haircare";
+import SkinCare from "./components/ourservices/skincare";
 import Offers from "./routes/offers";
-import Bridal from "./routes/bridal";
+// bridal subdivision
+import Bridal from "./routes/bridalnavbar/bridal";
+import Home from "./routes/bridalnavbar/homes";
+import Services from "./routes/bridalnavbar/services";
+import Makeup from "./routes/bridalnavbar/makeup";
+import Blogs from "./routes/bridalnavbar/blogs";
+
 import Franchise from "./routes/franchise";
 import AboutUs from "./routes/aboutus";
 import Media from "./routes/media";
-import SalonLocator from "./components/ourservices/salonlocator";
-import Academy from "./routes/academy";
+// import SalonLocator from "./salonlocator";
+// Academy subdivisions
+// import Academy from "./academy";
+import Homess from "./routes/acade/home";
+import Franchises from "./routes/acade/franchises";
+import About from "./routes/acade/about";
+import Contact from "./routes/acade/contact";
+import Ourcourse from "./routes/acade/ourcourse";
+
 import Blog from "./routes/blog";
-import ServiceForHer from "./components/ourservices/serviceforher";
-import ServiceForHim from "./components/ourservices/serviceforhim";
+import ServiceForHer from "./serviceforher";
+import ServiceForHim from "./serviceforhim";
 
 const router = createBrowserRouter([
   {
@@ -40,7 +53,8 @@ const router = createBrowserRouter([
       {
         path: "bodycare",
         element: <BodyCare />,
-      },   {
+      },
+      {
         path: "bodycare",
         element: <BodyCare />,
       },
@@ -52,10 +66,7 @@ const router = createBrowserRouter([
         path: "offers",
         element: <Offers />,
       },
-      {
-        path: "bridal",
-        element: <Bridal />,
-      },
+
       {
         path: "franchise",
         element: <Franchise />,
@@ -68,10 +79,10 @@ const router = createBrowserRouter([
         path: "media",
         element: <Media />,
       },
-      {
-        path: "salonLocator",
-        element: <SalonLocator />,
-      },
+      // {
+      //   path: "salonLocator",
+      //   element: <SalonLocator />,
+      // },
 
       {
         path: "serviceforher",
@@ -81,15 +92,59 @@ const router = createBrowserRouter([
         path: "serviceforhim",
         element: <ServiceForHim />,
       },
-      {
-        path: "academy",
-        element: <Academy />,
-      },
+
       {
         path: "blog",
         element: <Blog />,
       },
     ],
+  },
+  // **************************bridal********************//
+  {
+    path: "bridal",
+    element: <Bridal />,
+  },
+  {
+    path: "homes",
+    element: <Home />,
+  },
+  {
+    path: "services",
+    element: <Services />,
+  },
+  {
+    path: "makeup",
+    element: <Makeup />,
+  },
+  {
+    path: "blogs",
+    element: <Blogs />,
+  },
+
+  // ************************************************Acadamy*************************************//
+  {
+    path: "academy",
+    element: <Homess />,
+  },
+  {
+    path: "home",
+    element: <Homess />,
+  },
+  {
+    path: "franchises",
+    element: <Franchises />,
+  },
+  {
+    path: "about",
+    element: <About />,
+  },
+  {
+    path: "contact",
+    element: <Contact />,
+  },
+  {
+    path: "ourcourse",
+    element: <Ourcourse />,
   },
 ]);
 

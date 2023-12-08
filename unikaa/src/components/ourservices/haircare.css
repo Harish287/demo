@@ -1,0 +1,78 @@
+.hair {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: conic-gradient(
+    from 124deg at 50% 50%,
+    #ce005a 50%,
+    #ff92c8 50%
+  );
+  background-size: cover;
+  /* background-image: conic-gradient(from 124deg at 50% 50%,  #ff92c8 50%, #ce005a 50%); */
+}
+.hairhead-img {
+  height: 450px;
+  width: 100%;
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background: black;
+  overflow: hidden;
+  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("./haircare/hair-head.webp");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+    url("./haircare/hair-head.webp"); /* The least supported option. */
+  background-size: cover;
+}
+.hairhead-img h1 {
+  text-align: center;
+  padding: 211px 0;
+  font-size: 60px;
+}
+
+.haircare {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  max-width: 73.125em;
+  /* zoom: 1; */
+}
+.hair-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+}
+.hair-div h1 {
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 133px;
+}
+.hair-img {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: auto;
+}
+.hair-div p {
+  padding: 0 300px;
+  margin-left: -280px;
+  margin-top: 51px;
+  font-size: 17px;
+  color: white;
+}
+.hair-div ul li {
+  list-style-type: none;
+  float: left;
+  margin-right: 15px;
+  background: url(./haircare/bullet-point-purple.png) scroll 0 center no-repeat;
+  padding-left: 15px;
+  font-size: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}

@@ -15,6 +15,9 @@ header {
   color: #212529;
   background: #cd015b;
 }
+body{
+  height: auto;
+}
 
 .nav-area {
   display: flex;
@@ -23,6 +26,8 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px 20px;
+  font-size:larger;
+  font-weight: 900;
 }
 
 .logo {
@@ -81,6 +86,8 @@ header {
   background-color:#cd015b;
   color: #ffbdde;
 
+
+   
 }
 
 .desktop-nav .arrow::after {
@@ -126,8 +133,10 @@ header {
 
 /* menu on mobile */
 @media screen and (max-width: 960px) {
+ 
   .nav-area {
     justify-content: space-between;
+    width: 100%;
   }
 
   .desktop-nav {
@@ -149,8 +158,8 @@ header {
   .mobile-nav .menus {
     list-style: none;
     position: absolute;
-    top: 50px;
-    right: 20px;
+    top: 109px;
+    right: -181px;
     box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
       0 4px 6px -2px rgba(71, 63, 79, 0.16);
     z-index: 9999;
@@ -218,6 +227,9 @@ header {
 
   .mobile-nav .dropdown.show {
     display: block;
+  }
+  header{
+    width: 155%;
   }
 }
 

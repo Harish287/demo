@@ -5,10 +5,11 @@ import twitter from "../Assets/twitter.png";
 import insta from "../Assets/insta.png";
 import linkedin from "../Assets/im.png";
 import youtube from "../Assets/48968.png";
+// import App from "../App"
 
 //******************************* fonticon import***************////
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
         <div className="sb__footer-links_div">
           <h4>Quick Links</h4>
           <a href="/">
-            <p>Home </p>
+            <p>Home</p>
           </a>
           <a href="/aboutus">
             <p>AboutUs</p>
@@ -58,7 +59,6 @@ const Footer = () => {
         </div>
         <div className="sb__footer-links_div">
           <h4>Contact Us</h4>
-          
 
           <p>location</p>
         </div>
@@ -66,33 +66,36 @@ const Footer = () => {
         <div className="sb__footer-links_div">
           <h4>Get IN Touch</h4>
           <p>phoneNumber</p>
-          <p><FontAwesomeIcon icon={faEnvelope} />Email Id </p>
+          <p>
+            <FontAwesomeIcon icon={faEnvelope} />
+            Email Id{" "}
+          </p>
         </div>
 
         <div className="socialmedia">
           <p>
-          <a href="sdasda">
-            <img src={fb} alt="" />
+            <a href="sdasda">
+              <img src={fb} alt="" />
             </a>
           </p>
           <p>
-          <a href="ssaa">
-            <img src={twitter} alt="" />
+            <a href="ssaa">
+              <img src={twitter} alt="" />
             </a>
           </p>
           <p>
-          <a href="https://www.instagram.com/_.mr.thunder_gray._">
-            <img src={insta} alt="" />
+            <a href="https://www.instagram.com/_.mr.thunder_gray._">
+              <img src={insta} alt="" />
             </a>
           </p>
           <p>
-             <a href="gfgfg">
-            <img src={linkedin} alt="" />
+            <a href="gfgfg">
+              <img src={linkedin} alt="" />
             </a>
           </p>
           <p>
-          <a href="https://youtu.be/2PIagAiL_a8?si=PEUrGw_ZdJH5Fvq1">
-            <img src={youtube} alt="" />
+            <a href="https://youtu.be/2PIagAiL_a8?si=PEUrGw_ZdJH5Fvq1">
+              <img src={youtube} alt="" />
             </a>
           </p>
         </div>
