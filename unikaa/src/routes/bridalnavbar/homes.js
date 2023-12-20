@@ -1,11 +1,103 @@
 import React from "react";
 import Navbar from "../bridalnavbar/bridal";
-import "./bridalhome.css"
+import "./bridalhome.css";
+import Margin from "./123.png";
+import Consulting from "./consulting.jpg";
+import Prebridal from "./Pre-Bridal.jpg";
+import Teach from "./teach.jpg";
+import Actual from "./acutal.jpg";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 const home = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="bride-home-head">90 Days, <h1 className="bride-home-heads">Journey</h1></h1>
+
+      <div className="homes-name">
+        <h1 className="bride-home-head">90 Days Journey</h1>
+        <img src={Margin} className="topmargin" alt="" />
+        <div className="consultent">
+          <img src={Consulting} className="consulting-img" alt="" />
+          <div className="consult">
+            <h2>Consultation</h2>
+            <h6>Stage 1</h6>
+            <p>
+              The consultation stage of bridal makeup is crucial because it
+              gives the bride and the makeup artist a chance to discuss and
+              arrange the ideal look for the wedding day. It offers an
+              opportunity to learn about the bride's preferences, consider
+              several looks, and make sure that the makeup fits the wedding's
+              general concept and style.
+            </p>
+          </div>
+
+          <img src={Consulting} className="consulting-rightimg" alt="" />
+
+          <div className="consult-right">
+            <h2>Planning</h2>
+            <h6>Stage 2</h6>
+            <p>
+              Planning is an essential step in bridal makeup that entails
+              organising and coordinating various elements to guarantee a
+              seamless and practical makeup application on the wedding day.
+              Planning beforehand can help create a unified and distinctive
+              style that highlights the bride's inherent beauty and complements
+              the wedding theme.
+            </p>
+          </div>
+
+          <img src={Prebridal} className="consulting-leftimg" alt="" />
+
+          <div className="consult-left">
+            <h2>Pre bridal</h2>
+            <h6>Stage 3</h6>
+            <p>
+              Pre-bridal preparation is vital in achieving a flawless and
+              radiant bridal makeup look. Before the wedding, a range of
+              skincare and beauty regimens are included. The objective is to
+              bring out the bride's natural beauty, ensure her skin is in
+              perfect condition, and add skincare that will stay all day.
+            </p>
+          </div>
+
+          <img src={Teach} className="consulting-rightimg" alt="" />
+
+          <div className="consult-right">
+            <h2>Trial session</h2>
+            <h6>Stage 4</h6>
+            <p>
+              An essential part of the wedding planning process is a bridal
+              makeup trial. It enables the bride and makeup artist to work
+              together to develop and perfect the ideal bridal look. The trial
+              session offers a chance to try out several aesthetic looks,
+              express your preferences, and ensure the final appearance is
+              precisely what you had in mind.
+            </p>
+          </div>
+
+          <img src={Actual} className="consulting-leftimg" alt="" />
+
+          <div className="consult-left">
+            <h2>Actual day</h2>
+            <h6>Stage 5</h6>
+            <p>
+              The actual day of bridal makeup is an exciting and memorable time
+              when the bride gets her makeup professionally done for her wedding
+              day. To ensure a stress-free and joyful experience, planning ahead
+              and setting aside enough time to apply makeup is crucial.
+            </p>
+          </div>
+        </div>
+        <div className="bridehometrial">
+          <h1>Trial Makeup Sessions</h1>
+          <p>
+            We know that choosing the right makeup look can be a daunting task,
+            which is why we offer trial makeup sessions. During your trial, our
+            makeup artist will work with you to create a look that highlights
+            your best features and complements your personal style.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

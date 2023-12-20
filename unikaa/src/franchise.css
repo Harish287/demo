@@ -1,3 +1,221 @@
-.france{
-    height: 600px;
+.france {
+  background: url(./Assets/B2B-Franchise-Campaign-12.jpg);
+  height: 420px;
+  background-size: cover;
+}
+.francep {
+  /* text-align: center; */
+  font-size: 56px;
+  font-weight: bolder;
+  margin-top: 143px;
+  position: absolute;
+  margin-left: 120px;
+  color: aliceblue;
+}
+.franchise1p {
+  font-size: 24px;
+  display: flex;
+  color: aliceblue;
+  justify-content: left;
+  margin-top: 234px;
+  margin-left: 120px;
+}
+.franchise2p {
+  font-size: 24px;
+  display: flex;
+  color: aliceblue;
+  justify-content: left;
+  margin-top: 0px;
+  margin-left: 120px;
+}
+
+.franchise2h h3 {
+  font-family: Butler;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 503px;
+  font-size: 38px;
+  color: #ca2555;
+  margin-top: 20px;
+}
+.franchise2h p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ca2555;
+  font-family: Inter, sans-serif;
+  margin-top: 13px;
+  padding: 0 511px;
+}
+
+.francise3h {
+  text-align: center;
+}
+.frenchisecard {
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+  align-items: center;
+  background-color: pink;
+}
+@media screen and (max-width: 960px) {
+  .francep {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 60px;
+  }
+  .franchise1p {
+    /* text-align: center; */
+    margin-left: 64px;
+  }
+  .franchise2p {
+    margin-left: 64px;
+    margin-top: 10px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .frenchisecard {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .franchise2h h3 {
+    padding: 0px;
+  }
+  .franchise2h p {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .francep {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 60px;
+  }
+  .franchise1p {
+    /* text-align: center; */
+    margin-left: 64px;
+  }
+  .franchise2p {
+    margin-left: 64px;
+    margin-top: 10px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .frenchisecard {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .franchise2h h3 {
+    padding: 0px;
+  }
+  .franchise2h p {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .francep {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 60px;
+  }
+  .franchise1p {
+    /* text-align: center; */
+    margin-left: 64px;
+  }
+  .franchise2p {
+    margin-left: 64px;
+    margin-top: 10px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .frenchisecard {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .franchise2h h3 {
+    padding: 0px;
+  }
+  .franchise2h p {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .francep {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 60px;
+  }
+  .franchise1p {
+    /* text-align: center; */
+    margin-left: 64px;
+  }
+  .franchise2p {
+    margin-left: 64px;
+    margin-top: 10px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .frenchisecard {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .franchise2h h3 {
+    padding: 0px;
+  }
+  .franchise2h p {
+    padding: 0px;
+  }
+}
+
+.frenchisecard2 {
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+  align-items: center;
+  background-color: #cd015b;
+}
+.francesuppo {
+  color: white;
+}
+.francesuppo-colm2 {
+  text-align: center;
+  padding: 0px 126px;
+  font-size: 17px;
+  font-family: Inner-sans-serif;
+  margin-top: 20px;
+  display: flex;
+  /* position: relative; */
+}
+
+@media screen and (max-width:850px ) {
+  
+  .frenchisecard2 {
+    width:100%;
+    margin-left: 0px;
+  }
+  .francesuppo-colm2 {
+  display: block;
+  }
+
 }

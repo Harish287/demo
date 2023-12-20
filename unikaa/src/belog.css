@@ -1,0 +1,11 @@
+.bloglink a{
+    text-decoration: none;
+    padding-right: 40px;
+}
+.bloglink p{
+    padding-right: 40px;
+}
+.imagealine{
+    display: flex;
+    justify-content: center;
+}

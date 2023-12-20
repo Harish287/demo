@@ -1,12 +1,12 @@
 import React from "react";
-import Bridalnav from "./bridalnav.js";
+import Bridalnav from "./bridalnav.jsx";
 import "../bridalnavbar/bridal.css";
-import Blogs from "./blogs.js";
+import Blogs from "./blogs.jsx";
 import Home from "./homes.js";
 import Makeup from "./makeup.js";
 import Services from "./services.js";
+import Booknow from "./booknow.php";
 import { Route, Routes } from "react-router-dom";
-
 
 function bridal() {
   return (
@@ -18,10 +18,9 @@ function bridal() {
           <Route path="/makeup" element={<Makeup />} />
           <Route path="/services" element={<Services />} />
           <Route path="/blogs" element={<Blogs />} />
-          </Routes>
-       
+          <Route path="/booknow" element={<Booknow />} />
+        </Routes>
       </div>
-   
     </>
   );
 }

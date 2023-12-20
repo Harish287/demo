@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="brand-and-toggler flex flex-sb">
             {/* <Link
               to="/home"
-              className="navbar-brand text-uppercase fw-7 text-white ls-2 fs-22"
+              className="navbar-brand text-uppercase fw-7 text-white ls-2 fs-17"
             >
               Academy
             </Link> */}
@@ -43,10 +43,10 @@ const Navbar = () => {
               <ul className="navbar-nav-nav">
                 <li className="nav-item-acade">
                   {/* <h1>unikaa</h1> */}
-             
+
                   <Link
                     to="/home"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-22"
+                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     Home
                   </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/about"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-22"
+                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     About
                   </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/franchises"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-22"
+                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     Franchise
                   </Link>
@@ -70,7 +70,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/ourcourse"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-22"
+                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     OurCourse
                   </Link>
@@ -78,15 +78,13 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/contact"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-22"
+                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     Contact
                   </Link>
-                
                 </li>
               </ul>
             </div>
-         
           </div>
         </div>
       </div>

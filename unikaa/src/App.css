@@ -14,8 +14,10 @@ header {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   color: #212529;
   background: #cd015b;
+ 
+  width: 100%;
 }
-body{
+body {
   height: auto;
 }
 
@@ -25,9 +27,9 @@ body{
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 15px 20px;
-  font-size:larger;
-  font-weight: 900;
+  /* padding: 15px 20px; */
+  font-size: larger;
+  /* font-weight: 900; */
 }
 
 .logo {
@@ -39,6 +41,26 @@ body{
   justify-content: center;
   align-items: center;
 }
+.logo p {
+  margin-top: 10px;
+}
+p {
+  margin-bottom: 0rem;
+}
+/* .h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0rem;
+} */
 
 /* menu on desktop */
 .desktop-nav .menus {
@@ -78,16 +100,14 @@ body{
 .desktop-nav .menu-items > a,
 .desktop-nav .menu-items button {
   text-align: left;
-  padding: 0.7rem 1rem;
+  padding: 0.2rem 1rem;
+  font-size: 19px;
 }
 
 .desktop-nav .menu-items a:hover,
 .desktop-nav .menu-items button:hover {
-  background-color:#cd015b;
+  background-color: #cd015b;
   color: #ffbdde;
-
-
-   
 }
 
 .desktop-nav .arrow::after {
@@ -133,10 +153,14 @@ body{
 
 /* menu on mobile */
 @media screen and (max-width: 960px) {
- 
   .nav-area {
     justify-content: space-between;
     width: 100%;
+  }
+  header {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    color: #212529;
+    background: #cd015b;
   }
 
   .desktop-nav {
@@ -158,8 +182,8 @@ body{
   .mobile-nav .menus {
     list-style: none;
     position: absolute;
-    top: 109px;
-    right: -181px;
+    top: 84px;
+    right: -5px;
     box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
       0 4px 6px -2px rgba(71, 63, 79, 0.16);
     z-index: 9999;
@@ -228,8 +252,8 @@ body{
   .mobile-nav .dropdown.show {
     display: block;
   }
-  header{
-    width: 155%;
+  header {
+    width: 100%;
   }
 }
 

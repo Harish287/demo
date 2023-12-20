@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import App from "./App";
-import "./App.css";
+// import "./App.css";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import ErrorPage from "./ErrorPage";
@@ -18,8 +19,9 @@ import Home from "./routes/bridalnavbar/homes";
 import Services from "./routes/bridalnavbar/services";
 import Makeup from "./routes/bridalnavbar/makeup";
 import Blogs from "./routes/bridalnavbar/blogs";
+import Booknow from "./routes/bridalnavbar/booknow";
 
-import Franchise from "./routes/franchise";
+import Franchise from "./franchise";
 import AboutUs from "./routes/aboutus";
 import Media from "./routes/media";
 // import SalonLocator from "./salonlocator";
@@ -119,6 +121,10 @@ const router = createBrowserRouter([
   {
     path: "blogs",
     element: <Blogs />,
+  },
+  {
+    path: "booknow",
+    element: <Booknow />,
   },
 
   // ************************************************Acadamy*************************************//

@@ -65,6 +65,14 @@
   font-size: 17px;
   color: white;
 }
+ul li {
+  margin-bottom: 0rem;
+}
+dl,
+ol,
+ul {
+  margin-bottom: 0rem;
+}
 .hair-div ul li {
   list-style-type: none;
   float: left;
@@ -75,4 +83,20 @@
   font-size: 17px;
   font-weight: 400;
   color: white;
+}
+@media screen and (max-width: 950px) {
+  .haircare {
+    width: 100%;
+  }
+
+  .hair-div p {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .hair-img {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  margin: auto;
+  }
 }

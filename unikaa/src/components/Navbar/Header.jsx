@@ -16,7 +16,7 @@ const Header = () => {
       <div className="nav-area">
         <Link to="/" className="logo">
           <img src={Logo} alt="" />
-          UNIKAA
+          <p>UNIKAA</p>
         </Link>
 
         {/* for large screen */}

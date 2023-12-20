@@ -1,7 +1,7 @@
 .home-bg {
   height: 450px;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   background-repeat: no-repeat;
   opacity: 0.9;
   background: black;
@@ -17,9 +17,9 @@
   background-size: cover;
 }
 
-.acade-home h6 {
+.acade-nav h6 {
   display: flex;
-  top: 30%;
+  top: 20%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
@@ -27,11 +27,12 @@
   position: absolute;
   margin-left: 36%;
   margin-top: -1%;
+  padding: 0px 0px;
   font-size: 35px;
 }
-.acade-home h4 {
+.acade-nav h4 {
   display: flex;
-  top: 30%;
+  top: 18%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
@@ -39,11 +40,12 @@
   position: absolute;
   margin-left: 39%;
   margin-top: 3%;
+  padding: 0px 0px;
   font-size: 27px;
 }
-.acade-home p {
+.acade-nav p {
   display: flex;
-  top: 30%;
+  top: 20%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
@@ -52,14 +54,15 @@
   margin-left: 0%;
   margin-top: 6%;
   font-size: 27px;
+
   text-align: center;
-  padding: 0 185px;
+  /* padding: 0 175px; */
   font-weight: bold;
 }
 
 .acard-btn {
   display: flex;
-  top: 30%;
+  top: 20%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
@@ -78,7 +81,7 @@
 }
 .acard-abtbtn {
   display: flex;
-  top: 30%;
+  top: 20%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
@@ -94,4 +97,257 @@
   cursor: pointer;
   background-color: #cd015c;
   transition: 0.9s;
+}
+
+.home-headacade h4 {
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+/* .acadehometop{
+
+} */
+.paraacadehome p {
+  display: flex;
+  font-size: 25px;
+  padding: 20px 90px;
+  width: 100%;
+  font-size: 17px;
+}
+@media screen and (max-width: 850px) {
+  .home-bg {
+    width: 100%;
+  }
+
+  .acade-nav p {
+    font-size: 22px;
+    font-weight: 200px;
+    text-align: center;
+  }
+
+  /* .acard-btns{
+    display: flex;
+    justify-content: space-evenly;
+  } */
+  .acard-btn {
+    display: flex;
+    margin-top: 237px;
+  }
+  .acard-abtbtn {
+    display: flex;
+    margin-top: 237px;
+    margin-left: 90px;
+  }
+  .acade-nav h6 {
+    display: flex;
+    margin-top: -100px;
+    font-size: 24px;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  .acade-nav h4 {
+    display: flex;
+    margin-top: -30px;
+    font-size: 18px;
+    margin-left: 90px;
+    text-align: center;
+  }
+  .acadehometop h4 {
+    padding: 20px;
+    /* text-align: center; */
+  }
+  .acadehometop p {
+    padding: 20px 25px;
+    text-align: center;
+  }
+}
+/* abovemedia query compleated */
+.acade-home-dep {
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.greeks {
+  /* width: 300px; */
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.acade-home-dep-card {
+  width: 18rem;
+  background-color: #eb3989;
+}
+.acade-home-dep-card-title {
+  font-size: 20px;
+  text-align: center;
+  padding: 0 38px;
+}
+.acard-moreinfo {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-color: #eb3989;
+  font-size: large;
+  margin-left: 102px;
+  margin-bottom: 5%;
+}
+.acard-moreinfo:hover {
+  /* color: #cd015c; */
+  background-color: white;
+}
+.acade-home-card-pic {
+  transition-duration: 1500ms;
+  padding: 50px;
+  transition: transform 1.1s; /* Animation */
+  width: 18rem;
+  margin: 0 auto;
+}
+.acade-home-card-pic:hover {
+  transform: scale(
+    1.3
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.acade-home-dep-card-firstrow {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.acade-home-dep-card-secondrow {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 1%;
+}
+
+@media screen and (max-width: 850px) {
+  .acade-home-dep-card-firstrow {
+    flex-direction: column;
+    margin-top: 5%;
+    display: flex;
+    /* margin-left: 50px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .acade-home-dep-card-secondrow {
+    flex-direction: column;
+    margin-top: 5%;
+    display: flex;
+    /* margin-left: 50px; */
+    justify-content: center;
+    align-items: center;
+  }
+}
+.masterclasses h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.master-card {
+  width: 18rem;
+  background-color: #eb3989;
+}
+.master-card-title {
+  font-size: 20px;
+  text-align: center;
+  padding: 0 38px;
+}
+.master-moreinfo {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  margin-left: 102px;
+}
+.master-moreinfo:hover {
+  /* color: #cd015c; */
+  background-color: #eb3989;
+}
+.greek {
+  /* width: 300px; */
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.master-card-pic {
+  width: 18rem;
+  /* margin: 0 auto; */
+  /* width: 96%; */
+  transition: 0.5s all ease-in-out;
+}
+.master-card-pic:hover {
+  /* transform: scale(
+  1.3 */
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.master-card-row {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+@media screen and (max-width: 850px) {
+  .master-card-row {
+    flex-direction: column;
+    margin-top: 5%;
+    display: flex;
+    /* margin-left: 50px; */
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.background-acade-home {
+  margin-top: 5%;
+  min-height: 100%;
+  background: url(https://picsum.photos/id/1043/800/600) rgb(205, 1, 91, 0.8);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.background-acade-home h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 200px;
+  color: aliceblue;
+}
+.background-acade-home p {
+  font-size: 20px;
+  text-align: center;
+  color: aliceblue;
+  padding: 26px 147px 20px 147px;
+}
+.background-acade-home-btn {
+  text-align: center;
+  background-color: transparent;
+  margin-left: 48%;
+  padding: 8px 20px;
+  color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 9%;
+}
+
+.background-acade-home-btn:hover {
+  background-color: #eb3989;
+}
+@media screen and (max-width: 850px) {
+  .background-acade-home {
+    width: 101%;
+  }
+  .background-acade-home h2 {
+    /* padding: 20px; */
+  }
+
+  .background-acade-home p {
+    padding: 20px;
+  }
+  .background-acade-home-btn {
+    display: flex;
+    margin: 0 auto;
+  }
 }

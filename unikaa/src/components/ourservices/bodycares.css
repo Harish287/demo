@@ -32,6 +32,12 @@
   padding: 211px 0;
   font-size: 60px;
 }
+.body-img {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: auto;
+}
 
 .bodycare {
   width: 100%;
@@ -76,38 +82,58 @@
   font-weight: 400;
   color: white;
 }
-@media screen and (max-width: 850px) {
+
+  @media screen and (max-width: 950px) {
+    .bodycare {
+      width: 100%;
+    }
+  
+    .bodycares-div p {
+      margin-left: 0px;
+      padding: 0px;
+    }
+    .body-img {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+    margin: auto;
+    }
+ }
+ @media screen and (max-width: 850px) {
   .bodycare {
-    width: 150%;
+    width: 100%;
   }
-  .bodycares-div {
-    display: contents;
-    justify-content: center;
-    align-items: center;
-  }
+
   .bodycares-div p {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .body-img {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
+    justify-content: space-between;
+  margin: auto;
   }
-  .bodycares-div h1 {
-    /* display: contents; */
-    margin-left: 183px;
-  }
+  
+
+
+}
+@media screen and (max-width: 1200px) {
   .bodycare {
-    display: contents;
+    width: 100%;
   }
-  .bodycares-div ul li {
-    display: contents;
-    list-style-type: none;
-    float: left;
-    margin-right: 15px;
-    background: url(./bodycare/bullet-point-purple.png) scroll 0 center
-      no-repeat;
-    padding-left: 15px;
-    font-size: 15px;
-    font-size: 17px;
-    font-weight: 400;
-    color: white;
+
+  .bodycares-div p {
+    margin-left: 0px;
+    padding: 0px;
   }
+  .body-img {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  margin: auto;
+  }
+  
+
+
 }

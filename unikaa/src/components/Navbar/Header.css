@@ -1,11 +1,13 @@
 .top{
   display: block;
   text-align: center;
-  padding: 1px;
+  /* padding: 1px; */
   background-color:#FFBDDE;
 }
 .top h1{
- font-size:medium;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
 }
 .top p{
   font-size: medium;
@@ -15,4 +17,18 @@
   height: 40px;
   width: 40px;
   justify-content: center;
+}
+@media screen and (max-width: 850px) {
+  .top h1{
+    font-size:medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .top p{
+    font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 }

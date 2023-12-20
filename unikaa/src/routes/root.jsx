@@ -5,14 +5,12 @@ import Footer from "../components/Footer";
 import Body from "../components/body";
 export default function Root() {
   return (
-    
     <div>
-       <div className="content">
-      
-      <Header />
-      <Outlet />
+      <div className="content">
+        <Header />
+        <Outlet />
         <Body />
-        
+
         <Footer />
       </div>
     </div>

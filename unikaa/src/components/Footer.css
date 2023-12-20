@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 4rem;
+  padding: 2rem 10rem 0rem 10rem;
 }
 
 .Footer {
@@ -14,7 +14,7 @@
   justify-content: space-between;
   background-color: #cd015b;
   height: auto;
- 
+
   /* margin-top: 44%; */
 }
 .sb__footer-links {
@@ -44,23 +44,33 @@
 .socialmedia img {
   width: 40px;
   margin: 2px;
+  display: flex;
+  padding: 5px;
+  background-color: pink;
+  border-radius: 14px;
   cursor: pointer;
 }
 .socialmedia {
   color: #cd015b;
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  margin-left: -70px;
+  border-color: black;
 }
 .sb__footer-links_div h4 {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 17px;
   margin-bottom: 0.9rem;
 }
 .sb__footer-links_div p {
-  font-size: 12px;
   line-height: 15px;
-  margin: 0.5rem 0;
+  margin: 1.3rem -36px 2px 0px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 16px;
 }
+
 .sb__footer-below {
   display: flex;
   flex-direction: row;
@@ -94,7 +104,7 @@ hr {
 }
 @media screen and (max-width: 850px) {
   .sb__footer {
-    width: 152%;
+    /* width: 152%; */
     background-color: #cd015b;
     height: auto;
     flex-direction: inherit;
@@ -113,6 +123,12 @@ hr {
     font-size: 34px;
     line-height: 42px;
   }
+  /* .section__padding {
+    padding: 0rem 12rem 0rem 0rem;
+  }
+  .socialmedia {
+    color: #cd015b;
+  } */
   .sb__footer-links div {
     margin: 1rem 0;
   }
@@ -131,6 +147,15 @@ hr {
     margin-left: 0rem;
     margin-top: 1rem;
   }
+  .socialmedia {
+    color: #cd015b;
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    border-color: black;
+    margin-left: -157px;
+}
 }
 @media screen and (max-width: 400px) {
   .sb__footer-heading h1 {

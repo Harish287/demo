@@ -1,26 +1,152 @@
-.bride-home-head{
-    font-size: 80px;
-    line-height: 162px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-color: #bf135d;
-    margin: 0 383px;
-    color: white;
-    height: 100px;
-    
+
+.bride-home-head {
+  font-size: 80px;
+  /* font-family: Courier, monospace; */
+  line-height: 162px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #bf135d;
+  margin: 0 383px;
+  color: black;
+  height: 100px;
+  margin-top: 20px;
 }
-.bride-home-heads{
-    font-size: 80px;
-    line-height: 162px;
-    align-items: center;
-    /* position: absolute; */
-    display: flex;
+.topmargin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -110px;
+  width: 440px;
+  margin-bottom: -4%;
+}
+.consulting-img {
+  width: 252px;
+  height: 334px;
+  box-sizing: border-box;
+  border-radius: 70px;
+  position: absolute;
+  /* padding: 22px -8px; */
+  object-fit: cover;
+}
+.consult {
+  padding: 85px;
+  /* margin-top: 15%; */
+}
+.consult h2 {
+  padding: 0 183px;
+  font-size: 45px;
+}
+.consult h6 {
+  padding: 0 190px;
+
+  font-size: 30px;
+}
+.consult p {
+  font-size: 23px;
+
+  padding: 0 195px;
+}
+
+/********************************************************rightaline**************************************************/
+
+.consult-right {
+  padding: 85px;
+  margin-top: 7%;
+  text-align: right;
+}
+.consult-right h2 {
+  padding: 0 183px;
+  font-size: 45px;
+}
+
+.consult-right h6 {
+  padding: 0 190px;
+
+  font-size: 30px;
+}
+.consult-right p {
+  font-size: 23px;
+
+  padding: 0 195px;
+}
+/********************************************************leftaline**************************************************/
+.consult-left {
+  padding: 85px;
+  margin-top: 7%;
+}
+.consult-left h2 {
+  padding: 0 183px;
+  font-size: 45px;
+}
+.consult-left h6 {
+  padding: 0 190px;
+
+  font-size: 30px;
+}
+.consult-left p {
+  font-size: 23px;
+
+  padding: 0 195px;
+}
+
+.consulting-rightimg {
+  width: 252px;
+  height: 334px;
+  box-sizing: border-box;
+  border-radius: 70px;
+  /* position: absolute; */
+  margin-top: 7%;
+  display: flex;
+  float: right;
+  object-fit: cover;
+}
+.consulting-leftimg {
+  width: 252px;
+  height: 334px;
+  box-sizing: border-box;
+  border-radius: 70px;
+  /* position: absolute; */
+  margin-top: 7%;
+  display: flex;
+  float: left;
+  object-fit: cover;
+}
+@media screen and (max-width: 850px) {
+  .bride-home-head {
     justify-content: center;
-    background-color: #bf135d;
-    /* margin: 0 360px; */
-    color: #ff92c8;
-    height: 100px;
+    align-items: center;
+    line-height: 60px;
+  }
+  .topmargin {
+    justify-content: center;
+    margin-left: 140px;
+  }
+}
 
 
+/********************************************trial box*******************************/
+.bridehometrial{
+  box-sizing: border-box;
+  background-color: #eb3989;
+  position: absolute;
+  margin: 50px 110px;
+  border-radius: 20px;
+  /* height: 100px; */
+
+}
+.bridehometrial h1{
+font-size: 60px;
+margin-left: 43px;
+margin-top: 7%;
+
+}
+.bridehometrial p{
+  font-size: 20px;
+  padding-right: 763px;
+  line-height: 30px;
+  margin-top: 3%;
+  margin-left: 59px;
+  margin-bottom: 6%;
 }

@@ -13,7 +13,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="Footer">
+    <div className="Footer ">
       <div className="sb__footer section__padding">
         <div className="sb__footer-links_div">
           <h4>Quick Links</h4>
@@ -70,9 +70,8 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} />
             Email Id{" "}
           </p>
-        </div>
 
-        <div className="socialmedia">
+          <div className="socialmedia">
           <p>
             <a href="sdasda">
               <img src={fb} alt="" />
@@ -99,6 +98,13 @@ const Footer = () => {
             </a>
           </p>
         </div>
+
+
+
+
+        </div>
+
+       
       </div>
       <hr></hr>
       <div className="sb__footer-below">

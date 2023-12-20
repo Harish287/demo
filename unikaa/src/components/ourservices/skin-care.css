@@ -76,3 +76,18 @@
   font-weight: 400;
   color: white;
 }
+@media screen and (max-width: 850px) {
+  .skincare {
+    width: 100%;
+  }
+.skin-div p {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .skin-img {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: auto;
+  }
+}

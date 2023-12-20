@@ -4,7 +4,9 @@ import "./haircare.css";
 
 const HairCare = () => {
   return (
+
     <div className="hair">
+      
       <div className="hairhead-img">
         <h1>Hair Care</h1>
       </div>
@@ -19,7 +21,7 @@ const HairCare = () => {
             are at hand to give you that head over heels effect.
           </p>
         </div>
-        <div className="hair-div">
+        <div className="hair-div ">
           <img src={hairimg} className="hair-img" alt="logo" />
           <h1>Fantasy Styling</h1>
           <p>
@@ -30,10 +32,10 @@ const HairCare = () => {
             <ul>
               <li>Crimping</li>
             </ul>
-            <ul>
-              <li>ironing</li>
+            <ul class="mb-0">
+              <li >ironing</li>
             </ul>
-            <ul>
+            <ul class="mb-0">
               <li>Tongs</li>
             </ul>
           </p>
