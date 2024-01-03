@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./media.css";
 import image from "../Assets/media2.jpg";
 import image1 from "../Assets/media 3.jpg";
@@ -6,6 +6,17 @@ import image2 from "../Assets/media1.jpg";
 import image3 from "../Assets/media2.jpg";
 
 const Media = () => {
+  //****************************************************** */ backend********************/
+  const [values, Getvalues] = useState([]);
+  console.log(document.cookie.split("=")[0]);
+
+  useEffect(() => {
+    fetch("http://localhost:8081")
+      .then((res) => res.json())
+      .then((data) => Getvalues(data))
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
     <div className="header">
       <div className="img-pink">
@@ -13,7 +24,7 @@ const Media = () => {
       </div>
       <div className="media-head">
         <h2>
-          Our Collection of Press Coverage Reflecting the Recognition Naturals
+          Our Collection of Press Coverage Reflecting the Recognition Unikaa
           has Earned
         </h2>
       </div>
@@ -179,12 +190,20 @@ const Media = () => {
           </div>
         </div>
       </div>
-      <hr></hr>
-      {/* <div className="container">
-        <div className="row">
-          <div className="col-lg-12 col-md-12 col-12">footer</div>
-        </div>
-      </div> */}
+
+      {/****************************************************************** * backend *****************************************/}
+      {values.map((val) => (
+        <>
+          <img
+            src={`data:image/webp;base64,${val.image}`}
+            height={300}
+            width={"100%"}
+            alt="no img"
+          />
+        </>
+      ))}
+
+
     </div>
   );
 };

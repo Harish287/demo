@@ -39,7 +39,7 @@ const franchise = () => {
         <div className="overflow-auto">
           <p className="francep">
             <AnimatedOnScroll animationIn="bounceInLeft">
-              <Page children="join The Naturals From Today!" />
+              <Page children="join The Unikaa From Today!" />
             </AnimatedOnScroll>
           </p>
         </div>
@@ -97,8 +97,8 @@ const franchise = () => {
           }}
         >
           The success of any franchise is determined by the success of its
-          franchise partners. Naturals is fortunate to have many such success
-          stories to tell. Hear from our partners how Naturals have empowered
+          franchise partners. Unikaa is fortunate to have many such success
+          stories to tell. Hear from our partners how Unikaa have empowered
           them and have opened new growth vistas.
         </Card.Text>
         {/* <Card.Img variant="top" src="../Assets/abc.jpg" /> */}
@@ -202,7 +202,7 @@ const franchise = () => {
       </Card>
 
       <div className="francise3h">
-        <h1>The Naturals Nationwide Wave</h1>
+        <h1>The Unikaa Nationwide Wave</h1>
       </div>
 
       <br></br>
@@ -350,7 +350,7 @@ const franchise = () => {
                   Proven Return On Investment
                 </Card.Title>
                 <Card.Text style={{ color: "white" }}>
-                  Starting a franchise with Naturals presents an opportunity to
+                  Starting a franchise with Unikaa presents an opportunity to
                   increase your investment in a systematic and steady manner.
                 </Card.Text>
               </Card.Body>
@@ -379,7 +379,7 @@ const franchise = () => {
               <Card.Body>
                 <Card.Title style={{ color: "white" }}>Brand Value</Card.Title>
                 <Card.Text style={{ color: "white" }}>
-                  Naturals Salon has grown from 1 salon to 650 salons by
+                  Unikaa Salon has grown from 1 salon to 650 salons by
                   building its brand over the past 16 years. Now we are inviting
                   you to be part of this success story.
                 </Card.Text>
@@ -411,7 +411,7 @@ const franchise = () => {
                   Marketing Support
                 </Card.Title>
                 <Card.Text style={{ color: "white" }}>
-                  Naturals provide PR Assistance, Marketing, Business
+                  Unikaa provide PR Assistance, Marketing, Business
                   Generation, IT & PoS Billing and continuous operations
                   support.
                 </Card.Text>
