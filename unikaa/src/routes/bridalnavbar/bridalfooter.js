@@ -1,11 +1,10 @@
 import React from "react";
-import "./Footer.css";
-import fb from "../Assets/fb.png";
-import twitter from "../Assets/twitter.png";
-import insta from "../Assets/insta.png";
-import linkedin from "../Assets/im.png";
-import youtube from "../Assets/48968.png";
-
+import "./bridalfooter.css";
+import fb from "./fb.png";
+import twitter from "./twitter.png";
+import insta from "./insta.png";
+import linkedin from "./im.png";
+import youtube from "./48968.png";
 // import App from "../App"
 
 //******************************* fonticon import***************////
@@ -13,12 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
-
-  
-    
-
   return (
-    
     <div className="Footer ">
       <div className="sb__footer section__padding">
         <div className="sb__footer-links_div">
@@ -38,11 +32,9 @@ const Footer = () => {
           <a href="/blog">
             <p>Blog</p>
           </a>
-          
-          <a href="/privacypolicy">
-            <p>Privacy Policy</p>
-          </a>
-       
+          {/* <a href="/policy">
+            <p>Private Policy</p>
+          </a> */}
         </div>
         <div className="sb__footer-links_div">
           <h4>Our Service</h4>
@@ -80,41 +72,35 @@ const Footer = () => {
           </p>
 
           <div className="socialmedia">
-          <p>
-            <a href="sdasda">
-              <img src={fb} alt="" />
-            </a>
-          </p>
-          <p>
-            <a href="ssaa">
-              <img src={twitter} alt="" />
-            </a>
-          </p>
-          <p>
-            <a href="https://www.instagram.com/_.mr.thunder_gray._">
-              <img src={insta} alt="" />
-            </a>
-          </p>
-          <p>
-            <a href="gfgfg">
-              <img src={linkedin} alt="" />
-            </a>
-          </p>
-          <p>
-            <a href="https://youtu.be/2PIagAiL_a8?si=PEUrGw_ZdJH5Fvq1">
-              <img src={youtube} alt="" />
-            </a>
-          </p>
+            <p>
+              <a href="sdasda">
+                <img src={fb} alt="" />
+              </a>
+            </p>
+            <p>
+              <a href="ssaa">
+                <img src={twitter} alt="" />
+              </a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/_.mr.thunder_gray._">
+                <img src={insta} alt="" />
+              </a>
+            </p>
+            <p>
+              <a href="gfgfg">
+                <img src={linkedin} alt="" />
+              </a>
+            </p>
+            <p>
+              <a href="https://youtu.be/2PIagAiL_a8?si=PEUrGw_ZdJH5Fvq1">
+                <img src={youtube} alt="" />
+              </a>
+            </p>
+          </div>
         </div>
-
-
-
-
-        </div>
-
-       
       </div>
-      <hr></hr>
+      {/* <hr></hr> */}
       <div className="sb__footer-below">
         <div className="sb__footer-copyrights">
           <p>@{new Date().getFullYear()} Unikaa. All rights reserved.</p>
@@ -124,12 +110,7 @@ const Footer = () => {
 </div> */}
       </div>
     </div>
-
-    
   );
-  
 };
-
-
 
 export default Footer;

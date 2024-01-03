@@ -117,6 +117,14 @@
   }
 } */
 
+
+.brialtop{
+  color: black;
+    font-size: 29px;
+    text-align: center;
+    margin-top: -38px;
+}
+
 @media screen and (max-width: 850px) {
   .navbar-expand .navbar-nav {
     flex-direction: column;

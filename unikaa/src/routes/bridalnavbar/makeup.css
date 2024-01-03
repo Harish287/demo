@@ -1,0 +1,79 @@
+.swip {
+  margin-top: 20px;
+  width: 45%;
+}
+
+.consultents {
+  max-height: 580px;
+  display: flex;
+  /* margin-left: 80px; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 72px;
+  height: 520px;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.consultents::-webkit-scrollbar {
+  display: none;
+}
+
+.consultings-img {
+  width: 300px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 150px;
+  object-fit: cover;
+
+}
+
+.consults {
+  /* min-width: 606px; */
+  width: 100%;
+  gap: 24px;
+}
+
+.consults2{
+  /* min-width: 606px; */
+  width: 100%;
+  gap: 24px;
+}
+
+.consultings-img2 {
+  width: 300px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 150px;
+  object-fit: cover;
+
+}
+
+.image-slider-makeup{
+  width: 600px;
+  height: 550px;
+  position: absolute;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.img-makeup{
+  width: 598px;
+  height: 550px;
+  box-sizing: border-box;
+  object-fit: cover;
+  /* border-radius: 300px; */
+}
+
+.img-makeup-btns{
+  display: flex;
+}
+
+.img-makeup-btn{
+     --bs-btn-color:none; 
+    --bs-btn-bg:none; 
+    --bs-btn-border-color: none;
+    --bs-btn-hover-border-color:none;
+        --bs-btn-hover-bg: pink;
+        --bs-btn-active-bg: pink;
+      }

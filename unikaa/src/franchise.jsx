@@ -40,19 +40,17 @@ const franchise = () => {
           <p className="francep">
             <AnimatedOnScroll animationIn="bounceInLeft">
               <Page children="join The Naturals From Today!" />
-            </AnimatedOnScroll>{" "}
+            </AnimatedOnScroll>
           </p>
         </div>
 
         <div className="franchise1p">
           <AnimatedOnScroll animationIn="bounceInLeft">
-            {/* <Page children="bounceInLeft" /> */}
             <p>Be A Part Of India's Largest Saloon Chain An Exciting </p>
           </AnimatedOnScroll>
         </div>
         <div className="franchise2p">
           <AnimatedOnScroll animationIn="bounceInLeft">
-            {/* <Page children="bounceInLeft" /> */}
             <p>Enterpreneurship Opprtunity Of You</p>
           </AnimatedOnScroll>
         </div>
@@ -108,7 +106,7 @@ const franchise = () => {
         <Card.Body
           style={{
             textAlign: "center",
-            padding: "0 126px",
+            // padding: "0 126px",
             fontSize: "17px",
             fontFamily: "Inner-sans-serif",
             marginTop: "20px",
@@ -388,8 +386,6 @@ const franchise = () => {
               </Card.Body>
             </Card>
           </Card.Body>
-
-
 
           <Card.Body>
             <Card

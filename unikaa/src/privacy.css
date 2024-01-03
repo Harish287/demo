@@ -1,0 +1,21 @@
+.privacy p{
+margin-top: 20px; 
+font-size: 17px;
+line-break: anywhere;
+margin-bottom: 20px;
+}
+
+.privacy h2{
+margin-top: 20px;
+font-size: 20px;
+color: #ca2555;
+}
+.privacy{
+    margin: 50px 155px;
+
+}
+.privacyheader{
+background-color: #f5d1d3;
+text-align: center;
+padding: 90px;
+}

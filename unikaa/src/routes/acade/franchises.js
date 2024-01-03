@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../academy";
 import "./franchiseacade.css";
+import Acardefooter from "./acadefooter";
 const franchise = () => {
   return (
     <div className="acade-franche">
@@ -12,6 +13,7 @@ const franchise = () => {
           <button className="acade-franchebtn">CONTACTUS </button>
         </a>
       </div>
+      <Acardefooter/>
     </div>
   );
 };

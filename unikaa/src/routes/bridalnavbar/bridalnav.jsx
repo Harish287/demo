@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
+
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./bridal.css";
@@ -13,9 +14,11 @@ function ColorSchemesExample() {
   return (
     <>
       <nav className="navbars">
-        <div className="contain">
+        <div className="contain"> 
           <div className="navbar-content">
-            <div className="brand-and-toggler flex flex-sb">
+            <div className="brand-and-toggler flex flex-sb" >
+             
+          
               {/* <Link
               to="/home"
               className="navbar-brand text-uppercase fw-7 text-white ls-2 fs-17"
@@ -27,9 +30,9 @@ function ColorSchemesExample() {
                 className="navbar-open-btn text-white  "
                 onClick={() => setNavToggler(!navToggler)}
               >
-                <FaBars size={30} color="crimson"/>
+                <FaBars size={30} color="crimson"/> 
               </button>
-
+              <p className="brialtop">bridal</p>
               <div
                 className={
                   navToggler

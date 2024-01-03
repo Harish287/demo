@@ -22,7 +22,9 @@ import Blogs from "./routes/bridalnavbar/blogs";
 import Booknow from "./routes/bridalnavbar/booknow";
 
 import Franchise from "./franchise";
+
 import AboutUs from "./routes/aboutus";
+
 import Media from "./routes/media";
 // import SalonLocator from "./salonlocator";
 // Academy subdivisions
@@ -36,7 +38,7 @@ import Ourcourse from "./routes/acade/ourcourse";
 import Blog from "./routes/blog";
 import ServiceForHer from "./serviceforher";
 import ServiceForHim from "./serviceforhim";
-
+import PrivacyPolicy from "./privacypolicy";
 const router = createBrowserRouter([
   {
     element: <Root />,
@@ -44,10 +46,15 @@ const router = createBrowserRouter([
 
     children: [
       {
+        path: "/privacypolicy",
+        element: <PrivacyPolicy />,
+      },
+      
+      {
         path: "/",
         element: <App />,
       },
-
+  
       {
         path: "haircare",
         element: <HairCare />,
@@ -99,6 +106,7 @@ const router = createBrowserRouter([
         path: "blog",
         element: <Blog />,
       },
+   
     ],
   },
   // **************************bridal********************//

@@ -190,7 +190,7 @@ function blog() {
             ></img>
             <div className="bloglink">
               <a href="/blogs">
-                Recreate Your Favourite Celebrity Bridal Looks With Naturals
+                Recreate Your Favourite Celebrity Bridal Looks With Unikaa's
               </a>
               <p>
                 With the wedding season right around the corner, decisions to
@@ -394,10 +394,10 @@ function blog() {
             ></img>
             <div className="bloglink">
               <a href="/blogs">
-                How Naturals Rejuvenated to the Next-Level through Franchising?{" "}
+                How Unikaa's Rejuvenated to the Next-Level through Franchising?{" "}
               </a>
               <p>
-                A case study on Naturals Franchising Model Among the many beauty
+                A case study on Unikaa's Franchising Model Among the many beauty
                 salons in India that are ...
               </p>
             </div>

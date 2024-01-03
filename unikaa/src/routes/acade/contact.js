@@ -1,9 +1,20 @@
 import React from 'react'
 import Navbar from '../../academy'
+import Acardefooter from "./acadefooter";
+
+
 const contact = () => {
-  return (
+  return (<>
     <div>
-      <Navbar/>contact</div>
+      <Navbar/>
+      contact
+      
+      </div>
+    <br></br>
+
+    
+      <Acardefooter/>
+      </>
   )
 }
 

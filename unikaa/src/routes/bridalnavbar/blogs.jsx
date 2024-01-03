@@ -5,6 +5,7 @@ import image1 from "./blog2.jpg";
 import image2 from "./blog3.jpg";
 import image3 from "./blog4.jpg";
 
+import Bridalfooter from "./bridalfooter";
 
 
 function blogs() {
@@ -234,9 +235,11 @@ function blogs() {
       <hr></hr>
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 col-md-12 col-12">footer</div>
+          
         </div>
+        
       </div>
+      <Bridalfooter/>
     </>
   );
 }
