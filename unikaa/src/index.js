@@ -39,6 +39,8 @@ import Blog from "./routes/blog";
 import ServiceForHer from "./serviceforher";
 import ServiceForHim from "./serviceforhim";
 import PrivacyPolicy from "./privacypolicy";
+import Logo from "./logo";
+
 const router = createBrowserRouter([
   {
     element: <Root />,
@@ -49,9 +51,13 @@ const router = createBrowserRouter([
         path: "/privacypolicy",
         element: <PrivacyPolicy />,
       },
-      
       {
         path: "/",
+        element: <Logo />,
+      },
+      
+      {
+        path: "/logo",
         element: <App />,
       },
   

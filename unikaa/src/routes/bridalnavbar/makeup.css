@@ -61,6 +61,7 @@
   width: 598px;
   height: 550px;
   box-sizing: border-box;
+  border-radius: 130px;
   object-fit: cover;
   /* border-radius: 300px; */
 }
@@ -76,4 +77,8 @@
     --bs-btn-hover-border-color:none;
         --bs-btn-hover-bg: pink;
         --bs-btn-active-bg: pink;
+      }
+      .topartisth1{
+        margin-top: 100px;
+        text-align: center;
       }

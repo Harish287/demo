@@ -1,5 +1,12 @@
 import React from "react";
 import hairimg from "../ourservices/SkinCare/de-tanning-icon.png";
+import cleanupsicon from "../ourservices/SkinCare/clean-ups-icon.png";
+import essential from "../ourservices/SkinCare/essential-facials-icon.png";
+import facemasks from "../ourservices/SkinCare/face-masks-icon.png";
+import peeloff from "../ourservices/SkinCare/peel-off-marks-icon.png";
+import premiumfacials from "../ourservices/SkinCare/premium-facials-icon.png";
+import signaturefacials from "../ourservices/SkinCare/signature-facials-icon.png";
+
 import "./skin-care.css"
 
 const skincare = () => {
@@ -22,7 +29,7 @@ const skincare = () => {
           </p>
         </div>
         <div className="skin-div">
-          <img src={hairimg} className="skin-img" alt="logo" />
+          <img src={cleanupsicon} className="skin-img" alt="logo" />
           <h1>Clean Ups</h1>
           <p>
             We believe that the compliments aren’t worth it if the treatment
@@ -37,7 +44,7 @@ const skincare = () => {
           </p>
         </div>
         <div className="skin-div">
-          <img src={hairimg} className="skin-img" alt="logo" />
+          <img src={facemasks} className="skin-img" alt="logo" />
           <h1>Face Masks</h1>
           <p>
             We have tailored a number of twenty minute treatments to suit a
@@ -51,7 +58,7 @@ const skincare = () => {
           </p>
         </div>
         <div className="skin-div">
-          <img src={hairimg} className="skin-img" alt="logo" />
+          <img src={peeloff} className="skin-img" alt="logo" />
           <h1>Peel off masks</h1>
           <p>
             Our peel off masks are simple processes with amazing results from
@@ -65,7 +72,7 @@ const skincare = () => {
           </p>
         </div>
         <div className="skin-div">
-          <img src={hairimg} className="skin-img" alt="logo" />
+          <img src={essential} className="skin-img" alt="logo" />
           <h1>Essential Facials</h1>
           <p>
             The forty five minute long Essential Facials are aptly named: the
@@ -78,7 +85,7 @@ const skincare = () => {
           </p>
         </div>
         <div className="skin-div">
-          <img src={hairimg} className="skin-img" alt="logo" />
+          <img src={premiumfacials} className="skin-img" alt="logo" />
           <h1>Premium Facials</h1>
           <p>
             Exceptional ingredients and unmatched care are abundant in our
@@ -91,7 +98,7 @@ const skincare = () => {
           </p>
         </div>
         <div className="skin-div">
-          <img src={hairimg} className="skin-img" alt="logo" />
+          <img src={signaturefacials} className="skin-img" alt="logo" />
           <h1>Signature Facials</h1>
           <p>
             Sign off from a hard day with one of our luxurious, hour and a half

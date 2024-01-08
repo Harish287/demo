@@ -1,57 +1,32 @@
-// src/components/Pricing.js
-import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
-const Pricing = () => {
+function App() {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://jsonplaceholder.typicode.com/photos")
+      .then((response) => {
+        setPosts(response.data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
+
   return (
-    <Container className="mt-5">
-      <h1 className="text-center mb-4">Men's Pricing</h1>
-      <Row className="justify-content-center">
-        <Col md={4} className="mb-4">
-          <Card>
-            <Card.Header as="h5">Basic</Card.Header>
-            <Card.Body>
-              <Card.Title>$19.99/month</Card.Title>
-              <Card.Text>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </Card.Text>
-              <a href="#" className="btn btn-primary">
-                Get Started
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4} className="mb-4">
-          <Card>
-            <Card.Header as="h5">Standard</Card.Header>
-            <Card.Body>
-              <Card.Title>$39.99/month</Card.Title>
-              <Card.Text>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </Card.Text>
-              <a href="#" className="btn btn-primary">
-                Get Started
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4} className="mb-4">
-          <Card>
-            <Card.Header as="h5">Premium</Card.Header>
-            <Card.Body>
-              <Card.Title>$59.99/month</Card.Title>
-              <Card.Text>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </Card.Text>
-              <a href="#" className="btn btn-primary">
-                Get Started
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+    <ul>
+      {posts.map((post) => (
+        <li key={post.id}>
+          {post.id}:
+          {post.title}<br/>
+          <img src={post.url} alt="" /><br/>
+          <img src={post.thumbnailUrl} alt="" />
+        </li>
+      ))}
+    </ul>
   );
-};
+}
 
-export default Pricing;
+export default App;

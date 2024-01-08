@@ -1,5 +1,15 @@
 import React from "react";
 import bodyimg from "./bodycare/nail-spa-icon.png";
+import Pedicure from "./bodycare/foot-spa-icon.png";
+import BodyPolishing from "./bodycare/body-polishing-icon.png";
+import quickmassage from "./bodycare/quick-massage-icon.png";
+import headmassage from "./bodycare/head-massage-icon .png";
+import bodymassage from "./bodycare/body-massage-icon.png";
+// import bodyimg from "./bodycare/nail-spa-icon.png";
+
+
+
+
 import "./bodycares.css";
 
 const BodyCare = () => {
@@ -23,7 +33,7 @@ const BodyCare = () => {
           </p>
         </div>
         <div className="bodycares-div">
-          <img src={bodyimg} className="body-img" alt="logo" />
+          <img src={Pedicure} className="body-img" alt="logo" />
           <h1>Pedicure</h1>
           <p>
             A pedicure is the best stress relief for the body. It releases the
@@ -39,7 +49,7 @@ const BodyCare = () => {
           </p>
         </div>
         <div className="bodycares-div">
-          <img src={bodyimg} className="body-img" alt="logo" />
+          <img src={BodyPolishing} className="body-img" alt="logo" />
           <h1>Body Polishing</h1>
           <p>
             Lavish your skin with one of our indulgent body polishes to come
@@ -50,7 +60,7 @@ const BodyCare = () => {
           </p>
         </div>
         <div className="bodycares-div">
-          <img src={bodyimg} className="body-img" alt="logo" />
+          <img src={bodymassage} className="body-img" alt="logo" />
           <h1>Body Massage</h1>
           <p>
             Alleviate the tension in your system with a pick of one of our
@@ -61,7 +71,7 @@ const BodyCare = () => {
           </p>
         </div>
         <div className="bodycares-div">
-          <img src={bodyimg} className="body-img" alt="logo" />
+          <img src={quickmassage} className="body-img" alt="logo" />
           <h1>Quick Massage</h1>
           <p>
             A series of short massages to bring quick relief to aching body
@@ -73,7 +83,7 @@ const BodyCare = () => {
           </p>
         </div>
         <div className="bodycares-div">
-          <img src={bodyimg} className="body-img" alt="logo" />
+          <img src={headmassage} className="body-img" alt="logo" />
           <h1>Head Massage</h1>
           <p>
             Feel the aches and anxiety fall gently away with our deeply relaxing
@@ -84,7 +94,7 @@ const BodyCare = () => {
         </div>
 
         <div className="bodycares-div">
-          <img src={bodyimg} className="body-img" alt="logo" />
+          <img src={bodymassage} className="body-img" alt="logo" />
           <h1>body Spa</h1>
           <p>
             Get the bounce back in your step and in your body when you treat

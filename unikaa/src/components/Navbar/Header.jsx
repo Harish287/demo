@@ -14,7 +14,7 @@ const Header = () => {
         <p>hair and beauty salon</p>
       </div>
       <div className="nav-area">
-        <Link to="/" className="logo">
+        <Link to="/logo" className="logo">
           <img src={Logo} alt="" />
           <p>UNIKAA</p>
         </Link>

@@ -16,6 +16,8 @@ import i6 from "./Assets/6.webp";
 
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
+import ScrollToTop from "react-scroll-to-top";
+
 const Page = (props) => {
   const { children, ...rest } = props;
   return (
@@ -421,6 +423,11 @@ const franchise = () => {
         </div>
       </Card>
       <br></br>
+
+      <div className="scroll-top">
+      <ScrollToTop smooth />
+      </div>
+      
     </>
   );
 };

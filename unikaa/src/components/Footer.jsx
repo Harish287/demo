@@ -55,9 +55,12 @@ const Footer = () => {
           <a href="/bodycare">
             <p>Body Care</p>
           </a>
-          <a href="/bridal">
+          
+          {/* <a href="/bridal">
             <p>Bridal</p>
-          </a>
+          </a> */}
+
+
           {/* <a href="/events">
             <p>Events</p>
           </a>
@@ -76,7 +79,7 @@ const Footer = () => {
           <p>phoneNumber</p>
           <p>
             <FontAwesomeIcon icon={faEnvelope} />
-            Email Id{" "}
+            Email Id
           </p>
 
           <div className="socialmedia">

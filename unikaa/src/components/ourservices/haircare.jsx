@@ -1,6 +1,15 @@
 import React from "react";
 import hairimg from "../ourservices/haircare/essential-styling.png";
-import "./haircare.css";
+import washandblow from "./haircare/wash-n-blow-dry.png"
+import Fantasystyling from "./haircare/fantasy-styling.png"
+import Advancedstyling from "./haircare/advanced-styling.png"
+import coloring from "./haircare/colouring.png"
+import transfom from "./haircare/transformers.png"
+import threat from "./haircare/threading.png"
+import wax from "./haircare/waxing.png"
+import hairspa from "./haircare/hair-spa.png"
+
+import "./haircare.css" 
 
 const HairCare = () => {
   return (
@@ -22,7 +31,7 @@ const HairCare = () => {
           </p>
         </div>
         <div className="hair-div ">
-          <img src={hairimg} className="hair-img" alt="logo" />
+          <img src={Fantasystyling} className="hair-img" alt="logo" />
           <h1>Fantasy Styling</h1>
           <p>
             From hot rollers to tongs and flatirons, our qualified professionals
@@ -41,7 +50,7 @@ const HairCare = () => {
           </p>
         </div>
         <div className="hair-div">
-          <img src={hairimg} className="hair-img" alt="logo" />
+          <img src={Advancedstyling} className="hair-img" alt="logo" />
           <h1>Advanced Styling</h1>
           <p>
             Our advanced styling options include styling your hair into
@@ -54,7 +63,7 @@ const HairCare = () => {
           </p>
         </div>
         <div className="hair-div">
-          <img src={hairimg} className="hair-img" alt="logo" />
+          <img src={washandblow} className="hair-img" alt="logo" />
           <h1>Wash ‘n Blow dry</h1>
           <p>
             Find your balance with the help of our basic to advanced haircuts.
@@ -64,7 +73,7 @@ const HairCare = () => {
           </p>
         </div>
         <div className="hair-div">
-          <img src={hairimg} className="hair-img" alt="logo" />
+          <img src={coloring} className="hair-img" alt="logo" />
           <h1>Coloring</h1>
           <p>
             Go bold and beautiful by taking advantage of our hair coloring
@@ -80,7 +89,7 @@ const HairCare = () => {
           </p>
         </div>
         <div className="hair-div">
-          <img src={hairimg} className="hair-img" alt="logo" />
+          <img src={transfom} className="hair-img" alt="logo" />
           <h1>Transformers</h1>
           <p>
             The long and short of our technical processes is that we are very
@@ -104,7 +113,7 @@ const HairCare = () => {
         </div>
 
         <div className="hair-div">
-          <img src={hairimg} className="hair-img" alt="logo" />
+          <img src={hairspa} className="hair-img" alt="logo" />
           <h1>Hair Spa</h1>
           <p>
             Get the bounce back in your step and in your hair when you treat
@@ -128,7 +137,7 @@ const HairCare = () => {
         </div>
 
         <div className="hair-div">
-          <img src={hairimg} className="hair-img" alt="logo" />
+          <img src={wax} className="hair-img" alt="logo" />
           <h1>Waxing</h1>
           <p>
             Hair removal is another component of the beauty services we provide.
@@ -139,7 +148,7 @@ const HairCare = () => {
           </p>
         </div>
         <div className="hair-div">
-          <img src={hairimg} className="hair-img" alt="logo" />
+          <img src={threat} className="hair-img" alt="logo" />
           <h1>Threading</h1>
           <p>
             Tackling those stray facial hairs is a breeze for our staff who are

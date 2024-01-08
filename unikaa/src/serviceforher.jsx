@@ -1,7 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
-const serviceforher = () => {
-  return <div>serviceforher</div>;
-};
+function App() {
+  const [posts, setPosts] = useState([]);
 
-export default serviceforher;
+  useEffect(() => {
+    axios
+      .get("https://jsonplaceholder.typicode.com/photos")
+      .then((response) => {
+        setPosts(response.data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
+
+  return (
+    <ul>
+      {posts.map((post) => (
+        <li key={post.id}>
+          {post.id}:
+          {post.title}<br/>
+          <img src={post.url} alt="" /><br/>
+          {post.thumbnailUrl}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+export default App;

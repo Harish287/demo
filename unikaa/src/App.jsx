@@ -1,9 +1,9 @@
 import React from 'react'
-import Offer from "./routes/offers"
+import Logo from "./logo"
 const App = () => {
   return (
     <div>
-      <Offer/>
+      <Logo/>
     </div>
   )
 }

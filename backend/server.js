@@ -17,6 +17,14 @@ con.connect((err) => {
   }
 });
 
+app.get("/boys", (req, res) => {
+  const sql = "SELECT * FROM boys";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
+
 app.get("/", (req, res) => {
   con.query("SELECT * FROM image", (err, result) => {
     const newarr = [];
@@ -24,12 +32,22 @@ app.get("/", (req, res) => {
       console.error(err);
     } else {
       for (i of result) {
-        const image = i.img.toString("base64");
+        const image = i.ima.toString("base64");
         newarr.push({ sno: i.sno, img: image });
         return res.json(newarr);
       }
 
       //return res.json(result)
+    }
+  });
+});
+
+app.get("/booknow", (req, res) => {
+  con.query("select * from booknow", (err, result) => {
+    if (err) {
+      console.error(err);
+    } else {
+      return res.json(result);
     }
   });
 });

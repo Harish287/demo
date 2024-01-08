@@ -8,7 +8,7 @@ import image3 from "../Assets/media2.jpg";
 const Media = () => {
   //****************************************************** */ backend********************/
   const [values, Getvalues] = useState([]);
-  console.log(document.cookie.split("=")[0]);
+  console.log(document.cookie.split("")[0]);
 
   useEffect(() => {
     fetch("http://localhost:8081")
@@ -16,6 +16,7 @@ const Media = () => {
       .then((data) => Getvalues(data))
       .catch((err) => console.log(err));
   }, []);
+
 
   return (
     <div className="header">
