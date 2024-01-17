@@ -40,7 +40,8 @@
 .navbar-nav-nav {
   /* background-image: url(https://naturalsbeautyacademy.co.in/wp-content/uploads/2023/07/DSC07904.jpg);
 background-size:cover; */
-  background-color: #ca0159;
+  /* background-color: #ca0159; */
+  background-color: white;
   list-style: none;
   left: 0rem;
   top: 2rem;
@@ -53,6 +54,7 @@ background-size:cover; */
   position: relative;
   text-decoration: none;
   color: black;
+  --bs-white-rgb: 0,0,0;
 }
 .nav-link-nav::after {
   content: "";
@@ -71,10 +73,8 @@ background-size:cover; */
   opacity: 1;
 }
 
-@media screen and (min-width: 500px) {
-  /* .navbar-collapse {
-    width: 320px;
-  } */
+@media screen and (min-width: 850px) {
+
 }
 
 @media screen and (min-width: 992px) {
@@ -91,12 +91,11 @@ background-size:cover; */
   .navbar-open-btn {
     display: none;
   }
-  .navbar-nav-nav {
+  .navbar-nav-nav{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     list-style: none;
-    /* justify-content: space-evenly; */
     text-decoration: none;
     gap: 40px;
     height: 60px;
@@ -122,3 +121,7 @@ background-size:cover; */
     display: none;
   }
 }
+
+
+
+

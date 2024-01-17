@@ -1,7 +1,27 @@
 import React from "react";
 import Navbar from "../../academy";
 import "./acadehome.css";
-import Acutal from "./acutal.jpg";
+// import Acutal from "./acutal.jpg";
+
+
+import Hairdressing from "./hairdressings.avif";
+import Beautytherapy from "./beautytherapy.jpg";
+import Cosmetology from "./Cosmetology.jpg";
+import Hairstyling from "./hairstylist.jpg";
+import Makeupartist from "./makeupartist.jpg";
+import Nailart from "./nailart.jpg";
+import Makeupartistert from "./makeupartistery.jpg";
+import Beautytherpy from "./Beauty-Therapy.webp";
+
+
+import Placement from "./placement-logo.png";
+import Practical from "./practical.png";
+import Certification from "./certification.png";
+import Training from "./trining.png"
+import Trainingtime from "./triningtime.jpg"
+
+import { FaArrowRight } from "react-icons/fa";
+
 // import Master from "./acutal.jpg";
 import Acardefooter from "./acadefooter";
 const home = () => {
@@ -36,27 +56,31 @@ const home = () => {
 
           <div className=" paraacadehome">
             <p>
-              Naturals Beauty Academy: Our mission is to provide candidates with
-              internationally recognized education, emphasizing hands-on
-              learning. With our state-of-the-art facilities and cutting-edge
-              equipment, we empower students to excel in the beauty industry.
-              Our Beauty Tool Kit enhances skills to international standards,
-              benefiting students’ professional lives with highly effective
-              tools. Designed for comprehensive training, each item in the kit
-              equips students with the practical knowledge necessary to become
-              high-performing industry professionals.Naturals Beauty Academy:
-              Our mission is to provide candidates with internationally
-              recognized education, emphasizing hands-on learning. With our
-              state-of-the-art facilities and cutting-edge equipment, we empower
-              students to excel in the beauty industry. Our Beauty Tool Kit
-              enhances skills to international standards, benefiting students’
-              professional lives with highly effective tools. Designed for
-              comprehensive training, each item in the kit equips students with
-              the practical knowledge necessary to become high-performing
-              industry professionals.
+              Our goal at Unikaa Beauty Academy is to give applicants an
+              internationally acclaimed education with a focus on experiential
+              learning. By providing our students with the most advanced tools
+              and state-of-the-art facilities, we enable them to succeed in the
+              beauty industry. Our Beauty Tool Kit provides students with
+              extremely effective instruments that improve their talents to
+              worldwide standards, so benefitting their professional careers.
+              Every component in the package is intended for thorough
+              instruction and provides students with the practical information
+              they need to become productive professionals in the
+              business.Beauty Academy Unikaa: Our goal is to give candidates a
+              globally recognized education with a focus on practical
+              experience. By providing our students with the most advanced
+              facilities and equipment available, we enable them to succeed in
+              the beauty industry. With products that are incredibly effective,
+              our Beauty Tool Kit improves skills to meet international
+              standards and helps students in their professional careers.
+              Crafted to provide thorough instruction, every component of the
+              kit furnishes learners with the hands-on experience required to
+              develop into proficient industry experts.
             </p>
           </div>
         </div>
+
+        {/*****************************************card***********************************************/}
 
         <div className="acade-home-dep">
           <h5>Our Courses</h5>
@@ -65,81 +89,82 @@ const home = () => {
         <div className="acade-home-dep-card-firstrow">
           <div className="acade-home-dep-card">
             <div className="greeks">
-              <img src={Acutal} className="master-card-pic" alt="" />
-            </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">Workshops</h5>
-              <a href="/about">
-                <button className="acard-moreinfo">More Info </button>
-              </a>
-            </div>
-          </div>
-
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Acutal} className="master-card-pic" alt="" />
-            </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Certificate in Beauty Therapy
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">More Info </button>
-              </a>
-            </div>
-          </div>
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Acutal} className="master-card-pic" alt="" />
-            </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Certificate in Hairdressing
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">More Info </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="acade-home-dep-card-secondrow">
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Acutal} className="master-card-pic" alt="" />
-            </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Certificate in Pro Makeup Artistry Level 1
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">More Info </button>
-              </a>
-            </div>
-          </div>
-
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Acutal} className="master-card-pic" alt="" />
-            </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Certificate in Pro Makeup Artistry Level 1
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">More Info </button>
-              </a>
-            </div>
-          </div>
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Acutal} className="master-card-pic" alt="" />
+              <img src={Cosmetology} className="master-card-pic" alt="" />
             </div>
             <div className="acade-home-dep-card-body">
               <h5 className="acade-home-dep-card-title">
                 Diploma in Basic Cosmetology
               </h5>
               <a href="/about">
-                <button className="acard-moreinfo">More Info </button>
+                <button className="acard-moreinfo">
+                  More Info <FaArrowRight />
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div className="acade-home-dep-card">
+            <div className="greeks">
+              <img src={Beautytherapy} className="master-card-pic" alt="" />
+            </div>
+            <div className="acade-home-dep-card-body">
+              <h5 className="acade-home-dep-card-title">
+                Certificate in Beauty Therapy
+              </h5>
+              <a href="/about">
+                <button className="acard-moreinfo">
+                  More Info <FaArrowRight />
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div className="acade-home-dep-card">
+            <div className="greeks">
+              <img src={Hairdressing} className="master-card-pic" alt="" />
+            </div>
+            <div className="acade-home-dep-card-body">
+              <h5 className="acade-home-dep-card-title">
+                Certificate in Hairdressing
+              </h5>
+              <a href="/about">
+                <button className="acard-moreinfo">
+                  More Info <FaArrowRight />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="acade-home-dep-card-secondrow">
+          <div className="acade-home-dep-card">
+            <div className="greeks">
+              <img src={Makeupartist} className="master-card-pic" alt="" />
+            </div>
+            <div className="acade-home-dep-card-body">
+              <h5 className="acade-home-dep-card-title">
+                Certificate in Pro Makeup Artistry Level 1
+              </h5>
+              <a href="/about">
+                <button className="acard-moreinfo">
+                  More Info <FaArrowRight />
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div className="acade-home-dep-card">
+            <div className="greeks">
+              <img src={Hairstyling} className="master-card-pic" alt="" />
+            </div>
+            <div className="acade-home-dep-card-body">
+              <h5 className="acade-home-dep-card-title">
+                Certificate in Hair Styling (Cut & Styling)
+              </h5>
+              <a href="/about">
+                <button className="acard-moreinfo">
+                  More Info <FaArrowRight />
+                </button>
               </a>
             </div>
           </div>
@@ -152,66 +177,126 @@ const home = () => {
         <div className="master-card-row">
           <div className="master-card">
             <div className="greek">
-              <img src={Acutal} className="master-card-pic" alt="" />
+              <img src={Nailart} className="master-card-pic" alt="" />
             </div>
             <div className="master-card-body">
               <h5 className="master-card-title">Master Course in Nails</h5>
               <a href="/ourcourse">
-                <button className="acard-moreinfo">More Info </button>
+                <button className="acard-moreinfo">
+                  More Info <FaArrowRight />
+                </button>
               </a>
             </div>
           </div>
 
           <div className="master-card">
             <div className="greek">
-              <img src={Acutal} className="master-card-pic" alt="" />
+              <img src={Makeupartistert} className="master-card-pic" alt="" />
             </div>
             <div className="master-card-body">
               <h5 className="master-card-title">
                 Master Course in Makeup Artistry
               </h5>
               <a href="/ourcourse">
-                <button className="acard-moreinfo">More Info </button>
+                <button className="acard-moreinfo">
+                  More Info <FaArrowRight />
+                </button>
               </a>
             </div>
           </div>
 
           <div className="master-card">
             <div className="greek">
-              <img src={Acutal} className="master-card-pic" alt="" />
+              <img src={Beautytherpy} className="master-card-pic" alt="" />
             </div>
             <div className="master-card-body">
               <h5 className="master-card-title">
                 Master Course in Beauty Therapy
               </h5>
               <a href="/ourcourse">
-                <button className="acard-moreinfo">More Info </button>
+                <button className="acard-moreinfo">
+                  More Info <FaArrowRight />
+                </button>
               </a>
             </div>
           </div>
         </div>
 
+{/**************************************************enroll*************************************/}
         <div className="background-acade-home">
           <h2>Enroll Now</h2>
           <p>
-            By choosing Naturals Beauty Academy, you gain not only a
-            comprehensive education but also a wide range of benefits that set
-            you up for success in the beauty industry. From industry connections
-            to practical training, certifications, expert guidance, and
+            By choosing Unikaa Beauty Academy, you gain not only a comprehensive
+            education but also a wide range of benefits that set you up for
+            success in the beauty industry. From industry connections to
+            practical training, certifications, expert guidance, and
             professional kits, we are committed to providing our students with
             the best possible learning experience and preparing them for
             rewarding careers in the beauty and grooming industry.
           </p>
           <a href="/home">
-            <button className="background-acade-home-btn">More Info </button>
+            <button className="background-acade-home-btn">
+              More Info <FaArrowRight />
+            </button>
           </a>
         </div>
 
-        <div className="">
-          <h3>Benefits of Joining Naturals beauty academy</h3>
-        </div>
+        {/*****************************************Our Best Features*****************************************/}
+        <div className="over-all-our-best">
 
-        <div></div>
+          <div className="our-best">
+            <h1 className="our-best-head">Our Best Features</h1>
+            <p className="our-best-1stpara">
+              At Unikaa Beauty Academy, learn about skin, makeup, nails, and
+              hair from global experts. Gain certifications, insights, and
+              international excellence.
+            </p>
+            <div>
+              <div className="placement-offer">
+              <img src={Placement} className="our-best-logo" alt="" />
+                <h2>Placements offered</h2>
+                <p>
+                  We provide a variety of placement opportunities to help you
+                  kickstart your career successfully
+                </p>
+              </div>
+
+              <div className="placement-offer">
+              <img src={Practical} className="our-best-logo" alt="" />
+                <h2>Practical learning method</h2>
+                <p>
+                  Our curriculum emphasizes practical learning, ensuring that
+                  students gain hands-on experience to excel in real-world
+                  scenarios
+                </p>
+              </div>
+              <div className="placement-offer">
+              <img src={Certification} className="our-best-logo" alt="" />
+                <h2>Certification</h2>
+                <p>
+                  Upon successful completion of the program, you will receive a
+                  certification that validates your expertise and enhances your
+                  professional credentials
+                </p>
+              </div>
+              <div className="placement-offer">
+              <img src={Training} className="our-best-logo" alt="" />
+                <h2>Training from industry experts</h2>
+                <p>
+                  Training from Industry experts - Benefit from our training
+                  programs led by industry experts, gaining valuable insights
+                  and skills directly from seasoned professionals
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+          <img src={Trainingtime} className="our-best-img" alt="" />
+          </div>
+        </div>
+       
+
+    
       </div>
       <Acardefooter />
     </div>

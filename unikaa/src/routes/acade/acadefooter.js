@@ -17,39 +17,39 @@ const Footer = () => {
       <div className="sb__footer section__padding">
         <div className="sb__footer-links_div">
           <h4>Quick Links</h4>
-          <a href="/">
+          <a href="/home">
             <p>Home</p>
           </a>
-          <a href="/aboutus">
-            <p>AboutUs</p>
+          <a href="/about">
+            <p>About Us</p>
           </a>
-          <a href="/contactus">
+          <a href="/contact">
             <p>Contact Us</p>
           </a>
-          <a href="/franchise">
+          <a href="/franchises">
             <p>Franchise Opportunities</p>
           </a>
-          <a href="/blog">
-            <p>Blog</p>
+          <a href="/ourcourse">
+            <p>OurCourse</p>
           </a>
           {/* <a href="/policy">
             <p>Private Policy</p>
           </a> */}
         </div>
         <div className="sb__footer-links_div">
-          <h4>Our Service</h4>
-          <a href="/haircare">
-            <p>Hair Care</p>
+          <h4>About Unikaa</h4>
+          <a href="/why-choose-naturals-beauty-academy">
+            <p style={{lineHeight:"23px"}}>Why Choose Unikaa Beauty Academy? </p>
           </a>
-          <a href="/skincare">
-            <p>Skin Care</p>
+          <a href="/diploma-in-cosmetology-at-unikaa-beauty-academy">
+            <p style={{lineHeight:"23px"}}>Diploma in Cosmetology at Unikaa Beauty Academy</p>
           </a>
-          <a href="/bodycare">
+          {/* <a href="/bodycare">
             <p>Body Care</p>
           </a>
           <a href="/bridal">
             <p>Bridal</p>
-          </a>
+          </a> */}
           {/* <a href="/events">
             <p>Events</p>
           </a>

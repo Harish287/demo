@@ -14,14 +14,15 @@ function App() {
         console.error(error);
       });
   }, []);
-
   return (
-    <ul>
+    <ul >
       {posts.map((post) => (
         <li key={post.id}>
-          {post.id}:
-          {post.title}<br/>
-          <img src={post.url} alt="" /><br/>
+          {post.id}
+          {post.title}
+          <br />
+          <img src={post.url} alt="" />
+          <br />
           <img src={post.thumbnailUrl} alt="" />
         </li>
       ))}

@@ -1,85 +1,142 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../bridalnavbar/bridal";
 import "./makeup.css";
 
 import Consulting from "./consulting.jpg";
-import Prebridal from "./Pre-Bridal.jpg";
-import Teach from "./teach.jpg";
-import Actual from "./acutal.jpg";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import { Navigation, A11y } from "swiper/modules";
+
+import Makeup2 from "./makeup2.jpg";
+import Makeup1 from "./makeup1.webp";
 
 import Bridalfooter from "./bridalfooter";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const makeup = () => {
+function Makeup() {
+  const [firstimg, setfirstimg] = useState(true);
+  const [secondimg, setsecondimg] = useState(false);
+  const [thirdimg, setthirdimg] = useState(false);
+  const firstimgHandler = () => {
+    setfirstimg(true);
+    setsecondimg(false);
+    setthirdimg(false);
+  };
+  const secondimgHandler = () => {
+    setfirstimg(false);
+    setsecondimg(true);
+    setthirdimg(false);
+  };
 
-  
+  const thirdimgHandler = () => {
+    setfirstimg(false);
+    setsecondimg(false);
+    setthirdimg(true);
+  };
+
+  const [secondfirstimg, setsecondfirstimg] = useState(true);
+  const [secondsecondimg, setsecondsecondimg] = useState(false);
+  const [secondthirdimg, setsecondthirdimg] = useState(false);
+
+  const secondfirstimgHandler = () => {
+    setsecondfirstimg(true);
+    setsecondsecondimg(false);
+    setsecondthirdimg(false);
+  };
+
+  const secondsecondimgHandler = () => {
+    setsecondfirstimg(false);
+    setsecondsecondimg(true);
+    setsecondthirdimg(false);
+  };
+
+  const secondthirdimgHandler = () => {
+    setsecondfirstimg(false);
+    setsecondsecondimg(false);
+    setsecondthirdimg(true);
+  };
 
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="image-slider-makeup">
-        <Swiper
-          modules={[Navigation, A11y]}
-          spaceBetween={50}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-        >
-          <SwiperSlide>
-            <img src={Consulting} className="img-makeup" alt="1" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Consulting} className="img-makeup" alt="2" href="2" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Consulting} className="img-makeup" alt="3" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Consulting} className="img-makeup" alt="4" />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      <div className="consultents">
-        <div className="consults">
-          <img src={Consulting} className="consultings-img" alt="2" href="2" />
+
+<div className="all-card">
+
+      <div>
+        <div className="image-handle-change-card-bride-make">
+          <button onClick={firstimgHandler}>
+            <img src={Consulting} alt="" />
+          </button>
+          <button onClick={secondimgHandler}>
+            <img src={Makeup2} alt="" />
+          </button>
+          <button onClick={thirdimgHandler}>
+            <img src={Makeup1} alt="" />
+          </button>
         </div>
 
-        <div className="consults">
-          <img src={Consulting} className="consultings-img" alt="2" href="2" />
-        </div>
-
-        <div className="consults">
-          <img src={Prebridal} className="consultings-img" alt="2" href="2" />
-        </div>
-
-        <div className="consults">
-          <img src={Teach} className="consultings-img" alt="2" href="2" />
-        </div>
-
-        <div className="consults">
-          <img src={Actual} className="consultings-img" alt="2" href="2" />
+        <div className="container image-card-change">
+          {firstimg && (
+            <div>
+              <img src={Consulting} alt="" />
+            </div>
+          )}
+          {secondimg && (
+            <div>
+              <img src={Makeup2} alt="" />
+            </div>
+          )}
+          {thirdimg && (
+            <div>
+              <img src={Makeup1} alt="" />
+            </div>
+          )}
         </div>
       </div>
- 
 
- <div>
-  <h1 className="topartisth1">Our Top Artists</h1>
- </div>
-  
+
+      {/* image-handle-change-card-bride-make2 */}
+
+
+      <div>
+        <div className="image-handle-change-card-bride-make2">
+          <button onClick={secondfirstimgHandler}>
+            <img src={Consulting} alt="" />
+          </button>
+          <button onClick={secondsecondimgHandler}>
+            <img src={Makeup2} alt="" />
+          </button>
+          <button onClick={secondthirdimgHandler}>
+            <img src={Makeup1} alt="" />
+          </button>
+        </div>
+
+        <div className="container image-card-change2">
+          {secondfirstimg && (
+            <div>
+              <img src={Consulting} alt="" />
+            </div>
+          )}
+          {secondsecondimg && (
+            <div>
+              <img src={Makeup2} alt="" />
+            </div>
+          )}
+          {secondthirdimg && (
+            <div>
+              <img src={Makeup1} alt="" />
+            </div>
+          )}
+        </div>
+      </div>
+
+
+
+      </div>
+
+      <br />
       <Bridalfooter />
-    </div>
+    </>
   );
-};
+}
 
-export default makeup;
+export default Makeup;

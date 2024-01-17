@@ -1,84 +1,43 @@
-.swip {
-  margin-top: 20px;
-  width: 45%;
-}
-
-.consultents {
-  max-height: 580px;
-  display: flex;
-  /* margin-left: 80px; */
-  overflow-x: scroll;
-  overflow-y: hidden;
-  gap: 72px;
-  height: 520px;
-  margin-left: 700px;
-  margin-top: 50px;
-}
-
-.consultents::-webkit-scrollbar {
-  display: none;
-}
-
-.consultings-img {
-  width: 300px;
-  height: 500px;
-  box-sizing: border-box;
-  border-radius: 150px;
-  object-fit: cover;
-
-}
-
-.consults {
-  /* min-width: 606px; */
-  width: 100%;
-  gap: 24px;
-}
-
-.consults2{
-  /* min-width: 606px; */
-  width: 100%;
-  gap: 24px;
-}
-
-.consultings-img2 {
-  width: 300px;
-  height: 500px;
-  box-sizing: border-box;
-  border-radius: 150px;
-  object-fit: cover;
-
-}
-
-.image-slider-makeup{
-  width: 600px;
-  height: 550px;
+.image-handle-change-card-bride-make{
+  margin-top: 347px;
   position: absolute;
-  object-fit: cover;
-  margin-top: 30px;
+  margin-left: 12px;
 }
 
-.img-makeup{
-  width: 598px;
-  height: 550px;
-  box-sizing: border-box;
-  border-radius: 130px;
+
+
+.image-handle-change-card-bride-make button img {
+  width: 90px;
+  height: 80px;
   object-fit: cover;
-  /* border-radius: 300px; */
 }
 
-.img-makeup-btns{
+.image-card-change img {
+  width: 280px;
+  height: 410px;
+  margin-top: 20px;
+}
+
+.image-handle-change-card-bride-make2{
+  margin-top: 347px;
+  position: absolute;
+  margin-left: 12px;
+}
+
+
+
+.image-handle-change-card-bride-make2 button img {
+  width: 90px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.image-card-change2 img {
+  width: 280px;
+  height: 410px;
+  margin-top: 20px;
+}
+
+.all-card{
   display: flex;
 }
-
-.img-makeup-btn{
-     --bs-btn-color:none; 
-    --bs-btn-bg:none; 
-    --bs-btn-border-color: none;
-    --bs-btn-hover-border-color:none;
-        --bs-btn-hover-bg: pink;
-        --bs-btn-active-bg: pink;
-      }
-      .topartisth1{
-        margin-top: 100px;
-        text-align: center;
-      }

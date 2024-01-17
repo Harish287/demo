@@ -374,4 +374,28 @@
     padding: 0;
     width: 100%;
   }
+
+  .logo-left-card-img2 {
+   margin: 0;
+}
+
+.logo-p4 {
+  margin: 0;
+  width: 100%;
+}
+.image-card-scrool {
+  margin: 0;
+  width: 100%;
+}
+
+.logo-left-card-img5 {
+  width: 100%;
+  margin: 0;
+}
+
+.logo-p5 {
+width: 100%;
+margin: 0;
+}
+
 }

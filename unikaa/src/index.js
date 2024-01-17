@@ -34,6 +34,8 @@ import Franchises from "./routes/acade/franchises";
 import About from "./routes/acade/about";
 import Contact from "./routes/acade/contact";
 import Ourcourse from "./routes/acade/ourcourse";
+import Deploma from "./routes/acade/diploma-in-cosmetology-at-unikaa-beauty-academy";
+import Whytochoose from "./routes/acade/why-choose-naturals-beauty-academy";
 
 import Blog from "./routes/blog";
 import ServiceForHer from "./serviceforher";
@@ -47,6 +49,17 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
 
     children: [
+
+      {
+        path:"/diploma-in-cosmetology-at-unikaa-beauty-academy",
+        element:<Deploma/>,
+      },
+      
+      {
+        path:"/why-choose-naturals-beauty-academy",
+        element:<Whytochoose/>,
+      },
+
       {
         path: "/privacypolicy",
         element: <PrivacyPolicy />,
