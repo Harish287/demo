@@ -1,10 +1,248 @@
-.image-handle-change-card-bride-make{
-  margin-top: 347px;
-  position: absolute;
-  margin-left: 12px;
+
+.big-img {
+  position: relative;
+  max-width: 60vw;
+  max-height: 645px;
+  width: 100%;
+  margin: 10px 20px 0px 0px;
+  border-radius: 0px 1190px 1190px 0px;
+  background: rgb(246, 229, 230);
 }
 
+.name-of-the-artist {
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 250px;
+  color: rgb(80, 47, 143);
+  font-size: 50px;
+  font-family: against, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
+.exprience-of-year {
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 250px;
+}
+
+.slide-all-pic {
+  margin-bottom: 190px;
+}
+
+.consultent-slideone {
+  max-height: 580px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 37%;
+  margin-top: -535px;
+  margin-left: 945px;
+  display: flex;
+  gap: 65px;
+}
+
+.consultent-slideone::-webkit-scrollbar {
+  display: none;
+}
+
+.consultings-img {
+  width: 300px;
+  height: 520px;
+  box-sizing: border-box;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+.consults {
+  min-width: 340px;
+  width: 100%;
+  /* gap: 24px; */
+}
+
+.big-img p {
+  margin-top: 178px;
+  position: absolute;
+  margin-left: 152px;
+  padding: 0 100px;
+}
+
+.big-img svg {
+  margin-top: 290px;
+  margin-left: 263px;
+  margin-right: -140px;
+  width: 40px;
+  cursor: pointer;
+}
+.left-btn-slide svg {
+  margin-left: 200px;
+}
+
+.right-btn-slide svg {
+  margin-left: 227px;
+}
+
+.big-img1 {
+  position: relative;
+  max-width: 60vw;
+  max-height: 645px;
+  width: 100%;
+  margin: 0px 20px 0px 0px;
+  border-radius: 0px 1190px 1190px 0px;
+  background: rgb(246, 229, 230);
+}
+
+/* .slide-all-pic1 {
+  margin-bottom: 190px;
+} */
+
+.consultent-slideone1 {
+  max-height: 580px;
+  display: flex;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 37%;
+  margin-top: -438px;
+  margin-left: 945px;
+}
+
+.consultent-slideone1::-webkit-scrollbar {
+  display: none;
+}
+
+.consultings-img1 {
+  width: 300px;
+  height: 520px;
+  box-sizing: border-box;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+.consults1 {
+  min-width: 340px;
+  width: 100%;
+}
+
+/* .big-img1 p {
+  margin-top: 178px;
+  position: absolute;
+  margin-left: 152px;
+  padding: 0 100px;
+} */
+
+.big-img button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.consults2 {
+  min-width: 340px;
+  width: 100%;
+}
+.consultent-slideone2 {
+  max-height: 580px;
+  display: flex;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 37%;
+  margin-top: -438px;
+  margin-left: 945px;
+}
+
+.consultent-slideone2::-webkit-scrollbar {
+  display: none;
+}
+
+.consultings-img2 {
+  width: 300px;
+  height: 520px;
+  box-sizing: border-box;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+.consults3 {
+  min-width: 340px;
+  width: 100%;
+}
+.consultent-slideone3 {
+  max-height: 580px;
+  display: flex;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 37%;
+  margin-top: -438px;
+  margin-left: 945px;
+}
+
+.consultent-slideone3::-webkit-scrollbar {
+  display: none;
+}
+
+.consultings-img3 {
+  width: 300px;
+  height: 520px;
+  box-sizing: border-box;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 850px) {
+  .consultent-slideone {
+    margin: 0;
+    width: 100%;
+    width: 100%;
+  }
+  .big-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .big-img p {
+    width: 100%;
+    padding: 0;
+    margin-top: 230px;
+    margin-left: 243px;
+  }
+
+  .exprience-of-year {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 243px;
+    width: 100%;
+  }
+  .right-btn-slide svg {
+    margin-left: 340px;
+    margin-top: 20px;
+  }
+  .left-btn-slide svg {
+    margin-left: 400px;
+    margin-top: -68px;
+  }
+}
+
+/***********************************card image change**********************************/
+.our-top-art-head {
+  color: rgb(80, 47, 143);
+  font-size: 50px;
+  font-family: against, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.image-handle-change-card-bride-make {
+  margin-top: 347px;
+  position: absolute;
+  margin-left: 13px;
+}
 
 .image-handle-change-card-bride-make button img {
   width: 90px;
@@ -18,13 +256,11 @@
   margin-top: 20px;
 }
 
-.image-handle-change-card-bride-make2{
+.image-handle-change-card-bride-make2 {
   margin-top: 347px;
   position: absolute;
-  margin-left: 12px;
+  margin-left: 13px;
 }
-
-
 
 .image-handle-change-card-bride-make2 button img {
   width: 90px;
@@ -38,6 +274,58 @@
   margin-top: 20px;
 }
 
-.all-card{
+.image-handle-change-card-bride-make3 {
+  margin-top: 347px;
+  position: absolute;
+  margin-left: 13px;
+}
+
+.image-handle-change-card-bride-make3 button img {
+  width: 90px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.image-card-change3 img {
+  width: 280px;
+  height: 410px;
+  margin-top: 20px;
+}
+.all-card {
   display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 850px) {
+  .all-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .image-card-change img {
+    width: 100%;
+  }
+
+  .image-card-change2 img {
+    width: 100%;
+  }
+
+  .image-card-change3 img {
+    width: 100%;
+  }
+
+  .image-handle-change-card-bride-make button img {
+    width: 132px;
+    object-fit: cover;
+  }
+  .image-handle-change-card-bride-make2 button img {
+    width: 132px;
+    object-fit: cover;
+  }
+
+  .image-handle-change-card-bride-make3 button img {
+    width: 132px;
+    object-fit: cover;
+  }
 }
