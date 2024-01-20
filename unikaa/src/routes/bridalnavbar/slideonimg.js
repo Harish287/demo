@@ -1,13 +1,29 @@
 import React, { useState } from "react";
 
 import Consulting from "./consulting.jpg";
-import Prebridal from "./Pre-Bridal.jpg";
+
+
+import Prebridal from "./pasted image 0.png";
 import Teach from "./teach.jpg";
 import Actual from "./acutal.jpg";
 
 import Image1 from "./bridal-jewellery-1.jpg";
 import Image2 from "./classy-HD-makeup-look.webp";
 import Image3 from "./57f1bf97aaca1a3e5b3720cb2e042d7d.jpg";
+import Image4 from "./Bridal.jpg";
+import Image5 from "./bridal-makeup-look-20-768x960.jpg";
+
+import Image6 from "./4546556.jpg";
+import Image7 from "./10-stunning-bridal-makeup-looks-for-the-2018-bride-10.jpg";
+import Image8 from "./wedding-makeup.jpg";
+import Image9 from "./HD-wallpaper-rayna.jpg";
+import Image10 from "./hhjggjh.jpg";
+
+import Image11 from "./photo-15.avif";
+import Image12 from "./mkmkk.jpg";
+import Image13 from "./jkjhjh.jpg";
+import Image14 from "./How-To-Do.jpg";
+import Image15 from "./kdfasdas.jpg";
 
 import { FaCaretSquareLeft } from "react-icons/fa";
 import { FaCaretSquareRight } from "react-icons/fa";
@@ -49,26 +65,27 @@ function Slideonimg() {
     <>
       <div className="slide-all-pic">
         <div className="big-img">
-    
-            {/*************************************************firstslide********************************************/}
-            {first && <h1 className="name-of-the-artist">PREETHI MENON</h1>}
-            {first && (
-              <h4 className="exprience-of-year">years of experience:5</h4>
-            )}
-            {first && (
-              <p>
-                A Beauty Aficionado with over 5+ years of expertise, trained by
-                Meenakshi Dutt, Bharat & Dorris and SMA International among the
-                likes. A Unisex Look Expert for the much sought after “Nude/No
-                Make Up Look”! Formerly associated as a
-                makeup-artist/content-creator with most trends under her sleeve,
-                at MAC Cosmetics. And has a long standing assignment with the
-                Current Captain and Indian Footballer Sunil Chettri among the
-                many other celebrities, oh the list is long!
-              </p>
-            )}
-            {first && <img src={Consulting} alt="" />}
-        
+          {/*************************************************firstslide********************************************/}
+          {first && <h1 className="name-of-the-artist">PREETHI MENON</h1>}
+          {first && (
+            <h4 className="exprience-of-year">years of experience:5</h4>
+          )}
+          {first && (
+            <p>
+              A Beauty Aficionado with over 5+ years of expertise, trained by
+              Meenakshi Dutt, Bharat & Dorris and SMA International among the
+              likes. A Unisex Look Expert for the much sought after “Nude/No
+              Make Up Look”! Formerly associated as a
+              makeup-artist/content-creator with most trends under her sleeve,
+              at MAC Cosmetics. And has a long standing assignment with the
+              Current Captain and Indian Footballer Sunil Chettri among the many
+              other celebrities, oh the list is long!
+            </p>
+          )}
+          {first && (
+            <img src={Consulting} alt="" className="second-slide-img" />
+          )}
+
           {first && (
             <button className="right-btn-slide" onClick={fourthHandler}>
               <FaCaretSquareLeft />
@@ -118,7 +135,7 @@ function Slideonimg() {
 
           {third && <h1 className="name-of-the-artist">kamala</h1>}
           {third && (
-            <h4 className="exprience-of-year">years of experience:9</h4>
+            <h4 className="exprience-of-year">years of experience:6</h4>
           )}
           {third && (
             <p>
@@ -152,7 +169,7 @@ function Slideonimg() {
 
           {fourth && <h1 className="name-of-the-artist">amala</h1>}
           {fourth && (
-            <h4 className="exprience-of-year">years of experience:9</h4>
+            <h4 className="exprience-of-year">years of experience:7</h4>
           )}
           {fourth && (
             <p>
@@ -181,8 +198,6 @@ function Slideonimg() {
               <FaCaretSquareRight />
             </button>
           )}
-
-
         </div>
 
         <div className="consultent-slideone">
@@ -190,7 +205,7 @@ function Slideonimg() {
 
           {first && (
             <div className="consults">
-              <img src={Consulting} className="consultings-img" alt="" />
+              <img src={Prebridal} className="consultings-img" alt="" />
             </div>
           )}
 
@@ -238,13 +253,13 @@ function Slideonimg() {
 
           {second && (
             <div className="consults1">
-              <img src={Teach} className="consultings-img1" alt="" />
+              <img src={Image4} className="consultings-img1" alt="" />
             </div>
           )}
 
           {second && (
             <div className="consults1">
-              <img src={Actual} className="consultings-img1" alt="" />
+              <img src={Image5} className="consultings-img1" alt="" />
             </div>
           )}
 
@@ -252,29 +267,29 @@ function Slideonimg() {
 
           {third && (
             <div className="consults2">
-              <img src={Consulting} className="consultings-img2" alt="" />
+              <img src={Image6} className="consultings-img2" alt="" />
             </div>
           )}
 
           {third && (
             <div className="consults2">
-              <img src={Consulting} className="consultings-img2" alt="" />
+              <img src={Image7} className="consultings-img2" alt="" />
             </div>
           )}
 
           {third && (
             <div className="consults2">
-              <img src={Prebridal} className="consultings-img2" alt="" />
+              <img src={Image8} className="consultings-img2" alt="" />
             </div>
           )}
           {third && (
             <div className="consults2">
-              <img src={Teach} className="consultings-img2" alt="" />
+              <img src={Image9} className="consultings-img2" alt="" />
             </div>
           )}
           {third && (
             <div className="consults2">
-              <img src={Actual} className="consultings-img2" alt="" />
+              <img src={Image10} className="consultings-img2" alt="" />
             </div>
           )}
 
@@ -282,29 +297,29 @@ function Slideonimg() {
 
           {fourth && (
             <div className="consults3">
-              <img src={Consulting} className="consultings-img3" alt="" />
+              <img src={Image11} className="consultings-img3" alt="" />
             </div>
           )}
 
           {fourth && (
             <div className="consults3">
-              <img src={Consulting} className="consultings-img3" alt="" />
+              <img src={Image12} className="consultings-img3" alt="" />
             </div>
           )}
 
           {fourth && (
             <div className="consults3">
-              <img src={Prebridal} className="consultings-img3" alt="" />
+              <img src={Image13} className="consultings-img3" alt="" />
             </div>
           )}
           {fourth && (
             <div className="consults3">
-              <img src={Teach} className="consultings-img3" alt="" />
+              <img src={Image14} className="consultings-img3" alt="" />
             </div>
           )}
           {fourth && (
             <div className="consults3">
-              <img src={Actual} className="consultings-img3" alt="" />
+              <img src={Image15} className="consultings-img3" alt="" />
             </div>
           )}
         </div>

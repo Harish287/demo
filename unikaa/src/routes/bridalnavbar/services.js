@@ -8,14 +8,16 @@ import Bride from "./lip.png";
 import Cam from "./black.png";
 import Makeup from "./makeup.png";
 import Mehandhi from "./mehandhi.png";
-// import Topquality from "./topquality.png"
-// import Topquality2 from "./topquality2.png"
+
+import Bridesmaid from "./Bridesmaid.jpg";
+import Mother from "./Mother-of-bride-or-groom.jpg";
+import Postbride from "./Post-bridal-care.webp";
+
 import "./brideservices.css";
 
-
-import 'bootstrap/dist/css/bootstrap.min.css';  
-import {Container ,Card, Col} from 'react-bootstrap';  
-import img1 from './topquality.png';  
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Card, Col } from "react-bootstrap";
+import img1 from "./topquality.png";
 import Bridalfooter from "./bridalfooter";
 
 const services = () => {
@@ -80,7 +82,7 @@ const services = () => {
 
       {/*************************************** * table**************************************** */}
       {/* <table className="tabbride"> */}
-        {/* <tr className="bridetable">
+      {/* <tr className="bridetable">
           <td className="bridecol">
           <img src={Topquality} className="topquality-icon" alt="" />
             <h2>Top Notch Quality</h2>
@@ -123,78 +125,109 @@ const services = () => {
           </td>
         </tr> */}
 
-         {/* </table> */}
+      {/* </table> */}
 
-       
-       <div className="table-service">
-        <Container className='p-4'>  
-  <Col className="table-size" md="4">  
-  <Card classname="card-clor">  
-  <Card.Img variant="top" src={img1} />  
-  <Card.Body>  
-    <Card.Title style={{textAlign:"center"}}>Top Notch Quality</Card.Title>  
-    <Card.Text style={{textAlign:"center"}}>  
-    Topnotch quality in bridal service is by exceptional expertise.
-    </Card.Text>  
-    
-  </Card.Body>  
-</Card>  
-    </Col>  
-</Container> 
+      <div className="table-service">
+        <Container className="p-4">
+          <Col className="table-size" md="4">
+            <Card classname="card-clor">
+              <Card.Img variant="top" src={img1} />
+              <Card.Body>
+                <Card.Title style={{ textAlign: "center" }}>
+                  Top Notch Quality
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center" }}>
+                  Topnotch quality in bridal service is by exceptional
+                  expertise.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Container>
 
+        <Container className="p-4">
+          <Col className="table-size" md="4">
+            <Card classname="card-clor">
+              <Card.Img variant="top" src={img1} />
+              <Card.Body>
+                <Card.Title style={{ textAlign: "center" }}>
+                  Personalized Makeup
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center" }}>
+                  A key component of superior quality in bridal services is
+                  customised makeup.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Container>
 
-        <Container className='p-4'>  
-  <Col className="table-size" md="4">  
-  <Card classname="card-clor">  
-  <Card.Img variant="top" src={img1} />  
-  <Card.Body>  
-    <Card.Title style={{textAlign:"center"}}>Personalized Makeup</Card.Title>  
-    <Card.Text style={{textAlign:"center"}}>  
-    A key component of superior quality in bridal services is
-              customised makeup.
-    </Card.Text>  
-    
-  </Card.Body>  
-</Card>  
-    </Col>  
-</Container> 
+        <Container className="p-4">
+          <Col className="table-size" md="4">
+            <Card classname="card-clor">
+              <Card.Img variant="top" src={img1} />
+              <Card.Body style={{ textAlign: "center" }}>
+                <Card.Title style={{ textAlign: "center" }}>
+                  Experienced Stylists
+                </Card.Title>
+                <Card.Text>
+                  A professional stylist is essential to get excellent bridal
+                  services.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Container>
 
+        <Container className="p-4">
+          <Col className="table-size" md="4">
+            <Card classname="card-clor">
+              <Card.Img variant="top" src={img1} />
+              <Card.Body>
+                <Card.Title style={{ textAlign: "center" }}>
+                  Friends and Family
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center" }}>
+                  The involvement of friends and family is vital to the bridal
+                  service.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Container>
+      </div>
 
-        <Container className='p-4'>  
-  <Col className="table-size" md="4">  
-  <Card classname="card-clor">  
-  <Card.Img variant="top" src={img1} />  
-  <Card.Body style={{textAlign:"center"}}>  
-    <Card.Title style={{textAlign:"center"}}>Experienced Stylists</Card.Title>  
-    <Card.Text>  
-    A professional stylist is essential to get excellent bridal
-              services.
-    </Card.Text>  
-    
-  </Card.Body>  
-</Card>  
-    </Col>  
-</Container> 
+      <div className="bridal-service-quality">
+        <h1>
+          Bridal Service Quality At
+          <br /> Its Best
+        </h1>
+        <h2>
+          Enhance your unikaa beauty and radiate elegance on your special <br />
+          day with our exquisite bridal makeup services
+        </h2>
 
+        <div className="bridal-service-quality-image">
+          <div className="bridal-service-quality-image1">
+            <img src={Bridesmaid} alt="" />
+            <h4>Post bridal care </h4>
+            <a href="/booknow">Book Now</a>
+          </div>
+          <div className="bridal-service-quality-image1">
+            <img src={Mother} alt="" />
+            <h4>Post bridal care </h4>
+            <a href="/booknow">Book Now</a>
+          </div>
 
-        <Container className='p-4'>  
-  <Col className="table-size" md="4">  
-  <Card classname="card-clor">  
-  <Card.Img variant="top" src={img1} />  
-  <Card.Body>  
-    <Card.Title style={{textAlign:"center"}}>Friends and Family</Card.Title>  
-    <Card.Text style={{textAlign:"center"}}>  
-    The involvement of friends and family is vital to the bridal
-              service.
-    </Card.Text>  
-    
-  </Card.Body>  
-</Card>  
-    </Col>  
-</Container> 
-</div>
+          <div className="bridal-service-quality-image1">
+            <img src={Postbride} alt="" />
+            <h4>Post bridal care </h4>
+            <a href="/booknow">Book Now</a>
+          </div>
+        </div>
+      </div>
 
- <Bridalfooter/>
+      <Bridalfooter />
     </div>
   );
 };

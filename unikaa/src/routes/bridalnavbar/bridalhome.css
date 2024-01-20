@@ -1,5 +1,5 @@
 .bride-home-head {
-  font-size: 80px;
+  font-size: 60px;
   /* font-family: Courier, monospace; */
   line-height: 162px;
   align-items: center;
@@ -10,6 +10,10 @@
   color: black;
   height: 100px;
   margin-top: 20px;
+  font-family: against, sans-serif;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: normal;
 }
 .topmargin {
   display: flex;

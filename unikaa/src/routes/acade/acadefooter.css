@@ -105,7 +105,7 @@ hr {
 @media screen and (max-width: 850px) {
   .sb__footer {
     /* width: 152%; */
-    background-color: #cd015b;
+    /* background-color: #cd015b; */
     height: auto;
     flex-direction: inherit;
     justify-content: center;

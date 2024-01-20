@@ -1,19 +1,19 @@
 .home-bg {
-  height: 300px;
+  height: 400px;
   width: 100%;
   /* position: absolute; */
   background-repeat: no-repeat;
   /* opacity: 0.9; */
-  background: black;
+  /* background-color: darkslateblue; */
   overflow: hidden;
-  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  background: #c33764;
   background: -webkit-linear-gradient(
       rgba(29, 38, 113, 0.8),
       rgba(195, 55, 100, 0.8)
     ),
-    url("./woman-2537564_1280.jpg");
-  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
-    url("./woman-2537564_1280.jpg"); /* The least supported option. */
+    url("./701.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)),
+    url("./701.jpg");
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@
   align-content: center;
   position: absolute;
   margin-left: 36%;
-  margin-top: -5%;
+  margin-top: -4%;
   padding: 0px 0px;
   color: white;
   font-size: 35px;
@@ -40,7 +40,7 @@
   align-content: center;
   position: absolute;
   margin-left: 39%;
-  margin-top: -1%;
+  margin-top: 0%;
   padding: 0px 0px;
   color: white;
   font-size: 27px;
@@ -54,7 +54,7 @@
   align-content: center;
   position: absolute;
   margin-left: 0%;
-  margin-top: 1%;
+  margin-top: 2%;
   color: white;
   font-size: 22px;
 
@@ -76,10 +76,12 @@
   font-size: 18px;
   padding: 6px 12px;
   background-color: transparent;
+  color: white;
 }
 .acard-btn:hover {
   cursor: pointer;
-  background-color: #cd015c;
+  background-color: white;
+  color: black;
   transition: 0.9s;
 }
 .acard-abtbtn {
@@ -95,10 +97,12 @@
   font-size: 18px;
   padding: 6px 12px;
   background-color: transparent;
+  color: white;
 }
 .acard-abtbtn:hover {
   cursor: pointer;
-  background-color: #cd015c;
+  background-color: white;
+  color: black;
   transition: 0.9s;
 }
 
@@ -130,8 +134,7 @@
     font-weight: 200px;
     text-align: center;
     margin-top: -35px;
-}
-  
+  }
 
   /* .acard-btns{
     display: flex;
@@ -172,8 +175,6 @@
     padding: 20px 25px;
     text-align: center;
   }
-
-
 }
 /* abovemedia query compleated */
 .acade-home-dep {
@@ -316,7 +317,7 @@
 .background-acade-home {
   margin-top: 3%;
   min-height: 100%;
-  background: url(https://picsum.photos/id/1043/800/600) rgb(205, 1, 91, 0.8);
+  background: url(https://picsum.photos/id/1043/800/600) rgb(72,61,139,0.8);
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -396,17 +397,16 @@
 }
 .placement-offer p {
   display: flex;
- margin-bottom: 50px;
+  margin-bottom: 50px;
   margin-left: 154px;
   font-size: 18px;
 }
 
-.our-best-logo{
+.our-best-logo {
   width: 110px;
-
 }
 
-.our-best-img{
+.our-best-img {
   width: 45%;
   margin-left: 830px;
   margin-top: -772px;
@@ -415,15 +415,15 @@
 
 @media screen and (max-width: 850px) {
   .our-best {
-  width: 100%;
-  margin: 0;
+    width: 100%;
+    margin: 0;
   }
   .placement-offer p {
-margin-left: 90px;
+    margin-left: 90px;
   }
   .our-best-img {
-  margin: 0;
-  width: 100%;
-  margin-top: 5%;
+    margin: 0;
+    width: 100%;
+    margin-top: 5%;
   }
 }

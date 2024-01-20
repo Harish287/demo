@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./routes/acade/academy.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import Imagelogo from "./unikaalogo.png";
 const Navbar = () => {
   const [navToggler, setNavToggler] = useState(false);
   const closeNavbar = () => setNavToggler(false);
@@ -44,6 +44,15 @@ const Navbar = () => {
                 <li className="nav-item-acade">
                   {/* <h1>unikaa</h1> */}
 
+                  <Link
+                    to="/home"
+                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
+                  >
+                    <img src={Imagelogo} alt="" />{" "}
+                  </Link>
+                </li>
+
+                <li className="nav-item">
                   <Link
                     to="/home"
                     className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"

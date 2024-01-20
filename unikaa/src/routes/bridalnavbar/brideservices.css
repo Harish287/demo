@@ -20,7 +20,7 @@
   background-size: cover;
 }
 
-.servicebok{
+.servicebok {
   color: #c33764;
 }
 .brideSevice h1 {
@@ -162,16 +162,16 @@
 }
 .bridecol .topquality-icon {
   display: flex;
- margin-left: 62px;
+  margin-left: 62px;
   width: 100px;
 }
-.bridecol p{
-padding: 0 20px;
-}
-.bridecol h2{
+.bridecol p {
   padding: 0 20px;
 }
-@media screen and (max-width: 850px){
+.bridecol h2 {
+  padding: 0 20px;
+}
+@media screen and (max-width: 850px) {
   .brideservimgs {
     margin: auto;
     width: 200px;
@@ -185,14 +185,13 @@ padding: 0 20px;
     margin-left: -50px;
   }
   .brideserv {
-width: 100%;
+    width: 100%;
   }
   .brideservice1 h6 {
-  position: relative;
-  
+    position: relative;
   }
   .brideservice1 h2 {
-  position: relative;
+    position: relative;
   }
 
   .makehead {
@@ -202,13 +201,12 @@ width: 100%;
     margin-left: -455px;
   }
   .tabbride {
-display: table;
-border: 1px solid red;
-
+    display: table;
+    border: 1px solid red;
   }
   .bridetable {
-  border: 1px solid red;
-  /* padding: 0 160px; */
+    border: 1px solid red;
+    /* padding: 0 160px; */
   }
   .course-box {
     width: 100%;
@@ -225,17 +223,63 @@ border: 1px solid red;
   }
 }
 
-
-.table-service{
-display: inline-flex;
-
+.table-service {
+  display: inline-flex;
 }
 
-.table-size{
+.table-size {
   width: 328px;
- 
 }
-.card-clor{
-  --bs-border-color-translucent:red;
+.card-clor {
+  --bs-border-color-translucent: red;
   --bs-border-width: 3px;
 }
+
+.bridal-service-quality h1 {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: against, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.bridal-service-quality h2 {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-family: against, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+@media screen and(max-width:850px) {
+}
+.bridal-service-quality-image img {
+  width: 300px;
+  object-fit: cover;
+  height: 300px;
+}
+
+.bridal-service-quality-image {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bridal-service-quality-image1 {
+  flex-basis: 30%;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+

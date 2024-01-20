@@ -79,7 +79,11 @@ function Makeup() {
   return (
     <>
       <Navbar />
+
+
+      <h1 className="makeup-artists">Makeup Artists</h1>
       <div>
+
         <Slide />
       </div>
       <br />

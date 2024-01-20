@@ -12,7 +12,7 @@
       rgba(195, 55, 100, 0.8)
     ),
     url("https://bit.ly/2rlzaXi");
-  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)),
     url("./abt.jpg"); /* The least supported option. */
   background-size: cover;
 }
@@ -24,6 +24,7 @@ justify-content: center;
   margin-top: 8%;
   font-size: 35px;
   color: white;
+
 }
 .acade-franche h4 {
   display: flex;
@@ -34,21 +35,17 @@ justify-content: center;
 }
 .acade-franchebtn {
   display: flex;
-  /* top: 30%; */
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: baseline;
-  /* align-content: center; */
-  /* position: absolute; */
   margin-left: 45%;
-  /* margin-top: 11%; */
-  font-size: 18px;
+   font-size: 18px;
   padding: 10px;
   background-color: transparent;
 }
 .acade-franchebtn:hover {
   cursor: pointer;
-  background-color: #cd015c;
+  background-color: white;
+  color: black;
   transition: 0.9s;
 }
 

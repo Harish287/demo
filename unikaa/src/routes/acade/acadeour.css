@@ -12,29 +12,24 @@
       rgba(195, 55, 100, 0.8)
     ),
     url("https://bit.ly/2rlzaXi");
-  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)),
     url("./our-acade.jpg"); /* The least supported option. */
   background-size: cover;
 }
 
 .acade-our h6 {
   display: flex;
-  /* top: 30%; */
-  /* flex-wrap: wrap; */
   justify-content: center;
-  /* align-items: baseline; */
   align-content: center;
-  /* position: absolute; */
-  /* margin-left: 25.5%; */
   margin-top: 7%;
   font-size: 35px;
   color: white;
 }
 .acade-our h4 {
   display: flex;
-justify-content: center;
- align-content: center;
-color: white;
+  justify-content: center;
+  align-content: center;
+  color: white;
   font-size: 27px;
 }
 .acard-our-btn {
@@ -45,148 +40,149 @@ color: white;
   font-size: 18px;
   padding: 7px 21px;
   background-color: transparent;
-
+  color: white;
 }
 .acard-our-btn:hover {
   cursor: pointer;
-  background-color: #cd015c;
+  background-color: white;
+  color: black;
   transition: 0.9s;
 }
 
 .acade-our-dep {
-    margin-top: 50px;
-    font-size: 25px;
-    text-align: center;
-  }
-  .greeks {
-    /* width: 300px; */
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  
-  .acade-our-dep-card {
-    width: 25rem;
-    /* background-color: #eb3989; */
-  }
-  .acade-our-dep-card-title {
-    font-size: 20px;
-    /* text-align: center; */
-    /* padding: 0 38px; */
-  }
-  .acardour-moreinfo {
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-  
-    font-size: large;
-    border: none;
-    margin-bottom: 5%;
-  }
-  .acardour-moreinfo:hover {
-    /* color: #cd015c; */
-    background-color: white;
-  }
-  .acade-our-card-pic {
-    transition-duration: 1500ms;
-    padding: 50px;
-    transition: transform 1.1s; /* Animation */
-    width: 18rem;
-    margin: 0 auto;
-  }
-  .acade-our-card-pic:hover {
-    transform: scale(
-      1.3
-    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.greeks {
+  /* width: 300px; */
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.acade-our-dep-card {
+  width: 25rem;
+  /* background-color: #eb3989; */
+}
+.acade-our-dep-card-title {
+  font-size: 20px;
+  /* text-align: center; */
+  /* padding: 0 38px; */
+}
+.acardour-moreinfo {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+
+  font-size: large;
+  border: none;
+  margin-bottom: 5%;
+}
+.acardour-moreinfo:hover {
+  /* color: #cd015c; */
+  background-color: white;
+}
+.acade-our-card-pic {
+  transition-duration: 1500ms;
+  padding: 50px;
+  transition: transform 1.1s; /* Animation */
+  width: 18rem;
+  margin: 0 auto;
+}
+.acade-our-card-pic:hover {
+  transform: scale(
+    1.3
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.acade-our-dep-card-firstrow {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.acade-our-dep-card-secondrow {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 850px) {
   .acade-our-dep-card-firstrow {
+    flex-direction: column;
+    margin-top: 5%;
     display: flex;
+    /* margin-left: 50px; */
     justify-content: center;
-    gap: 70px;
+    align-items: center;
   }
   .acade-our-dep-card-secondrow {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    margin-top: 3%;
-  }
-  
-  @media screen and (max-width: 850px) {
-    .acade-our-dep-card-firstrow {
-      flex-direction: column;
-      margin-top: 5%;
-      display: flex;
-      /* margin-left: 50px; */
-      justify-content: center;
-      align-items: center;
-    }
-    .acade-our-dep-card-secondrow {
-      flex-direction: column;
-      margin-top: 5%;
-      display: flex;
-      /* margin-left: 50px; */
-      justify-content: center;
-      align-items: center;
-    }
-  }
-  
-  .masterourclasses h3 {
-    font-size: 50px;
-    text-align: center;
+    flex-direction: column;
     margin-top: 5%;
-  }
-  
-  .masterour-card {
-    width: 25rem;
-    /* background-color: #eb3989; */
-  }
-  .masterour-card-title {
-    font-size: 20px;
-    /* text-align: center; */
-    /* padding: 0 38px; */
-  }
-  .masterour-moreinfo {
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    margin-left: 102px;
-  }
-  .masterour-moreinfo:hover {
-    /* color: #cd015c; */
-    background-color: #eb3989;
-  }
-  .greek {
-    /* width: 300px; */
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  .masterour-card-pic {
-    width: 25rem;
-    /* margin: 0 auto; */
-    /* width: 96%; */
-    transition: 0.5s all ease-in-out;
-  }
-  .masterour-card-pic:hover {
-    /* transform: scale(
-    1.3 */
-    transform: scale(1.2);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-  .masterour-card-row {
     display: flex;
+    /* margin-left: 50px; */
     justify-content: center;
-    gap: 70px;
+    align-items: center;
   }
-  
-  @media screen and (max-width: 850px) {
-    .masterour-card-row {
-      flex-direction: column;
-      margin-top: 5%;
-      display: flex;
-      /* margin-left: 50px; */
-      justify-content: center;
-      align-items: center;
-    }
+}
+
+.masterourclasses h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.masterour-card {
+  width: 25rem;
+  /* background-color: #eb3989; */
+}
+.masterour-card-title {
+  font-size: 20px;
+  /* text-align: center; */
+  /* padding: 0 38px; */
+}
+.masterour-moreinfo {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  margin-left: 102px;
+}
+.masterour-moreinfo:hover {
+  /* color: #cd015c; */
+  background-color: #eb3989;
+}
+.greek {
+  /* width: 300px; */
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.masterour-card-pic {
+  width: 25rem;
+  /* margin: 0 auto; */
+  /* width: 96%; */
+  transition: 0.5s all ease-in-out;
+}
+.masterour-card-pic:hover {
+  /* transform: scale(
+    1.3 */
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.masterour-card-row {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+@media screen and (max-width: 850px) {
+  .masterour-card-row {
+    flex-direction: column;
+    margin-top: 5%;
+    display: flex;
+    /* margin-left: 50px; */
+    justify-content: center;
+    align-items: center;
+  }
 }

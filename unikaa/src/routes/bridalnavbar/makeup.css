@@ -1,3 +1,14 @@
+.makeup-artists {
+  color: black;
+  font-size: 50px;
+  font-family: against, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
 
 .big-img {
   position: relative;
@@ -13,7 +24,7 @@
   position: absolute;
   margin-top: 55px;
   margin-left: 250px;
-  color: rgb(80, 47, 143);
+  color: black;
   font-size: 50px;
   font-family: against, sans-serif;
   font-style: normal;
@@ -58,7 +69,6 @@
 .consults {
   min-width: 340px;
   width: 100%;
-  /* gap: 24px; */
 }
 
 .big-img p {
@@ -69,7 +79,7 @@
 }
 
 .big-img svg {
-  margin-top: 290px;
+  margin-top: 380px;
   margin-left: 263px;
   margin-right: -140px;
   width: 40px;
@@ -93,14 +103,9 @@
   background: rgb(246, 229, 230);
 }
 
-/* .slide-all-pic1 {
-  margin-bottom: 190px;
-} */
-
 .consultent-slideone1 {
   max-height: 580px;
   display: flex;
-
   overflow-x: scroll;
   overflow-y: hidden;
   width: 37%;
@@ -125,13 +130,6 @@
   width: 100%;
 }
 
-/* .big-img1 p {
-  margin-top: 178px;
-  position: absolute;
-  margin-left: 152px;
-  padding: 0 100px;
-} */
-
 .big-img button {
   margin: 0;
   padding: 0;
@@ -146,7 +144,6 @@
 .consultent-slideone2 {
   max-height: 580px;
   display: flex;
-
   overflow-x: scroll;
   overflow-y: hidden;
   width: 37%;
@@ -193,28 +190,48 @@
   object-fit: cover;
 }
 
+.second-slide-img{
+  box-sizing: border-box;
+  border-radius: 70px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 850px) {
   .consultent-slideone {
     margin: 0;
     width: 100%;
     width: 100%;
+    margin-top: 220px;
+  }
+
+  .second-slide-img {
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
   }
   .big-img {
-    margin: 0;
-    padding: 0;
     width: 100%;
+    max-width: 100vw;
+    background: none;
   }
+
+  .name-of-the-artist {
+    margin: 0;
+    position: relative;
+  }
+
   .big-img p {
     width: 100%;
     padding: 0;
-    margin-top: 230px;
-    margin-left: 243px;
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .exprience-of-year {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 243px;
+    position: relative;
+    margin: 0;
     width: 100%;
   }
   .right-btn-slide svg {
@@ -225,17 +242,24 @@
     margin-left: 400px;
     margin-top: -68px;
   }
+
+  .big-img svg {
+    margin-left: 175px;
+    margin-top: -66px;
+    position: relative;
+  }
 }
 
 /***********************************card image change**********************************/
 .our-top-art-head {
-  color: rgb(80, 47, 143);
+  color: black;
   font-size: 50px;
   font-family: against, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .image-handle-change-card-bride-make {
@@ -254,6 +278,7 @@
   width: 280px;
   height: 410px;
   margin-top: 20px;
+  object-fit: cover;
 }
 
 .image-handle-change-card-bride-make2 {
@@ -272,6 +297,7 @@
   width: 280px;
   height: 410px;
   margin-top: 20px;
+  object-fit: cover;
 }
 
 .image-handle-change-card-bride-make3 {
@@ -290,6 +316,7 @@
   width: 280px;
   height: 410px;
   margin-top: 20px;
+  object-fit: cover;
 }
 .all-card {
   display: flex;
