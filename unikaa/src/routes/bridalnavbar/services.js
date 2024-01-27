@@ -1,23 +1,23 @@
 import React from "react";
 import Navbar from "../bridalnavbar/bridal";
-import Pinkimg from "./depositphotos_6354967-stock-photo-pink-flower.jpg";
-import Pinkimgs from "./depositphotos_6354967-stock-photo-pink-flower.jpg";
-import Bookicon from "./44621.png";
-import Postbridalcare from "./Post-bridal-care.png";
-import Bride from "./lip.png";
-import Cam from "./black.png";
-import Makeup from "./makeup.png";
-import Mehandhi from "./mehandhi.png";
+import Pinkimg from "./blogimages/depositphotos_6354967-stock-photo-pink-flower.jpg";
+import Pinkimgs from "./blogimages/depositphotos_6354967-stock-photo-pink-flower.jpg";
+import Bookicon from "./blogimages/44621.png";
+import Postbridalcare from "./blogimages/Post-bridal-care.png";
+import Bride from "./blogimages/lip.png";
+import Cam from "./blogimages/black.png";
+import Makeup from "./blogimages/makeup.png";
+import Mehandhi from "./blogimages/mehandhi.png";
 
-import Bridesmaid from "./Bridesmaid.jpg";
-import Mother from "./Mother-of-bride-or-groom.jpg";
-import Postbride from "./Post-bridal-care.webp";
+import Bridesmaid from "./blogimages/Bridesmaid.jpg";
+import Mother from "./blogimages/Mother-of-bride-or-groom.jpg";
+import Postbride from "./blogimages/Post-bridal-care.webp";
 
 import "./brideservices.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Card, Col } from "react-bootstrap";
-import img1 from "./topquality.png";
+import img1 from "./blogimages/topquality.png";
 import Bridalfooter from "./bridalfooter";
 
 const services = () => {

@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Navbar from "../bridalnavbar/bridal";
 import "./makeup.css";
 
-import Consulting from "./consulting.jpg";
-import Makeup2 from "./makeup2.jpg";
-import Makeup1 from "./makeup1.webp";
+import Consulting from "./blogimages/consulting.jpg";
+import Makeup2 from "./blogimages/makeup2.jpg";
+import Makeup1 from "./blogimages/makeup1.webp";
 
 import Bridalfooter from "./bridalfooter";
 import Slide from "./slideonimg";

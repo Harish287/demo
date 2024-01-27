@@ -1,29 +1,28 @@
 import React, { useState } from "react";
 
-import Consulting from "./consulting.jpg";
+import Consulting from "./blogimages/consulting.jpg";
 
+import Prebridal from "./blogimages/pasted image 0.png";
+import Teach from "./blogimages/teach.jpg";
+import Actual from "./blogimages/acutal.jpg";
 
-import Prebridal from "./pasted image 0.png";
-import Teach from "./teach.jpg";
-import Actual from "./acutal.jpg";
+import Image1 from "./blogimages/bridal-jewellery-1.jpg";
+import Image2 from "./blogimages/classy-HD-makeup-look.webp";
+import Image3 from "./blogimages/57f1bf97aaca1a3e5b3720cb2e042d7d.jpg";
+import Image4 from "./blogimages/Bridal.jpg";
+import Image5 from "./blogimages/bridal-makeup-look-20-768x960.jpg";
 
-import Image1 from "./bridal-jewellery-1.jpg";
-import Image2 from "./classy-HD-makeup-look.webp";
-import Image3 from "./57f1bf97aaca1a3e5b3720cb2e042d7d.jpg";
-import Image4 from "./Bridal.jpg";
-import Image5 from "./bridal-makeup-look-20-768x960.jpg";
+import Image6 from "./blogimages/4546556.jpg";
+import Image7 from "./blogimages/10-stunning-bridal-makeup-looks-for-the-2018-bride-10.jpg";
+import Image8 from "./blogimages/wedding-makeup.jpg";
+import Image9 from "./blogimages/HD-wallpaper-rayna.jpg";
+import Image10 from "./blogimages/hhjggjh.jpg";
 
-import Image6 from "./4546556.jpg";
-import Image7 from "./10-stunning-bridal-makeup-looks-for-the-2018-bride-10.jpg";
-import Image8 from "./wedding-makeup.jpg";
-import Image9 from "./HD-wallpaper-rayna.jpg";
-import Image10 from "./hhjggjh.jpg";
-
-import Image11 from "./photo-15.avif";
-import Image12 from "./mkmkk.jpg";
-import Image13 from "./jkjhjh.jpg";
-import Image14 from "./How-To-Do.jpg";
-import Image15 from "./kdfasdas.jpg";
+import Image11 from "./blogimages/photo-15.avif";
+import Image12 from "./blogimages/mkmkk.jpg";
+import Image13 from "./blogimages/jkjhjh.jpg";
+import Image14 from "./blogimages/How-To-Do.jpg";
+import Image15 from "./blogimages/kdfasdas.jpg";
 
 import { FaCaretSquareLeft } from "react-icons/fa";
 import { FaCaretSquareRight } from "react-icons/fa";

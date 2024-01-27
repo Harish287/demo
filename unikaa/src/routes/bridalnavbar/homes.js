@@ -3,19 +3,19 @@ import Navbar from "../bridalnavbar/bridal";
 import Bridalfooter from "./bridalfooter";
 import "./bridalhome.css";
 
-import Margin from "./123.png";
-import Consulting from "./consulting.jpg";
-import Prebridal from "./Pre-Bridal.jpg";
-import Teach from "./teach.jpg";
-import Actual from "./acutal.jpg";
+import Margin from "./blogimages/123.png";
+import Consulting from "./blogimages/consulting.jpg";
+import Prebridal from "./blogimages/Pre-Bridal.jpg";
+import Teach from "./blogimages/teach.jpg";
+import Actual from "./blogimages/acutal.jpg";
 
-import Bookicon from "./arrowjoin.svg";
-import trialcard from "./sessionImg.webp";
+import Bookicon from "./blogimages/arrowjoin.svg";
+import trialcard from "./blogimages/sessionImg.webp";
 
-import Imageone from "./ajb.png";
-import Imagetwo from "./dj.png";
-import Flower1 from "./65940-illustrator-border-flower-adobe-png-download-free.png";
-import Flower2 from "./65940-illustrator-border-flower-adobe-png-download-free.png";
+import Imageone from "./blogimages/ajb.png";
+import Imagetwo from "./blogimages/dj.png";
+import Flower1 from "./blogimages/65940-illustrator-border-flower-adobe-png-download-free.png";
+import Flower2 from "./blogimages/65940-illustrator-border-flower-adobe-png-download-free.png";
 
 import {
   ReactCompareSlider,

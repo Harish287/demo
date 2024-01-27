@@ -14,9 +14,9 @@
       rgba(29, 38, 113, 0.8),
       rgba(195, 55, 100, 0.8)
     ),
-    url("./Best-Bridal-Makeup-Chennai-Wink-Unisex-Salon.jpg");
+    url("./blogimages/Best-Bridal-Makeup-Chennai-Wink-Unisex-Salon.jpg");
   background: linear-gradient(rgba(29, 38, 113, 0.1), rgba(195, 55, 100, 0.1)),
-    url("./Best-Bridal-Makeup-Chennai-Wink-Unisex-Salon.jpg"); /* The least supported option. */
+    url("./blogimages/Best-Bridal-Makeup-Chennai-Wink-Unisex-Salon.jpg"); /* The least supported option. */
   background-size: cover;
 }
 
@@ -281,5 +281,3 @@
   padding: 20px 12px;
   box-sizing: border-box;
 }
-
-

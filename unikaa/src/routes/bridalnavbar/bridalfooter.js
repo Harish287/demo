@@ -1,10 +1,10 @@
 import React from "react";
 import "./bridalfooter.css";
-import fb from "./fb.png";
-import twitter from "./twitter.png";
-import insta from "./insta.png";
-import linkedin from "./im.png";
-import youtube from "./48968.png";
+import fb from "./blogimages/fb.png";
+import twitter from "./blogimages/twitter.png";
+import insta from "./blogimages/insta.png";
+import linkedin from "./blogimages/im.png";
+import youtube from "./blogimages/48968.png";
 // import App from "../App"
 
 //******************************* fonticon import***************////
@@ -47,13 +47,11 @@ const Footer = () => {
           <a href="/bodycare">
             <p>Body Care</p>
           </a>
-         
-         
+
           {/* <a href="/bridal">
             <p>Bridal</p>
           </a> */}
-         
-         
+
           {/* <a href="/events">
             <p>Events</p>
           </a>

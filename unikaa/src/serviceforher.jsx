@@ -28,6 +28,8 @@ const HaircutList = () => {
   }
 
   return (
+
+    <>
     <div>
       <h1 className="header-hair-cut">Haircut List</h1>
       <table className="haircut-table">
@@ -49,6 +51,31 @@ const HaircutList = () => {
         </tbody>
       </table>
     </div>
+
+<br/>
+    <div>
+     
+      <table className="haircut-table">
+        <thead>
+          <tr>
+            <th>Meet the Classics</th>
+            <th>Regular Values</th>
+            <th>Member Values</th>
+          </tr>
+        </thead>
+        <tbody>
+          {haircutData.map((item) => (
+            <tr key={item.id}>
+              <td>{item.meet_the_classics}</td>
+              <td>{item.regular_values}</td>
+              <td>{item.member_values}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    </>
   );
 };
 
