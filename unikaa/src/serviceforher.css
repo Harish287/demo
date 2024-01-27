@@ -1,0 +1,27 @@
+.haircut-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+.header-hair-cut{
+text-align: center;
+font-family: against, sans-serif;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.haircut-table th, .haircut-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.haircut-table th {
+  background-color: #f2f2f2;
+  font-family: against, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

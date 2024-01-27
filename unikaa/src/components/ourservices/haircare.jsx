@@ -11,6 +11,9 @@ import hairspa from "./haircare/hair-spa.png"
 
 import "./haircare.css" 
 
+
+
+
 const HairCare = () => {
   return (
 
@@ -158,6 +161,7 @@ const HairCare = () => {
           </p>
         </div>
       </div>
+  
     </div>
   );
 };

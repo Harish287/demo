@@ -331,15 +331,12 @@
   border: 1px solid #365486;
 }
 
-.scroll-top button{
-  background-color:bisque;
+.scroll-top button {
+  background-color: bisque;
   color: black;
-
 }
 
-
-
-@media only screen and (max-device-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .logo-p2 {
     margin: 0;
     padding: 0;
@@ -376,26 +373,100 @@
   }
 
   .logo-left-card-img2 {
-   margin: 0;
+    margin: 0;
+  }
+
+  .logo-p4 {
+    margin: 0;
+    width: 100%;
+  }
+  .image-card-scrool {
+    margin: 0;
+    width: 100%;
+  }
+
+  .logo-left-card-img5 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .logo-p5 {
+    width: 100%;
+    margin: 0;
+  }
 }
 
-.logo-p4 {
-  margin: 0;
-  width: 100%;
-}
-.image-card-scrool {
-  margin: 0;
-  width: 100%;
-}
+@media screen and (max-width: 850px) {
+  .logo-p2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .logo-left-card-img {
+    margin-left: 0;
+    display: flex;
+  }
+  .logo-card {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .logo-card p {
+    padding: 0;
+    margin: 0;
+  }
+  .p-second2 {
+    margin: 0;
+    padding: 0;
+  }
+  .logo-p4 a button {
+    margin: 0;
+  }
+  .pfist5 {
+    margin: 0;
+  }
+  .skincard-img {
+    width: 243px;
+    height: 266px;
+    margin-right: 6px;
+    margin-top: -78px;
+    object-fit: cover;
+    padding: 0;
+  }
+  .logo-card h1 {
+    padding: 0;
+    margin: 0;
+  }
+  .logo-p3 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 
-.logo-left-card-img5 {
-  width: 100%;
-  margin: 0;
-}
+  .logo-left-card-img2 {
+    margin: 0;
+  }
 
-.logo-p5 {
-width: 100%;
-margin: 0;
-}
+  .logo-p4 {
+    margin: 0;
+    width: 100%;
+  }
+  .image-card-scrool {
+    margin: 0;
+    width: 100%;
+  }
 
+  .logo-left-card-img5 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .logo-p5 {
+    width: 100%;
+    margin: 0;
+  }
+  /* .col-md-4 {
+    flex: 0 0 auto;
+    width: 47.333333%;
+} */
 }

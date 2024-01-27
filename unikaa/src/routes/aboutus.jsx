@@ -160,7 +160,8 @@ const aboutus = () => {
           </div>
         </div>
 
-        <div>
+
+<div className="abt-end-para-all" >
           <h4 className="abt-end-para">To Helping Women Be Boundless</h4>
           <p className="abt-end-para-p">
             It is impossible to revolutionize the beauty industry without
@@ -179,6 +180,10 @@ const aboutus = () => {
           </p>
           <a href="/"> <button className="abt-end-para-btn" > join us </button> </a>
         </div>
+
+
+
+
 
         <br />
       </div>

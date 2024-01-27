@@ -42,7 +42,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/booknow", (req, res) => {
+app.get("/booking.php", (req, res) => {
   con.query("select * from booknow", (err, result) => {
     if (err) {
       console.error(err);

@@ -3,6 +3,10 @@ import "./routes/acade/academy.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Imagelogo from "./unikaalogo.png";
+
+
+import ScrollTop from "./scrolltop";
+
 const Navbar = () => {
   const [navToggler, setNavToggler] = useState(false);
   const closeNavbar = () => setNavToggler(false);
@@ -97,6 +101,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <ScrollTop/>
     </nav>
   );
 };

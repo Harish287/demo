@@ -76,13 +76,13 @@
   font-size: 18px;
   padding: 6px 12px;
   background-color: transparent;
+  cursor: pointer;
   color: white;
 }
 .acard-btn:hover {
-  cursor: pointer;
   background-color: white;
   color: black;
-  transition: 0.9s;
+  transition: 2s;
 }
 .acard-abtbtn {
   display: flex;
@@ -103,7 +103,7 @@
   cursor: pointer;
   background-color: white;
   color: black;
-  transition: 0.9s;
+  transition: 2s;
 }
 
 .home-headacade h4 {
@@ -278,6 +278,7 @@
 .master-moreinfo:hover {
   /* color: #cd015c; */
   background-color: #eb3989;
+  transition: 2s;
 }
 .greek {
   /* width: 300px; */
@@ -317,7 +318,7 @@
 .background-acade-home {
   margin-top: 3%;
   min-height: 100%;
-  background: url(https://picsum.photos/id/1043/800/600) rgb(72,61,139,0.8);
+  background: url(https://picsum.photos/id/1043/800/600) rgb(72, 61, 139, 0.8);
   background-size: cover;
   background-blend-mode: multiply;
 }

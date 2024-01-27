@@ -9,7 +9,6 @@ import bodymassage from "./bodycare/body-massage-icon.png";
 
 
 
-
 import "./bodycares.css";
 
 const BodyCare = () => {
@@ -139,6 +138,7 @@ const BodyCare = () => {
           </p>
         </div> */}
       </div>
+
     </div>
   );
 };

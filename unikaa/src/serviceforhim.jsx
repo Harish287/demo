@@ -15,7 +15,7 @@ function App() {
       });
   }, []);
   return (
-    <ul >
+    <ul>
       {posts.map((post) => (
         <li key={post.id}>
           {post.id}

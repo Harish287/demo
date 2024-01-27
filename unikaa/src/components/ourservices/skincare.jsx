@@ -9,6 +9,9 @@ import signaturefacials from "../ourservices/SkinCare/signature-facials-icon.png
 
 import "./skin-care.css"
 
+import ScrollTop from "./scrolltop";
+
+
 const skincare = () => {
   return (
     <div className="skin">
@@ -109,6 +112,7 @@ const skincare = () => {
           </p>
         </div>
       </div>
+      <ScrollTop/>
     </div>
   );
 };

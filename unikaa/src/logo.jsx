@@ -12,13 +12,22 @@ import jeniliya from "./Assets/Jenelia-1.webp";
 
 import "./logo.css";
 
-import ScrollToTop from "./scrolltop";
+// import ScrollToTop from "./scrolltop";
+
+
+
+import "animate.css/animate.min.css";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 function Logo() {
 
   
   return (
     <>
+     <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      ></link>
       <div className="pallex-logo">
         <Carousel fade data-bs-theme="dark ">
           <Carousel.Item interval={5000}>
@@ -114,12 +123,12 @@ function Logo() {
         <div className="logocontainer2">
           <div className="row log2-imagealine">
             <div className="col-lg-4 col-md-4 col-12 ">
-              <img
+            <AnimatedOnScroll animationIn="bounceInLeft"> <img
                 src={image2}
                 alt="loading"
                 className="logo-left-card-img "
                 style={{ width: "100%" }}
-              ></img>
+              ></img></AnimatedOnScroll>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
               <div className="logo-p2">
@@ -152,14 +161,14 @@ function Logo() {
         <div className="logocontainer3">
           <div className="row log3-imagealine">
             <div className="col-lg-4 col-md-4 col-12 ">
-              <img
+            <AnimatedOnScroll animationIn="bounceInLeft"> <img
                 src={image2}
                 alt="loading"
                 className="logo-left-card-img2 "
                 style={{ width: "100%" }}
-              ></img>
+              ></img></AnimatedOnScroll>
             </div>
-            <div className="col-lg-4 col-md-4 col-12">
+             <div className="col-lg-4 col-md-4 col-12">
               <div className="logo-p3">
                 <h4 className="logo-us-h4">HAIR CARE</h4>
                 <p className="pfist3">
@@ -193,7 +202,7 @@ function Logo() {
 
             <div className="col-lg-4 col-md-4 col-12 ">
               <div className="image-card-scrool">
-                <Carousel fade data-bs-theme="dark ">
+              <AnimatedOnScroll animationIn="bounceInRight"><Carousel fade data-bs-theme="dark ">
                   <Carousel.Item interval={5000}>
                     <img
                       // width={1600}
@@ -222,7 +231,7 @@ function Logo() {
                       alt="..."
                     />
                   </Carousel.Item>
-                </Carousel>
+                </Carousel></AnimatedOnScroll>
               </div>
             </div>
           </div>
@@ -231,12 +240,13 @@ function Logo() {
         <div className="logocontainer5">
           <div className="row log5-imagealine">
             <div className="col-lg-4 col-md-4 col-12 ">
-              <img
+            <AnimatedOnScroll animationIn="bounceInLeft"> <img
                 src={image2}
                 alt="loading"
                 className="logo-left-card-img5 "
                 style={{ width: "100%" }}
               ></img>
+              </AnimatedOnScroll>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
               <div className="logo-p5">
@@ -265,7 +275,7 @@ function Logo() {
       </div>
 
 
-    <ScrollToTop/>
+    {/* <ScrollToTop/> */}
     </>
   );
 }

@@ -6,6 +6,8 @@ import insta from "../Assets/insta.png";
 import linkedin from "../Assets/im.png";
 import youtube from "../Assets/48968.png";
 
+
+
 // import App from "../App"
 
 //******************************* fonticon import***************////
@@ -13,12 +15,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
-
-  
-    
-
   return (
-    
     <div className="Footer ">
       <div className="sb__footer section__padding">
         <div className="sb__footer-links_div">
@@ -38,11 +35,10 @@ const Footer = () => {
           <a href="/blog">
             <p>Blog</p>
           </a>
-          
+
           <a href="/privacypolicy">
             <p>Privacy Policy</p>
           </a>
-       
         </div>
         <div className="sb__footer-links_div">
           <h4>Our Service</h4>
@@ -55,11 +51,10 @@ const Footer = () => {
           <a href="/bodycare">
             <p>Body Care</p>
           </a>
-          
+
           {/* <a href="/bridal">
             <p>Bridal</p>
           </a> */}
-
 
           {/* <a href="/events">
             <p>Events</p>
@@ -83,39 +78,33 @@ const Footer = () => {
           </p>
 
           <div className="socialmedia">
-          <p>
-            <a href="sdasda">
-              <img src={fb} alt="" />
-            </a>
-          </p>
-          <p>
-            <a href="ssaa">
-              <img src={twitter} alt="" />
-            </a>
-          </p>
-          <p>
-            <a href="https://www.instagram.com/_.mr.thunder_gray._">
-              <img src={insta} alt="" />
-            </a>
-          </p>
-          <p>
-            <a href="gfgfg">
-              <img src={linkedin} alt="" />
-            </a>
-          </p>
-          <p>
-            <a href="https://youtu.be/2PIagAiL_a8?si=PEUrGw_ZdJH5Fvq1">
-              <img src={youtube} alt="" />
-            </a>
-          </p>
+            <p>
+              <a href="sdasda">
+                <img src={fb} alt="" />
+              </a>
+            </p>
+            <p>
+              <a href="ssaa">
+                <img src={twitter} alt="" />
+              </a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/_.mr.thunder_gray._">
+                <img src={insta} alt="" />
+              </a>
+            </p>
+            <p>
+              <a href="gfgfg">
+                <img src={linkedin} alt="" />
+              </a>
+            </p>
+            <p>
+              <a href="https://youtu.be/2PIagAiL_a8?si=PEUrGw_ZdJH5Fvq1">
+                <img src={youtube} alt="" />
+              </a>
+            </p>
+          </div>
         </div>
-
-
-
-
-        </div>
-
-       
       </div>
       <hr></hr>
       <div className="sb__footer-below">
@@ -127,12 +116,7 @@ const Footer = () => {
 </div> */}
       </div>
     </div>
-
-    
   );
-  
 };
-
-
 
 export default Footer;

@@ -48,10 +48,7 @@ function ColorSchemesExample() {
                 </button>
                 <Navbar bg="" data-bs-theme="dark">
                   <Container>
-                    {/* <Navbar.Brand href="/homes">BRIDAL</Navbar.Brand> */}
-                    {/* <Nav className="me-auto"> */}
-                    {/* <Link></Link> */}
-
+                
                     <Nav className="justify-content-end flex-grow-1 pe-3">
                       <Nav.Link href="/homes">
                         <img src={Bride} alt="" className="bridal-name" />

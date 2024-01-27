@@ -16,8 +16,6 @@ import i6 from "./Assets/6.webp";
 
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
-import ScrollToTop from "./scrolltop";
-
 const Page = (props) => {
   const { children, ...rest } = props;
   return (
@@ -100,8 +98,8 @@ const franchise = () => {
         >
           The success of any franchise is determined by the success of its
           franchise partners. Unikaa is fortunate to have many such success
-          stories to tell. Hear from our partners how Unikaa have empowered
-          them and have opened new growth vistas.
+          stories to tell. Hear from our partners how Unikaa have empowered them
+          and have opened new growth vistas.
         </Card.Text>
         {/* <Card.Img variant="top" src="../Assets/abc.jpg" /> */}
 
@@ -381,9 +379,9 @@ const franchise = () => {
               <Card.Body>
                 <Card.Title style={{ color: "white" }}>Brand Value</Card.Title>
                 <Card.Text style={{ color: "white" }}>
-                  Unikaa Salon has grown from 1 salon to 650 salons by
-                  building its brand over the past 16 years. Now we are inviting
-                  you to be part of this success story.
+                  Unikaa Salon has grown from 1 salon to 650 salons by building
+                  its brand over the past 16 years. Now we are inviting you to
+                  be part of this success story.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -413,9 +411,8 @@ const franchise = () => {
                   Marketing Support
                 </Card.Title>
                 <Card.Text style={{ color: "white" }}>
-                  Unikaa provide PR Assistance, Marketing, Business
-                  Generation, IT & PoS Billing and continuous operations
-                  support.
+                  Unikaa provide PR Assistance, Marketing, Business Generation,
+                  IT & PoS Billing and continuous operations support.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -423,11 +420,6 @@ const franchise = () => {
         </div>
       </Card>
       <br></br>
-
-      <div className="scroll-top">
-      <ScrollToTop smooth />
-      </div>
-      
     </>
   );
 };
