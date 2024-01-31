@@ -38,9 +38,7 @@
     visibility: hidden;
   }
 }
-.navbar {
-  /* background-color: #cd015c; */
-}
+
 .navbar-expand .navbar-nav .nav-link:hover {
   color: black;
 }

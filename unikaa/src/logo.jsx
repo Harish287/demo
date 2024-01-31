@@ -14,17 +14,13 @@ import "./logo.css";
 
 // import ScrollToTop from "./scrolltop";
 
-
-
 import "animate.css/animate.min.css";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 function Logo() {
-
-  
   return (
     <>
-     <link
+      <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
       ></link>
@@ -123,14 +119,17 @@ function Logo() {
         <div className="logocontainer2">
           <div className="row log2-imagealine">
             <div className="col-lg-4 col-md-4 col-12 ">
-            <AnimatedOnScroll animationIn="bounceInLeft"> <img
-                src={image2}
-                alt="loading"
-                className="logo-left-card-img "
-                style={{ width: "100%" }}
-              ></img></AnimatedOnScroll>
+              <AnimatedOnScroll animationIn="bounceInLeft">
+             
+                <img 
+                  src={image2}
+                  alt="loading"
+                  className="logo-left-card-img "
+                  style={{ width: "100%" }}
+                ></img>
+              </AnimatedOnScroll>
             </div>
-            <div className="col-lg-4 col-md-4 col-12">
+            <div className="col-lg-4  col-md-4 col-12">
               <div className="logo-p2">
                 <h3 className="logo-us-h3">EXCLUSIVELY BRIDAL</h3>
                 <p className="pfist">Bespoke bridal looks</p>
@@ -161,14 +160,17 @@ function Logo() {
         <div className="logocontainer3">
           <div className="row log3-imagealine">
             <div className="col-lg-4 col-md-4 col-12 ">
-            <AnimatedOnScroll animationIn="bounceInLeft"> <img
-                src={image2}
-                alt="loading"
-                className="logo-left-card-img2 "
-                style={{ width: "100%" }}
-              ></img></AnimatedOnScroll>
+              <AnimatedOnScroll animationIn="bounceInLeft">
+                {" "}
+                <img
+                  src={image2}
+                  alt="loading"
+                  className="logo-left-card-img2 "
+                  style={{ width: "100%" }}
+                ></img>
+              </AnimatedOnScroll>
             </div>
-             <div className="col-lg-4 col-md-4 col-12">
+            <div className="col-lg-4 col-md-4 col-12">
               <div className="logo-p3">
                 <h4 className="logo-us-h4">HAIR CARE</h4>
                 <p className="pfist3">
@@ -202,36 +204,38 @@ function Logo() {
 
             <div className="col-lg-4 col-md-4 col-12 ">
               <div className="image-card-scrool">
-              <AnimatedOnScroll animationIn="bounceInRight"><Carousel fade data-bs-theme="dark ">
-                  <Carousel.Item interval={5000}>
-                    <img
-                      // width={1600}
-                      // height={300}
-                      src={image2}
-                      class="img-fluid object-fit-cover  "
-                      alt="..."
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item interval={5000}>
-                    <img
-                      // width={1600}
-                      // height={300}
-                      src={image3}
-                      class="img-fluid object-fit-cover"
-                      alt="..."
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item interval={5000}>
-                    <img
-                      // width={1600}
-                      // height={300}
+                <AnimatedOnScroll animationIn="bounceInRight">
+                  <Carousel fade data-bs-theme="dark ">
+                    <Carousel.Item interval={5000}>
+                      <img
+                        // width={1600}
+                        // height={300}
+                        src={image2}
+                        className="img-fluid object-fit-cover  "
+                        alt="..."
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item interval={5000}>
+                      <img
+                        // width={1600}
+                        // height={300}
+                        src={image3}
+                        className="img-fluid object-fit-cover"
+                        alt="..."
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item interval={5000}>
+                      <img
+                        // width={1600}
+                        // height={300}
 
-                      src={image4}
-                      class="img-fluid object-fit-cover   "
-                      alt="..."
-                    />
-                  </Carousel.Item>
-                </Carousel></AnimatedOnScroll>
+                        src={image4}
+                        className="img-fluid object-fit-cover   "
+                        alt="..."
+                      />
+                    </Carousel.Item>
+                  </Carousel>
+                </AnimatedOnScroll>
               </div>
             </div>
           </div>
@@ -240,12 +244,14 @@ function Logo() {
         <div className="logocontainer5">
           <div className="row log5-imagealine">
             <div className="col-lg-4 col-md-4 col-12 ">
-            <AnimatedOnScroll animationIn="bounceInLeft"> <img
-                src={image2}
-                alt="loading"
-                className="logo-left-card-img5 "
-                style={{ width: "100%" }}
-              ></img>
+              <AnimatedOnScroll animationIn="bounceInLeft">
+                {" "}
+                <img
+                  src={image2}
+                  alt="loading"
+                  className="logo-left-card-img5 "
+                  style={{ width: "100%" }}
+                ></img>
               </AnimatedOnScroll>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
@@ -274,8 +280,7 @@ function Logo() {
         </div>
       </div>
 
-
-    {/* <ScrollToTop/> */}
+      {/* <ScrollToTop/> */}
     </>
   );
 }

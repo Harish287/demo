@@ -9,3 +9,14 @@
     display: flex;
     justify-content: center;
 }
+
+.blog-image-ablsoute-content{
+    position: absolute;
+    z-index: 1;
+    /* margin-top: -180px; */
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}

@@ -257,13 +257,24 @@
   margin-top: 50px;
 }
 
-@media screen and(max-width:850px) {
+@media screen and (max-width:850px) {
+  .table-service {
+display: flex;
+flex-direction: column;
+  }
+  
+  .bridal-service-quality-image {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 .bridal-service-quality-image img {
   width: 300px;
   object-fit: cover;
   height: 300px;
 }
+
 
 .bridal-service-quality-image {
   display: flex;

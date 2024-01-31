@@ -344,11 +344,14 @@
   }
   .logo-left-card-img {
     margin-left: 0;
+    height: 323px;
   }
   .logo-card {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     margin-top: 30px;
+    width: 66%;
+
   }
   .logo-card p {
     padding: 0;
@@ -374,6 +377,7 @@
 
   .logo-left-card-img2 {
     margin: 0;
+    height: 322px;
   }
 
   .logo-p4 {
@@ -394,6 +398,24 @@
     width: 100%;
     margin: 0;
   }
+
+  .log4-imagealine{
+display: flex;
+justify-content: center;
+  }
+
+  .image-card-scrool img{
+height: 323px;
+  }
+
+  .logo-skill-5 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .logo-us-h4-4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -404,12 +426,19 @@
   }
   .logo-left-card-img {
     margin-left: 0;
+    height: 324px;
     display: flex;
   }
+
+  .logo-skill-5 {
+    font-size: 20px;
+    line-height: 25px;
+  }
   .logo-card {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     margin-top: 30px;
+    width: 100%;
   }
   .logo-card p {
     padding: 0;
@@ -469,4 +498,10 @@
     flex: 0 0 auto;
     width: 47.333333%;
 } */
+}
+
+@media screen and (max-width: 480px) {
+  .logo-left-card-img {
+    height: 400px;
+  }
 }

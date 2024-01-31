@@ -41,22 +41,9 @@ function blog() {
                   zIndex: "-1",
                 }}
               ></img>
-            </div>
-            <div
-              className="content"
-              style={{
-                position: "absolute",
-                zIndex: "1",
-                marginTop: -180,
-                marginLeft: 420,
-                fontFamily: "serif",
-                textAlign: "center",
-                fontSize: "40px",
-                fontWeight: "900",
-                color: "white",
-              }}
-            >
-              <p>"Beauty Whisperers - Blogs"</p>
+              <div className="content blog-image-ablsoute-content ">
+                <p>"Beauty Whisperers - Blogs"</p>
+              </div>
             </div>
           </div>
         </div>

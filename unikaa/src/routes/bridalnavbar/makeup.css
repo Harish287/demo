@@ -343,16 +343,27 @@
   }
 
   .image-handle-change-card-bride-make button img {
-    width: 132px;
+    /* width: 132px; */
     object-fit: cover;
   }
   .image-handle-change-card-bride-make2 button img {
-    width: 132px;
+    /* width: 132px; */
     object-fit: cover;
   }
 
   .image-handle-change-card-bride-make3 button img {
-    width: 132px;
+    /* width: 132px; */
     object-fit: cover;
   }
+
+  .image-handle-change-card-bride-make {
+    margin-left: 60px;
+  }
+  .image-handle-change-card-bride-make2 {
+    margin-left: 60px;
+  }
+  .image-handle-change-card-bride-make3 {
+    margin-left: 60px;
+  }
+
 }
