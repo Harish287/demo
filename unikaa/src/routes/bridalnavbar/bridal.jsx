@@ -23,7 +23,8 @@ function bridal() {
           <Route path="/booknow" element={<Booknow />} />
         </Routes>
       </div>
-      <ScrollTop/>
+
+      <ScrollTop />
     </>
   );
 }

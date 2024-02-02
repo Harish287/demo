@@ -1,4 +1,4 @@
-function booking(values) {
+function contactvalidation(values) {
   let errors = {};
   const email_pattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
   const phone_pattern = /^\d{10}$/;
@@ -11,16 +11,10 @@ function booking(values) {
     errors.email = "";
   }
 
-  if (values.Fname === "") {
-    errors.Fname = "First Name should not be empty";
+  if (values.fname === "") {
+    errors.fname = " Name should not be empty";
   } else {
-    errors.Fname = "";
-  }
-
-  if (values.Lname === "") {
-    errors.Lname = "Last Name should not be empty";
-  } else {
-    errors.Lname = "";
+    errors.fname = "";
   }
 
   if (values.number === "") {
@@ -37,13 +31,13 @@ function booking(values) {
     errors.message = "";
   }
 
-  if (values.place === "") {
-    errors.place = "place should not to be empty";
+  if (values.course === "") {
+    errors.course = "please select the course";
   } else {
-    errors.place = "";
+    errors.course = "";
   }
 
   return errors;
 }
 
-export default booking;
+export default contactvalidation;

@@ -38,7 +38,7 @@ app.get("/", (req, res) => {
   });
 });
 
-// app.get("/contact", (req, res) => {
+// app.get("/academy_count", (req, res) => {
 //   const sql = "SELECT * FROM contact";
 //   con.query(sql, (err, data) => {
 //     if (err) return res.json(err);
@@ -46,16 +46,76 @@ app.get("/", (req, res) => {
 //   });
 // });
 
-app.get("/offer", (req, res) => {
-  const sql = "SELECT * FROM offer";
+//****************************************boys***********************************//
+
+app.get("/boys_color", (req, res) => {
+  const sql = "SELECT * FROM boys_color";
   con.query(sql, (err, data) => {
     if (err) return res.json(err);
     return res.json(data);
   });
 });
 
-app.get("/boys_color", (req, res) => {
-  const sql = "SELECT * FROM boys_color";
+app.get("/boys_facials", (req, res) => {
+  const sql = "SELECT * FROM boys_facials";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
+
+app.get("/boys_hair_teatment", (req, res) => {
+  const sql = "SELECT * FROM boys_hair_teatment";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
+
+app.get("/boys", (req, res) => {
+  const sql = "SELECT * FROM boys";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
+
+//***************************************womens haircut************************************************//
+
+app.get("/hair", (req, res) => {
+  const sql = "SELECT * FROM hair";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
+
+app.get("/facials", (req, res) => {
+  const sql = "SELECT * FROM facials";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
+
+app.get("/main_hair", (req, res) => {
+  const sql = "SELECT * FROM main_hair";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
+
+app.get("/style", (req, res) => {
+  const sql = "SELECT * FROM style";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
+
+app.get("/texture", (req, res) => {
+  const sql = "SELECT * FROM texture";
   con.query(sql, (err, data) => {
     if (err) return res.json(err);
     return res.json(data);
@@ -85,6 +145,27 @@ app.post("/contact", (req, res) => {
   con.query(sql, [values], (err, data) => {
     if (err) {
       return res.json(`${err}`);
+    }
+    console.log(data);
+    return res.json(data);
+  });
+});
+
+app.post("/academy_count", (req, res) => {
+  const values = [
+    req.body.fname,
+    req.body.number,
+    req.body.email,
+    req.body.course,
+    req.body.message,
+  ];
+  const sql =
+    "INSERT INTO academy_contact (`fname`,`number`, `email`,`course`,`message`) VALUES (?)";
+
+  con.query(sql, [values], (err, data) => {
+    if (err) {
+      console.log(err);
+      return res.json(`error ${err}`);
     }
     console.log(data);
     return res.json(data);

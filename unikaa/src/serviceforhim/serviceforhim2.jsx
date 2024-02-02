@@ -1,15 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./serviceforher.css";
-import Service from "./serviceforher/serviceforher1";
-import Service1 from "./serviceforher/servicerforher2";
-import Service2 from "./serviceforher/serviceforher3";
-import Service3 from "./serviceforher/serviceforher4";
 
 const HaircutList = () => {
   const [haircutData, setHaircutData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const apiUrl = "https://unikaabeautyacademy.com/costomers/read.php";
+  const apiUrl = "https://unikaabeautyacademy.com/boys_facial_api/read.php";
 
   useEffect(() => {
     const fetchData = async () => {
@@ -27,32 +22,32 @@ const HaircutList = () => {
   }, [apiUrl]);
 
   if (loading) {
-    return <p style={{textAlign:"center"}}>Loading...</p>;
+    return <p>Loading...</p>;
   }
 
   return (
     <>
       <div>
-        <h1 className="header-hair-cut">Haircut List</h1>
+        <h1 className="header-hair-cut">Facials</h1>
         <table className="haircut-table">
           <thead>
             <tr>
-              <th>Meet the Classics</th>
-              <th>Regular Values</th>
-              <th>Member Values</th>
+              <th>Facial Treatments</th>
+              <th>Regular </th>
+              <th>Member </th>
             </tr>
           </thead>
           <tbody>
             {haircutData.map((item) => (
               <tr key={item.id}>
-                <td>{item.meet_the_classics}</td>
+                <td>{item.clean_up}</td>
                 <td>{item.regular_values}</td>
                 <td>{item.member_values}</td>
               </tr>
             ))}
             <tr style={{ borderWidth: "1px" }}>
-              <td>taxes are applicable</td> <td></td>
-              <td>
+              <td style={{ color: "gray" }}>taxes are applicable</td> <td></td>
+              <td style={{ color: "gray" }}>
                 price of service may vary between salons|certain service are
                 available only in select salons
               </td>
@@ -60,15 +55,8 @@ const HaircutList = () => {
           </tbody>
         </table>
       </div>
-      <Service />
+
       <br />
-      <Service1 />
-
-<br/><Service2/>
-
-<br/>
-<Service3/>
-
     </>
   );
 };

@@ -1,0 +1,14 @@
+.all-connect{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+}
+
+.card-text{
+    margin-top: 10px;
+}
+
+.card-text svg{
+width: 25px;
+}

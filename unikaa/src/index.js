@@ -20,6 +20,7 @@ import Services from "./routes/bridalnavbar/services";
 import Makeup from "./routes/bridalnavbar/makeup";
 import Blogs from "./routes/bridalnavbar/blogs";
 import Booknow from "./routes/bridalnavbar/booknow";
+import Submit from "./routes/bridalnavbar/submit";
 
 import Franchise from "./franchise";
 
@@ -36,6 +37,7 @@ import Contact from "./routes/acade/contact";
 import Ourcourse from "./routes/acade/ourcourse";
 import Deploma from "./routes/acade/diploma-in-cosmetology-at-unikaa-beauty-academy";
 import Whytochoose from "./routes/acade/why-choose-naturals-beauty-academy";
+import Academysubmit from "./routes/acade/academysubmit";
 
 import Blog from "./routes/blog";
 import ServiceForHer from "./serviceforher";
@@ -43,24 +45,20 @@ import ServiceForHim from "./serviceforhim";
 import PrivacyPolicy from "./privacypolicy";
 import Logo from "./logo";
 
-
-
-
 const router = createBrowserRouter([
   {
     element: <Root />,
     errorElement: <ErrorPage />,
 
     children: [
+      {
+        path: "/diploma-in-cosmetology-at-unikaa-beauty-academy",
+        element: <Deploma />,
+      },
 
       {
-        path:"/diploma-in-cosmetology-at-unikaa-beauty-academy",
-        element:<Deploma/>,
-      },
-      
-      {
-        path:"/why-choose-naturals-beauty-academy",
-        element:<Whytochoose/>,
+        path: "/why-choose-naturals-beauty-academy",
+        element: <Whytochoose />,
       },
 
       {
@@ -71,12 +69,12 @@ const router = createBrowserRouter([
         path: "/",
         element: <Logo />,
       },
-      
+
       {
         path: "/logo",
         element: <App />,
       },
-  
+
       {
         path: "haircare",
         element: <HairCare />,
@@ -128,7 +126,6 @@ const router = createBrowserRouter([
         path: "blog",
         element: <Blog />,
       },
-   
     ],
   },
   // **************************bridal********************//
@@ -156,7 +153,7 @@ const router = createBrowserRouter([
     path: "booknow",
     element: <Booknow />,
   },
-
+  { path: "submit", element: <Submit /> },
   // ************************************************Acadamy*************************************//
   {
     path: "academy",
@@ -182,6 +179,9 @@ const router = createBrowserRouter([
     path: "ourcourse",
     element: <Ourcourse />,
   },
+  { path: "academysubmit", 
+  element: <Academysubmit />,
+ },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

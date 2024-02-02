@@ -5,6 +5,7 @@ import "./bridalhome.css";
 
 import Margin from "./blogimages/123.png";
 import Consulting from "./blogimages/consulting.jpg";
+import imag4 from "./blogimages/istockphoto.jpg"
 import Prebridal from "./blogimages/Pre-Bridal.jpg";
 import Teach from "./blogimages/teach.jpg";
 import Actual from "./blogimages/acutal.jpg";
@@ -52,7 +53,7 @@ const home = () => {
           </div>
 
           <div className="consult-right">
-            <img src={Consulting} className="consulting-rightimg" alt="" />
+            <img src={imag4} className="consulting-rightimg" alt="" />
             <div className="consult-para">
               <h2>Planning</h2>
               <h6>Stage 2</h6>

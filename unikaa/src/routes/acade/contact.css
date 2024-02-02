@@ -1,0 +1,35 @@
+.acadamy-address-details-card {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.acadamy-address-details-card-info {
+  background-color: antiquewhite;
+  height: 200px;
+  width: 380px;
+}
+
+.acadamy-address-details-card-info svg {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.academy-contact-h1 {
+  text-align: center;
+  font-size: 66px;
+}
+.acadamy-address-details-card-info p {
+  text-align: center;
+  color: gray;
+}
+
+.acadamy-address-details-card-info h3 {
+  text-align: center;
+  margin-top: 22px;
+}
+.acadamy-address-details-card-icon {
+  display: flex;
+  justify-content: center;
+}
