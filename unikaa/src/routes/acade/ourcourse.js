@@ -4,14 +4,14 @@ import Navbar from "../../academy";
 import "./acadeour.css";
 import Acardefooter from "./acadefooter";
 
-import Hairdressing from "./hairdressings.avif";
-import Beautytherapy from "./beautytherapy.jpg";
-import Cosmetology from "./Cosmetology.jpg";
-import Hairstyling from "./hairstylist.jpg";
-import Makeupartist from "./makeupartist.jpg";
-import Nailart from "./nailart.jpg";
-import Makeupartistert from "./makeupartistery.jpg";
-import Beautytherpy from "./Beauty-Therapy.webp";
+import Hairdressing from "./acadeimg/hairdressings.avif";
+import Beautytherapy from "./acadeimg/beautytherapy.jpg";
+import Cosmetology from "./acadeimg/Cosmetology.jpg";
+import Hairstyling from "./acadeimg/hairstylist.jpg";
+import Makeupartist from "./acadeimg/makeupartist.jpg";
+import Nailart from "./acadeimg/nailart.jpg";
+import Makeupartistert from "./acadeimg/makeupartistery.jpg";
+import Beautytherpy from "./acadeimg/Beauty-Therapy.webp";
 
 
 function Ourcourse() {

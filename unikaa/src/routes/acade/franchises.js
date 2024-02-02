@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "../../academy";
 import "./franchiseacade.css";
 import Acardefooter from "./acadefooter";
-import Experts from "./exprets-acade.png";
-import Career from "./career-acade.png";
-import Certified from "./certification.png";
-import Beauty from "./beauty academy.jpg";
+import Experts from "./acadeimg/exprets-acade.png";
+import Career from "./acadeimg/career-acade.png";
+import Certified from "./acadeimg/certification.png";
+import Beauty from "./acadeimg/beauty academy.jpg";
 
 import {
   FaTrophy,

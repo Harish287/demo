@@ -14,7 +14,7 @@
     ),
     url("https://bit.ly/2rlzaXi");
   background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)),
-    url("./hair_cut\ 6.jpg"); /* The least supported option. */
+    url("./acadeimg/hair_cut\ 6.jpg"); /* The least supported option. */
   background-size: cover;
 }
 .acade-abt h6 {

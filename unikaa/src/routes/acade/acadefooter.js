@@ -1,10 +1,10 @@
 import React from "react";
 import "./acadefooter.css";
-import fb from "./fb.png";
-import twitter from "./twitter.png";
-import insta from "./insta.png";
-import linkedin from "./im.png";
-import youtube from "./48968.png";
+import fb from "./acadeimg/fb.png";
+import twitter from "./acadeimg/twitter.png";
+import insta from "./acadeimg/insta.png";
+import linkedin from "./acadeimg/im.png";
+import youtube from "./acadeimg/48968.png";
 // import App from "../App"
 
 //******************************* fonticon import***************////

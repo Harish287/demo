@@ -3,7 +3,7 @@ import Navbar from "../../academy";
 import Acardefooter from "./acadefooter";
 import "./aboutacade.css";
 
-import Acadeabt from "./abt-acade1.webp";
+import Acadeabt from "./acadeimg/abt-acade1.webp";
 const about = () => {
   return (
     <>

@@ -4,21 +4,21 @@ import "./acadehome.css";
 // import Acutal from "./acutal.jpg";
 
 
-import Hairdressing from "./hairdressings.avif";
-import Beautytherapy from "./beautytherapy.jpg";
-import Cosmetology from "./Cosmetology.jpg";
-import Hairstyling from "./hairstylist.jpg";
-import Makeupartist from "./makeupartist.jpg";
-import Nailart from "./nailart.jpg";
-import Makeupartistert from "./makeupartistery.jpg";
-import Beautytherpy from "./Beauty-Therapy.webp";
+import Hairdressing from "./acadeimg/hairdressings.avif";
+import Beautytherapy from "./acadeimg/beautytherapy.jpg";
+import Cosmetology from "./acadeimg/Cosmetology.jpg";
+import Hairstyling from "./acadeimg/hairstylist.jpg";
+import Makeupartist from "./acadeimg/makeupartist.jpg";
+import Nailart from "./acadeimg/nailart.jpg";
+import Makeupartistert from "./acadeimg/makeupartistery.jpg";
+import Beautytherpy from "./acadeimg/Beauty-Therapy.webp";
 
 
-import Placement from "./placement-logo.png";
-import Practical from "./practical.png";
-import Certification from "./certification.png";
-import Training from "./trining.png"
-import Trainingtime from "./triningtime.jpg"
+import Placement from "./acadeimg/placement-logo.png";
+import Practical from "./acadeimg/practical.png";
+import Certification from "./acadeimg/certification.png";
+import Training from "./acadeimg/trining.png"
+import Trainingtime from "./acadeimg/triningtime.jpg"
 
 import { FaArrowRight } from "react-icons/fa";
 
