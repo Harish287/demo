@@ -43,7 +43,7 @@
   color: black;
 }
 .navbar-expand .navbar-nav .nav-link:active {
-  color: white;
+  color:darkgray;
 }
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 1rem;

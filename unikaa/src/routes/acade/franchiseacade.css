@@ -42,11 +42,11 @@ justify-content: center;
   padding: 10px;
   background-color: transparent;
 }
-.acade-franchebtn:hover {
+.acade-franchebtn:hover{
   cursor: pointer;
   background-color: white;
   color: black;
-  transition: 0.9s;
+  transition: 2s;
 }
 
 /********************************************head-line*********************************************************/

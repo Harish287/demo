@@ -80,10 +80,8 @@ function Makeup() {
     <>
       <Navbar />
 
-
       <h1 className="makeup-artists">Makeup Artists</h1>
       <div>
-
         <Slide />
       </div>
       <br />
@@ -120,7 +118,11 @@ function Makeup() {
                 <img src={Makeup1} alt="" />
               </div>
             )}
-            <p>artist</p>
+            <div className="artist-name-img">
+              <img src={Consulting} alt="" />
+
+              <p>PREETHI MENON</p>
+            </div>
           </div>
         </div>
 
@@ -155,7 +157,11 @@ function Makeup() {
                 <img src={Makeup1} alt="" />
               </div>
             )}
-            <p>artist</p>
+            <div className="artist-name-img">
+              <img src={Consulting} alt="" />
+
+              <p>Vimala</p>
+            </div>
           </div>
         </div>
 
@@ -190,7 +196,11 @@ function Makeup() {
                 <img src={Makeup1} alt="" />
               </div>
             )}
-            <p>artist</p>
+            <div className="artist-name-img">
+              <img src={Consulting} alt="" />
+
+              <p>amala</p>
+            </div>
           </div>
         </div>
       </div>

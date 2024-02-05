@@ -367,3 +367,43 @@
   }
 
 }
+
+
+.artist-name-img{
+display: flex;
+justify-content: space-around;
+margin-top: 2px;
+padding: 24px 28px 20px;
+
+}
+
+.artist-name-img img{
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.artist-name-img p{
+  font-family: against, sans-serif;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(41, 41, 41);
+  font-weight: 400;
+  padding: 0px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.image-card-change{
+background-color: antiquewhite;
+}
+
+.image-card-change2{
+  background-color: antiquewhite;
+}
+.image-card-change3{
+  background-color: antiquewhite;
+}

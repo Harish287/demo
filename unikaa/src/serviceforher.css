@@ -25,3 +25,9 @@ line-height: normal;
   font-weight: 400;
   line-height: normal;
 }
+
+.tax-for-her{
+  display: flex;
+  justify-content: space-between;
+
+}

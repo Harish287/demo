@@ -1,14 +1,38 @@
-.all-connect{
+.all-connect {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.card-text svg {
+  width: 25px;
+}
+.card-body-all {
+  width: 50rem;
+}
+
+.right-card-aline {
+  width: 50rem;
+  background: antiquewhite;
+}
+.card-alingnment {
+}
+@media screen and (max-width: 850px) {
+  .all-connect {
+    width: 100%;
     display: flex;
-    margin: 0 auto;
-    position: relative;
-    width: 90%;
-}
+    flex-direction: column;
+  }
+  .card-body-all {
+    width: 100%;
+  }
 
-.card-text{
-    margin-top: 10px;
+  .right-card-aline {
+width: 100%;  
 }
-
-.card-text svg{
-width: 25px;
 }

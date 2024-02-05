@@ -5,6 +5,7 @@ import Service from "./serviceforher/serviceforher1";
 import Service1 from "./serviceforher/servicerforher2";
 import Service2 from "./serviceforher/serviceforher3";
 import Service3 from "./serviceforher/serviceforher4";
+// import Image from "./serviceforher/image";
 
 const HaircutList = () => {
   const [haircutData, setHaircutData] = useState([]);
@@ -27,12 +28,13 @@ const HaircutList = () => {
   }, [apiUrl]);
 
   if (loading) {
-    return <p style={{textAlign:"center"}}>Loading...</p>;
+    return <p style={{ textAlign: "center" }}>Loading...</p>;
   }
 
   return (
     <>
       <div>
+        <br />
         <h1 className="header-hair-cut">Haircut List</h1>
         <table className="haircut-table">
           <thead>
@@ -51,10 +53,14 @@ const HaircutList = () => {
               </tr>
             ))}
             <tr style={{ borderWidth: "1px" }}>
-              <td>taxes are applicable</td> <td></td>
-              <td>
-                price of service may vary between salons|certain service are
-                available only in select salons
+              <td colSpan="3">
+                <div className="tax-for-her">
+                  <p>taxes are applicable</p>
+                  <p>
+                    price of service may vary between salons|certain service are
+                    available only in select salons
+                  </p>
+                </div>
               </td>
             </tr>
           </tbody>
@@ -64,11 +70,13 @@ const HaircutList = () => {
       <br />
       <Service1 />
 
-<br/><Service2/>
+      <br />
+      <Service2 />
 
-<br/>
-<Service3/>
+      <br />
+      <Service3 />
 
+      {/* <Image /> */}
     </>
   );
 };

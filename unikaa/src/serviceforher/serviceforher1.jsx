@@ -52,8 +52,15 @@ const HaircutList = () => {
           ))}
           <tr style={{borderWidth:"1px"}}>
            
-          <td>taxes are applicable</td> <td></td>
-          <td>price of service may vary between salons|certain service are available only in select salons</td></tr>
+          <td colSpan="3">
+                <div className="tax-for-her">
+                  <p>taxes are applicable</p>
+                  <p>
+                    price of service may vary between salons|certain service are
+                    available only in select salons
+                  </p>
+                </div>
+              </td></tr>
         </tbody>
       </table>
     </div>

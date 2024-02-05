@@ -14,6 +14,8 @@ import i4 from "./Assets/4.webp";
 import i5 from "./Assets/5.webp";
 import i6 from "./Assets/6.webp";
 
+import Fanchise from "./fanchisebook";
+
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 const Page = (props) => {
@@ -179,7 +181,7 @@ const franchise = () => {
             </Card>
           </Card.Body>
 
-          <a
+          {/* <a
             class="carousel-control-prev"
             href="#carouselExampleControls"
             role="button"
@@ -197,7 +199,7 @@ const franchise = () => {
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-          </a>
+          </a> */}
         </Card.Body>
       </Card>
 
@@ -224,7 +226,7 @@ const franchise = () => {
         <Card.Body
           style={{
             textAlign: "center",
-            padding: "0 126px",
+            // padding: "0 126px",
             fontSize: "17px",
             fontFamily: "Inner-sans-serif",
             marginTop: "20px",
@@ -420,6 +422,7 @@ const franchise = () => {
         </div>
       </Card>
       <br></br>
+      <Fanchise />
     </>
   );
 };

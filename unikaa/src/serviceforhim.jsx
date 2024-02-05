@@ -32,7 +32,7 @@ const HaircutList = () => {
 
   return (
     <>
-     <Service />
+      <Service />
       <div>
         <h1 className="header-hair-cut">World Of Colours</h1>
         <table className="haircut-table">
@@ -51,22 +51,27 @@ const HaircutList = () => {
                 <td>{item.member_value}</td>
               </tr>
             ))}
-            <tr style={{ borderWidth: "1px" }}>taxes are applicable /price of service may vary between salons|certain service are
-                available only in select salons
-              {/* <td></td> <td></td>
-              <td>
-                price of service may vary between salons|certain service are
-                available only in select salons
-              </td> */}
+            <tr style={{ borderWidth: "1px" }}>
+          
+              <td colSpan="3">
+                <div className="tax-for-him">
+                  <p>taxes are applicable</p>
+                  <p>
+                    price of service may vary between salons|certain service are
+                    available only in select salons
+                  </p>
+                </div>
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
-     
+
       <br />
       <Service1 />
 
-      <br/><Service2/>
+      <br />
+      <Service2 />
 
       <br />
       {/* <Service3/> */}

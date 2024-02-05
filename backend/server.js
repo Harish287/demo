@@ -172,6 +172,20 @@ app.post("/academy_count", (req, res) => {
   });
 });
 
+app.post("/enquire", (req, res) => {
+  const values = [req.body.name, req.body.phone, req.body.email];
+  const sql = "INSERT INTO enduire (`name`,`phone`,`email`) VALUES (?)";
+
+  con.query(sql, [values], (err, data) => {
+    if (err) {
+      console.log(err);
+      return res.json(`error ${err}`);
+    }
+    console.log(data);
+    return res.json(data);
+  });
+});
+
 app.listen(8081, () => {
   console.log("serverisrunning");
 });

@@ -14,7 +14,7 @@ header {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   color: #212529;
   background: #fff;
- 
+
   width: 100%;
 }
 body {
@@ -102,7 +102,8 @@ h6 {
   text-align: left;
   padding: 0.2rem 1rem;
   font-size: 19px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .desktop-nav .menu-items a:hover,
@@ -137,6 +138,7 @@ h6 {
   background-color: #365486;
   border-radius: 0.5rem;
   display: none;
+  margin-top: 1px;
 }
 
 .desktop-nav .dropdown.show {
@@ -145,7 +147,6 @@ h6 {
 
 .desktop-nav .dropdown .dropdown-submenu {
   position: absolute;
-
   left: 100%;
   top: -7px;
 }

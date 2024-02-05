@@ -200,7 +200,7 @@
 }
 .francesuppo-colm2 {
   text-align: center;
-  padding: 0px 126px;
+  /* padding: 0px 126px; */
   font-size: 17px;
   font-family: Inner-sans-serif;
   margin-top: 20px;
@@ -217,5 +217,7 @@
   .francesuppo-colm2 {
   display: block;
   }
+
+
 
 }

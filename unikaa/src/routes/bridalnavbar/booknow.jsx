@@ -69,9 +69,8 @@ function Booknow() {
       </h2>
 
       <div className="all-connect">
-        
-        <div className="container mt-5">
-          <div class="card bg-light" style={{ width: "50rem" }}>
+        <div className="container mt-5 card-alingnment">
+          <div class="card bg-light card-body-all">
             <div class="card-body">
               <form action="" onSubmit={handleSubmit}>
                 <div className="container row g-5 mt-5">
@@ -124,7 +123,7 @@ function Booknow() {
                   </div>
 
                   <div className="col-md-6 mb-3">
-                    <label htmlFor="number" className="form-label">
+                    <label htmlFor="phone" className="form-label">
                       <strong>Phone Number</strong>
                     </label>
                     <input
@@ -181,12 +180,7 @@ function Booknow() {
           </div>
         </div>
 
-
-        
-        <div
-          class="card container mt-5"
-          style={{ width: "50rem", background: "antiquewhite" }}
-        >
+        <div class="card container mt-5 right-card-aline">
           <div class="card-body ">
             <h5 class="card-title">Contact Information</h5>
 

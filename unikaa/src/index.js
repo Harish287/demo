@@ -45,22 +45,14 @@ import ServiceForHim from "./serviceforhim";
 import PrivacyPolicy from "./privacypolicy";
 import Logo from "./logo";
 
+import Franchisesubmit from "./franchisesubmit";
+
 const router = createBrowserRouter([
   {
     element: <Root />,
     errorElement: <ErrorPage />,
 
     children: [
-      {
-        path: "/diploma-in-cosmetology-at-unikaa-beauty-academy",
-        element: <Deploma />,
-      },
-
-      {
-        path: "/why-choose-naturals-beauty-academy",
-        element: <Whytochoose />,
-      },
-
       {
         path: "/privacypolicy",
         element: <PrivacyPolicy />,
@@ -126,6 +118,7 @@ const router = createBrowserRouter([
         path: "blog",
         element: <Blog />,
       },
+      { path: "franchisesubmit", element: <Franchisesubmit /> },
     ],
   },
   // **************************bridal********************//
@@ -179,9 +172,16 @@ const router = createBrowserRouter([
     path: "ourcourse",
     element: <Ourcourse />,
   },
-  { path: "academysubmit", 
-  element: <Academysubmit />,
- },
+  { path: "academysubmit", element: <Academysubmit /> },
+  {
+    path: "/diploma-in-cosmetology-at-unikaa-beauty-academy",
+    element: <Deploma />,
+  },
+
+  {
+    path: "/why-choose-naturals-beauty-academy",
+    element: <Whytochoose />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
