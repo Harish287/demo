@@ -60,7 +60,7 @@ const franchise = () => {
 
       <div className="franchise2h">
         <h3>
-          Over 400 Women Entrepreneurs Have Found Their Calling. Are You Next?
+          Over 400 Women Entrepreneurs <br/>Have Found Their Calling. Are <br/> You Next?
         </h3>
         <p>
           Become A Successful Entrepreneur With India’s Largest Family Salon
@@ -93,7 +93,7 @@ const franchise = () => {
           style={{
             textAlign: "center",
             // padding: "0 126px",
-            fontSize: "17px",
+            fontSize: "17px", 
             fontFamily: "Inner-sans-serif",
             marginTop: "20px",
           }}

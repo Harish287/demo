@@ -19,7 +19,7 @@ const Media = () => {
 
 
   return (
-    <div className="header">
+    <div className="header ">
       <div className="img-pink">
         <h1>Media</h1>
       </div>

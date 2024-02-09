@@ -2,22 +2,22 @@
     padding: 2rem 10rem 0rem 10rem;
   }
   
-  .Footer {
-    background-color: #cd015b;
+  .Footer-bridal {
+    background-color:  #365486;
     width: 100%;
     height: auto;
     margin: 0%;
   }
-  .sb__footer {
+  .sb__footer-bridal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #cd015b;
+    background-color:  #365486;
     height: auto;
   
     /* margin-top: 44%; */
   }
-  .sb__footer-links {
+  .sb__footer-bridal-links {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -27,7 +27,7 @@
     text-align: left;
     margin-bottom: 2rem;
   }
-  .sb__footer-links_div {
+  .sb__footer-bridal-links_div {
     width: 150px;
     margin: 1rem;
     display: flex;
@@ -35,7 +35,7 @@
     flex-direction: column;
     color: black;
   }
-  .sb__footer-links_div a {
+  .sb__footer-bridal-links_div a {
     color: black;
     text-decoration: row;
     text-decoration: none;
@@ -46,12 +46,12 @@
     margin: 2px;
     display: flex;
     padding: 5px;
-    background-color: pink;
+    background-color: white;
     border-radius: 14px;
     cursor: pointer;
   }
   .socialmedia {
-    color: #cd015b;
+    color:  #365486;
     display: flex;
     gap: 40px;
     margin-top: 30px;
@@ -59,32 +59,32 @@
     box-sizing: border-box;
     border-color: black;
   }
-  .sb__footer-links_div h4 {
+  .sb__footer-bridal-links_div h4 {
     font-size: 20px;
     line-height: 17px;
     margin-bottom: 0.9rem;
   }
-  .sb__footer-links_div p {
+  .sb__footer-bridal-links_div p {
     line-height: 15px;
     margin: 1.3rem -36px 2px 0px;
     cursor: pointer;
     font-size: 16px;
   }
   
-  .sb__footer-below {
+  .sb__footer-bridal-below {
     display: flex;
     flex-direction: row;
     justify-content: center;
     /* margin-top: 0.2rem; */
     padding: 3px 0;
-    background-color: #ffbdde;
+    background-color: white;
   }
-  .sb__footer-below-links {
+  .sb__footer-bridal-below-links {
     display: flex;
     flex-direction: row;
   }
   
-  .sb__footer-below-links p {
+  .sb__footer-bridal-below-links p {
     font-size: 13px;
     line-height: 20px;
     margin-left: 20px;
@@ -96,16 +96,16 @@
     color: white !important;
     width: 100%;
   }
-  .sb__footer-copyright p {
+  .sb__footer-bridal-copyright p {
     font-size: 13px;
     line-height: 15px;
     color: rgb(255, 255, 255);
     font-weight: 600;
   }
   @media screen and (max-width: 850px) {
-    .sb__footer {
+    .sb__footer-bridal {
       /* width: 152%; */
-      background-color: #cd015b;
+      background-color:  #365486;
       height: auto;
       flex-direction: inherit;
       justify-content: center;
@@ -113,13 +113,13 @@
       /* align-items: center; */
     }
   
-    .sb__footer-heading h1 {
+    .sb__footer-bridal-heading h1 {
       font-size: 44px;
       line-height: 50px;
     }
   }
   @media screen and (max-width: 550px) {
-    .sb__footer-heading h1 {
+    .sb__footer-bridal-heading h1 {
       font-size: 34px;
       line-height: 42px;
     }
@@ -127,18 +127,18 @@
       padding: 0rem 12rem 0rem 0rem;
     }
     .socialmedia {
-      color: #cd015b;
+      color:  #365486;
     } */
-    .sb__footer-links div {
+    .sb__footer-bridal-links div {
       margin: 1rem 0;
     }
-    .sb__footer-btn p {
+    .sb__footer-bridal-btn p {
       font-size: 14px;
       line-height: 20px;
     }
   
     .socialmedia {
-      color: #cd015b;
+      color:  #365486;
       display: flex;
       gap: 40px;
       margin-top: 70px;
@@ -146,20 +146,20 @@
       border-color: black;
       margin-left: -157px;
     }
-    .sb__footer-below {
+    .sb__footer-bridal-below {
       flex-direction: column;
       justify-content: left;
     }
-    .sb__footer-below-links {
+    .sb__footer-bridal-below-links {
       flex-direction: column;
     }
-    .sb__footer-below-links p {
+    .sb__footer-bridal-below-links p {
       margin-left: 0rem;
       margin-top: 1rem;
     }
   }
   @media screen and (max-width: 400px ) {
-    .sb__footer-heading h1 {
+    .sb__footer-bridal-heading h1 {
       font-size: 27px;
       line-height: 38px;
     }

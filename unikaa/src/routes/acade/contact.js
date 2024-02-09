@@ -59,7 +59,7 @@ function Contact() {
       <h1 className="academy-contact-h1"> contact</h1>
 
       <div className="container mt-5">
-        <div class="card bg-light" style={{ width: "80rem" }}>
+        <div class="card bg-light" style={{ width: "100%" }}>
           <div class="card-body">
             <form action="" onSubmit={handleSubmit}>
               <div className="container row g-5 mt-5">

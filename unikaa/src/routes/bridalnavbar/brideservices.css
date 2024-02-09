@@ -176,7 +176,7 @@
     margin: auto;
     width: 200px;
     margin-top: -424px;
-    margin-left: 61%;
+    margin-left: 50%;
     position: static;
   }
   .brideservimg {
@@ -198,7 +198,8 @@
     display: flex;
     display: flex;
     text-align: center;
-    margin-left: -455px;
+    /* margin-left: -455px; */
+  padding: 0;
   }
   .tabbride {
     display: table;

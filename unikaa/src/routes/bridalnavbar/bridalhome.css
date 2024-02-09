@@ -5,7 +5,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: #bf135d;
+  /* background-color: #bf135d; */
   margin: 0 383px;
   color: black;
   height: 100px;
@@ -322,47 +322,33 @@ a {
 
   /* brfore & after */
   .image-cross-effect {
-    float: right;
+    /* float: right; */
   }
   .image-comparision {
-    width: 316px;
-    margin-right: 24px;
+    /* width: 316px;
+    margin-right: 24px; */
+  margin: 0 auto;
   }
   .before-para {
-    font-size: 45px;
+    /* font-size: 45px;
     z-index: 0;
     margin-left: 517px;
-    margin-top: -277px;
+    margin-top: -277px; */
+    display: none;
+  }
+
+  .mar-flower1 {
+    display: none;
   }
   .after-para {
-    margin-left: 750px;
+    /* margin-left: 750px;
     z-index: 0;
     font-size: 45px;
+     */
+     display: none;
   }
   .mar-flower2 {
     margin-left: 588px;
-  }
-}
-
-@media screen and (min-width: 1024px)and (max-height: 1366px) 
-and (-webkit-min-device-pixel-ratio: 1.5) {
-  .bridehometrial p {
-    padding: 0;
-  }
-  .brideTrial-Makeup p {
-    padding: 0;
-  }
-  .trialcard-img {
-    margin-top: -257px;
-    margin-right: 0;
-    
-  }
-  .Trial-Makeupcard-img {
-    margin-top: -257px;
-    margin-right: 0;
-    
-  }
-  .image-cross-effect{
-margin-left: -217px;
+    display: none;
   }
 }

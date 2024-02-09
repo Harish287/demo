@@ -11,11 +11,11 @@ import youtube from "./blogimages/48968.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const Footer = () => {
+const Footerbridal = () => {
   return (
-    <div className="Footer ">
-      <div className="sb__footer section__padding">
-        <div className="sb__footer-links_div">
+    <div className="Footer-bridal ">
+      <div className="sb__footer-bridal section__padding">
+        <div className="sb__footer-bridal-links_div">
           <h4>Quick Links</h4>
           <a href="/">
             <p>Home</p>
@@ -36,7 +36,7 @@ const Footer = () => {
             <p>Private Policy</p>
           </a> */}
         </div>
-        <div className="sb__footer-links_div">
+        <div className="sb__footer-bridal-links_div">
           <h4>Our Service</h4>
           <a href="/haircare">
             <p>Hair Care</p>
@@ -59,13 +59,13 @@ const Footer = () => {
             <p>Locate Us</p>
           </a> */}
         </div>
-        <div className="sb__footer-links_div">
+        <div className="sb__footer-bridal-links_div">
           <h4>Contact Us</h4>
 
           <p>location</p>
         </div>
 
-        <div className="sb__footer-links_div">
+        <div className="sb__footer-bridal-links_div">
           <h4>Get IN Touch</h4>
           <p>phoneNumber</p>
           <p>
@@ -103,11 +103,11 @@ const Footer = () => {
         </div>
       </div>
       {/* <hr></hr> */}
-      <div className="sb__footer-below">
-        <div className="sb__footer-copyrights">
+      <div className="sb__footer-bridal-below">
+        <div className="sb__footer-bridal-copyrights">
           <p>@{new Date().getFullYear()} Unikaa. All rights reserved.</p>
         </div>
-        {/* <div className="sb__footer-below-links">
+        {/* <div className="sb__footer-bridal-below-links">
     <a href="/terms"><div><p>terms & conditions</p></div></a>
 </div> */}
       </div>
@@ -115,4 +115,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footerbridal;

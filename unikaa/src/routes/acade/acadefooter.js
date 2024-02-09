@@ -11,11 +11,11 @@ import youtube from "./acadeimg/48968.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const Footer = () => {
+const Footeracade = () => {
   return (
-    <div className="Footer ">
-      <div className="sb__footer section__padding">
-        <div className="sb__footer-links_div">
+    <div className="Footer-acade ">
+      <div className="sb__footer-acade section__padding">
+        <div className="sb__footer-acade-links_div">
           <h4>Quick Links</h4>
           <a href="/home">
             <p>Home</p>
@@ -36,7 +36,7 @@ const Footer = () => {
             <p>Private Policy</p>
           </a> */}
         </div>
-        <div className="sb__footer-links_div">
+        <div className="sb__footer-acade-links_div">
           <h4>About Unikaa</h4>
           <a href="/why-choose-naturals-beauty-academy">
             <p style={{lineHeight:"23px"}}>Why Choose Unikaa Beauty Academy? </p>
@@ -57,13 +57,13 @@ const Footer = () => {
             <p>Locate Us</p>
           </a> */}
         </div>
-        <div className="sb__footer-links_div">
+        <div className="sb__footer-acade-links_div">
           <h4>Contact Us</h4>
 
           <p>location</p>
         </div>
 
-        <div className="sb__footer-links_div">
+        <div className="sb__footer-acade-links_div">
           <h4>Get IN Touch</h4>
           <p>phoneNumber</p>
           <p>
@@ -101,11 +101,11 @@ const Footer = () => {
         </div>
       </div>
       {/* <hr></hr> */}
-      <div className="sb__footer-below">
-        <div className="sb__footer-copyrights">
+      <div className="sb__footer-acade-below">
+        <div className="sb__footer-acade-copyrights">
           <p>@{new Date().getFullYear()} Unikaa. All rights reserved.</p>
         </div>
-        {/* <div className="sb__footer-below-links">
+        {/* <div className="sb__footer-acade-below-links">
     <a href="/terms"><div><p>terms & conditions</p></div></a>
 </div> */}
       </div>
@@ -113,4 +113,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footeracade;
