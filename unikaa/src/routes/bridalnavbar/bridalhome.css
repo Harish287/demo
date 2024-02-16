@@ -41,7 +41,7 @@
   }
 }
 
-/*************************************************imagescroller*********************************************/
+/****************imagescroller****************/
 .consultent {
   max-height: 580px;
   display: flex;
@@ -117,7 +117,7 @@
   gap: 24px;
 }
 
-/********************************************trial box*******************************/
+/***************trial box**********/
 .bridehometrial {
   box-sizing: border-box;
   background-color: #ffc0cb;
