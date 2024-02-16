@@ -128,7 +128,7 @@ const services = () => {
       {/* </table> */}
 
       <div className="table-service">
-        <Container className="p-4">
+        <Container className="p-1">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -145,7 +145,7 @@ const services = () => {
           </Col>
         </Container>
 
-        <Container className="p-4">
+        <Container className="p-1">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -162,7 +162,7 @@ const services = () => {
           </Col>
         </Container>
 
-        <Container className="p-4">
+        <Container className="p-1">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -179,7 +179,7 @@ const services = () => {
           </Col>
         </Container>
 
-        <Container className="p-4">
+        <Container className="p-1">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />

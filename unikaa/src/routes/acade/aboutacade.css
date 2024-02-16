@@ -47,9 +47,9 @@
 
 .abtacade-img {
   margin-top: -766px;
-  margin-left: 830px;
-  width: 43%;
-  object-fit: cover;
+  margin-left: 770px;
+  width: 45%;
+  object-fit: cover; 
 }
 
 .acade-abt-para-why-us {
@@ -73,9 +73,11 @@
 .abt-para-color-1 {
   background-color: bisque;
 }
+
 .abt-para-color-2 {
   background-color: lightblue;
 }
+
 .abt-para-color-3 {
   background-color: lightcyan;
 }
@@ -107,9 +109,9 @@
     margin: 0;
     gap: 20px;
     margin-top: 20px;
-margin-bottom: 20px;
+    margin-bottom: 20px;
   }
-  .acade-abt-para-why-us p {
+  .acade-abt-para-why-us p {       
     width: 100%;
   }
 
