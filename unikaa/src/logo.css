@@ -24,7 +24,7 @@
   position: relative;
   width: 146%;
   margin-left: -105px;
-  height: 324px;
+  height: 100%;
   /* margin-top: 10px;
   /* margin-top: 10px; */
 }
@@ -46,11 +46,11 @@
   margin-left: 20px;
 }
 .skincard-img {
-  display: flex;
+  /* display: flex;
   float: right;
   margin-top: -357px;
-  margin-right: 96px;
-  height: 366px;
+  margin-right: 96px; */
+  height: 100%;
 }
 .skinknow-btn {
   display: inline-block;
@@ -80,10 +80,13 @@
 .logo-card {
   box-sizing: border-box;
   background-color: #ffc0cb;
-  /* position: absolute; */
-  margin: 20px 140px;
+
+  display: flex;
+
   border-radius: 20px;
-  height: 409px;
+  height: 340px;
+  width: 80%;
+  margin: 20px auto;
 }
 
 .logo-card h1 {
@@ -94,14 +97,15 @@
 }
 .logo-card p {
   font-size: 20px;
-  padding-right: 763px;
+  padding-right: 80px;
   line-height: 30px;
   /* margin-top: 3%; */
   margin-left: 59px;
   margin-bottom: 6%;
 }
 .logo-left-card-img {
-  margin-left: -100px;
+  margin-left: -96px;
+  height: 325px;
 }
 
 .book-now-slide1-btn {
@@ -210,7 +214,8 @@
 }
 
 .logo-left-card-img2 {
-  margin-left: -100px;
+  margin-left: -89px;
+  height: 324px;
 }
 
 .logocontainer4 {
@@ -225,15 +230,17 @@
   position: relative;
   width: 146%;
   margin-left: 153px;
-  height: 324px;
+  height: 100%;
 }
 
 .image-card-scrool {
   width: 100%;
-  height: 324px;
-  margin-left: 374px;
+  height: 100%;
+  margin-left: 372px;
 }
-
+.img-fluid-1 {
+  height: 322px;
+}
 .pfist4 {
   /* font-size: 34px; */
   margin-left: 20px;
@@ -304,7 +311,7 @@
   margin-bottom: 30px;
 }
 .logo-left-card-img5 {
-  margin-left: -100px;
+  margin-left: -91px;
   height: 340px;
 }
 .logo-skill-5 {
@@ -351,17 +358,15 @@
     padding: 0;
     margin-top: 30px;
     width: 66%;
-
   }
   .logo-card p {
     padding: 0;
     margin: 0;
   }
   .skincard-img {
-    width: 243px;
-    height: 266px;
-    margin-right: 6px;
-    margin-top: -78px;
+    width: 50%;
+    height: 100%;
+
     object-fit: cover;
     padding: 0;
   }
@@ -399,13 +404,13 @@
     margin: 0;
   }
 
-  .log4-imagealine{
-display: flex;
-justify-content: center;
+  .log4-imagealine {
+    display: flex;
+    justify-content: center;
   }
 
-  .image-card-scrool img{
-height: 323px;
+  .image-card-scrool img {
+    height: 323px;
   }
 
   .logo-skill-5 {
@@ -435,73 +440,7 @@ height: 323px;
     line-height: 25px;
   }
   .logo-card {
-    margin: 0 auto;
-    padding: 0;
-    margin-top: 30px;
+    margin: 20 auto;
     width: 100%;
-  }
-  .logo-card p {
-    padding: 0;
-    margin: 0;
-  }
-  .p-second2 {
-    margin: 0;
-    padding: 0;
-  }
-  .logo-p4 a button {
-    margin: 0;
-  }
-  .pfist5 {
-    margin: 0;
-  }
-  .skincard-img {
-    width: 243px;
-    height: 266px;
-    margin-right: 6px;
-    margin-top: -78px;
-    object-fit: cover;
-    padding: 0;
-  }
-  .logo-card h1 {
-    padding: 0;
-    margin: 0;
-  }
-  .logo-p3 {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-
-  .logo-left-card-img2 {
-    margin: 0;
-  }
-
-  .logo-p4 {
-    margin: 0;
-    width: 100%;
-  }
-  .image-card-scrool {
-    margin: 0;
-    width: 100%;
-  }
-
-  .logo-left-card-img5 {
-    width: 100%;
-    margin: 0;
-  }
-
-  .logo-p5 {
-    width: 100%;
-    margin: 0;
-  }
-  /* .col-md-4 {
-    flex: 0 0 auto;
-    width: 47.333333%;
-} */
-}
-
-@media screen and (max-width: 480px) {
-  .logo-left-card-img {
-    height: 400px;
   }
 }

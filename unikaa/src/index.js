@@ -13,6 +13,7 @@ import BodyCare from "./components/ourservices/bodycare";
 import HairCare from "./components/ourservices/haircare";
 import SkinCare from "./components/ourservices/skincare";
 import Offers from "./routes/offers";
+
 // bridal subdivision
 import Bridal from "./routes/bridalnavbar/bridal";
 import Home from "./routes/bridalnavbar/homes";
@@ -118,7 +119,8 @@ const router = createBrowserRouter([
         path: "blog",
         element: <Blog />,
       },
-      { path: "franchisesubmit", element: <Franchisesubmit /> },
+      { path: "franchisesubmit", 
+      element: <Franchisesubmit /> },
     ],
   },
   // **************************bridal********************//

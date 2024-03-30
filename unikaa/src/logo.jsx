@@ -142,6 +142,7 @@ function Logo() {
           </div>
 
           <div className="logo-card">
+            <div>
             <h1>Skin Care</h1>
             <p>
               Unikaa skincare services replenish, rejuvenate and revitalise your
@@ -152,7 +153,7 @@ function Logo() {
                 <button className="skinknow-btn">Know More</button>
               </a>
             </p>
-
+            </div>
             <img src={jeniliya} className="skincard-img" alt="" />
           </div>
         </div>

@@ -38,13 +38,13 @@ app.get("/", (req, res) => {
   });
 });
 
-// app.get("/academy_count", (req, res) => {
-//   const sql = "SELECT * FROM contact";
-//   con.query(sql, (err, data) => {
-//     if (err) return res.json(err);
-//     return res.json(data);
-//   });
-// });
+app.get("/academy_count", (req, res) => {
+  const sql = "SELECT * FROM contact";
+  con.query(sql, (err, data) => {
+    if (err) return res.json(err);
+    return res.json(data);
+  });
+});
 
 //****************************************boys***********************************//
 
