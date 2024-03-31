@@ -57,7 +57,7 @@
   justify-content: center;
   margin:0 auto;
   align-items: center;
-  background-color: pink;
+  background-color: gainsboro;
 }
 @media screen and (max-width: 960px) {
   .francep {
@@ -161,7 +161,7 @@
   justify-content: center;
   margin: 0 auto;
   align-items: center;
-  background-color: darkslateblue;
+  background-color: #fe5114;
 }
 @media screen and (max-width: 1200px) {
   .francep {

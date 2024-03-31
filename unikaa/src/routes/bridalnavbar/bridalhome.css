@@ -120,7 +120,7 @@
 /***************trial box**********/
 .bridehometrial {
   box-sizing: border-box;
-  background-color: #ffc0cb;
+  background-color: gainsboro;
   /* position: absolute; */
   margin: 50px 110px;
   border-radius: 20px;
@@ -196,7 +196,7 @@ a {
 
 .brideTrial-Makeup {
   box-sizing: border-box;
-  background-color: #ffc0cb;
+  background-color: gainsboro;
   /* position: absolute; */
   margin: 50px 110px;
   border-radius: 20px;
@@ -250,14 +250,16 @@ a {
   width: 400px;
   height: 480px;
   object-fit: cover;
-  margin-left: 530px;
+  /* margin-left: 530px;
+   */
+   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 110px;
 }
 .before-para {
   position: absolute;
   margin-top: -437px;
-  margin-left: 419px;
+  margin-left: 443px;
   writing-mode: tb-rl;
   transform: rotate(-180deg);
   font-size: 100px;
@@ -267,7 +269,7 @@ a {
 }
 .after-para {
   margin-top: -530px;
-  margin-left: 832px;
+  margin-left: 866px;
   z-index: -1;
   transform: rotate(90deg);
   writing-mode: rl-tb;
@@ -281,7 +283,7 @@ a {
   width: 300px;
   position: absolute;
   transform: rotate(90deg);
-  margin-left: 438px;
+  margin-left: 460px;
   margin-top: -30px;
   z-index: -2;
 }
@@ -289,7 +291,7 @@ a {
   width: 300px;
   position: absolute;
   margin-top: -324px;
-  margin-left: 717px;
+  margin-left: 755px;
   z-index: -2;
   transform: rotate(-90deg);
 }

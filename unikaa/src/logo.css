@@ -20,7 +20,7 @@
   font-weight: 500;
   font-size: 19px;
   color: #333;
-  background-color: #ffc0cb;
+  background-color: #CACACA;
   position: relative;
   width: 146%;
   margin-left: -105px;
@@ -67,8 +67,8 @@
 }
 
 .skinknow-btn:hover {
-  border: 1px solid #365486;
-  background: #365486;
+  border: 1px solid #fe5114;
+  background: #fe5114;
   color: white;
   transition: 1s;
 }
@@ -79,7 +79,7 @@
 /* logo card */
 .logo-card {
   box-sizing: border-box;
-  background-color: #ffc0cb;
+  background-color: #CACACA;
 
   display: flex;
 
@@ -113,7 +113,7 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #365486;
+  background-color: #fe5114;
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -129,7 +129,7 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #365486;
+  background-color: #fe5114;
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -140,7 +140,7 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #365486;
+  background-color: #fe5114;
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -151,7 +151,7 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #365486;
+  background-color: #fe5114;
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -162,7 +162,7 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #365486;
+  background-color: #fe5114;
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -173,7 +173,7 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #365486;
+  background-color: #fe5114;
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -193,7 +193,7 @@
   font-weight: 500;
   font-size: 19px;
   color: #333;
-  background-color: #ffc0cb;
+  background-color: #CACACA;
   position: relative;
   width: 146%;
   margin-left: -105px;
@@ -214,7 +214,7 @@
 }
 
 .logo-left-card-img2 {
-  margin-left: -89px;
+  margin-left: -100px;
   height: 324px;
 }
 
@@ -226,7 +226,7 @@
   font-weight: 500;
   font-size: 19px;
   color: #333;
-  background-color: #ffc0cb;
+  background-color: #CACACA;
   position: relative;
   width: 146%;
   margin-left: 153px;
@@ -275,10 +275,10 @@
   padding: 5px;
 }
 .logo-p4 a button:hover {
-  background-color: #365486;
+  background-color: #fe5114;
   color: white;
   transition: 1s;
-  border: 1px solid #365486;
+  border: 1px solid #fe5114;
 }
 
 /* 5th card */
@@ -298,7 +298,7 @@
   font-weight: 500;
   font-size: 19px;
   color: #333;
-  background-color: #ffc0cb;
+  background-color: #CACACA;
   position: relative;
   width: 146%;
   margin-left: -105px;
@@ -311,7 +311,7 @@
   margin-bottom: 30px;
 }
 .logo-left-card-img5 {
-  margin-left: -91px;
+  margin-left: -100px;
   height: 340px;
 }
 .logo-skill-5 {
@@ -332,10 +332,10 @@
   padding: 5px;
 }
 .logo-p5 a button:hover {
-  background-color: #365486;
+  background-color: #fe5114;
   color: white;
   transition: 1s;
-  border: 1px solid #365486;
+  border: 1px solid #fe5114;
 }
 
 .scroll-top button {

@@ -130,7 +130,7 @@ const aboutus = () => {
             </h3>
           </AnimatedOnScroll>
         </div>
-
+        </div>
         <br />
         <br />
 
@@ -186,7 +186,7 @@ const aboutus = () => {
 
 
         <br />
-      </div>
+     
     </>
   );
 };

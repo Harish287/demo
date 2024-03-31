@@ -17,7 +17,7 @@
   width: 100%;
   margin: 10px 20px 0px 0px;
   border-radius: 0px 1190px 1190px 0px;
-  background: rgb(246, 229, 230);
+  background: gainsboro;
 }
 
 .name-of-the-artist {
@@ -398,12 +398,12 @@ padding: 24px 28px 20px;
 }
 
 .image-card-change{
-background-color: antiquewhite;
+background-color: gainsboro;
 }
 
 .image-card-change2{
-  background-color: antiquewhite;
+  background-color: gainsboro;
 }
 .image-card-change3{
-  background-color: antiquewhite;
+  background-color: gainsboro;
 }

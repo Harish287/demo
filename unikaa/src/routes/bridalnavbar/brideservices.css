@@ -225,7 +225,7 @@
 }
 
 .table-service {
-  display: inline-flex;
+  display: flex;
 }
 
 .table-size {

@@ -2,16 +2,22 @@
   display: block;
   text-align: center;
   /* padding: 1px; */
-  background-color:#365486;
+  background-color:#fe5114;
   color: white;
 }
 .top h1{
   margin: 0;
   font-size: 22px;
   font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  
+
 }
 .top p{
   font-size: medium;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 .logo img {
   position: relative;

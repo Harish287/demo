@@ -12,8 +12,8 @@ body {
 
 header {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  color: #212529;
-  background: #fff;
+  color: white;
+ 
 
   width: 100%;
 }
@@ -25,10 +25,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  /* max-width: 1300px; */
   margin: 0 auto;
-  /* padding: 15px 20px; */
+  padding: 6px 120px;
   font-size: larger;
+  width: 100%;
+  background: black;
   /* font-weight: 900; */
 }
 
@@ -42,7 +44,7 @@ body {
   align-items: center;
 }
 .logo p {
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 p {
   margin-bottom: 0rem;
@@ -108,7 +110,7 @@ h6 {
 
 .desktop-nav .menu-items a:hover,
 .desktop-nav .menu-items button:hover {
-  background-color: #365486;
+  background-color: #fe5114;
   color: #fff;
   box-sizing: border-box;
   border-radius: 300px;
@@ -135,7 +137,7 @@ h6 {
   min-width: 11rem;
   padding: 0.5rem 0;
   list-style: none;
-  background-color: #365486;
+  background-color: #fe5114;
   border-radius: 0.5rem;
   display: none;
   margin-top: 1px;
@@ -160,6 +162,8 @@ h6 {
   .nav-area {
     justify-content: space-between;
     width: 100%;
+    padding: 0;
+    color: white;
   }
   header {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
