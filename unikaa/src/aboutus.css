@@ -23,7 +23,7 @@
 }
 .abtheader h2 {
   font-size: 30px;
-  color: #ca2555;
+  color: black;
   text-align: center;
   font-family: against, sans-serif;
   font-style: normal;
@@ -38,7 +38,7 @@
 .abt-us-h1 {
   font-size: 28px;
   line-height: 36px;
-  color: #ca2555;
+  color: black;
 }
 .abtus-p p {
   font-weight: 500;
@@ -55,6 +55,7 @@
   display: flex;
   padding: 0 189px 0 335px;
   color: #333;
+  justify-content: center;
 }
 
 .abt-drop {
@@ -85,7 +86,7 @@
   }
 }
 
-.abt-droptext-lt-rt{
+.abt-droptext-lt-rt {
   display: flex;
   justify-content: center;
 }
@@ -106,9 +107,9 @@
 }
 
 .droptext-rt {
-  background: #d62070;
+  background: gainsboro;
   margin-top: 100px;
-  color: darkslategrey;
+  color: black;
   padding: 15px;
   font-size: 19px;
   text-align: center;
@@ -116,9 +117,9 @@
 
 .droptext-lt {
   margin-top: 80px;
-  background: #d62070;
+  background: gainsboro;
 
-  color: darkslategrey;
+  color: black;
   padding: 15px;
   font-size: 19px;
   text-align: center;
@@ -136,7 +137,7 @@
   border-left: 2px solid gray;
   height: 860px;
   position: absolute;
-  margin-left: 950px;
+  /* margin-left: 950px; */
 }
 
 .container2 {
@@ -151,19 +152,25 @@
   font-weight: 500;
   font-size: 19px;
   color: #333;
-  background-color: antiquewhite;
+  background-color: gainsboro;
   position: relative;
-  width: 134%;
+  /* width: 134%; */
   margin-left: 0px;
+  height: 100%;
+  /* width: 100%; */
   /* margin-top: 10px; */
 }
 
 .abt-us-h3 {
   font-size: 28px;
   line-height: 36px;
-  color: #ca2555;
+  color: black;
+  /* padding: 20px; */
 }
 
+.abt-us-p3 {
+  /* padding: 20px; */
+}
 .row {
   margin-right: calc(0 * var(--bs-gutter-x));
 }
@@ -193,7 +200,7 @@
 }
 
 .abt-end-para-btn:hover {
-  background-color: #d62070;
+  background-color: #fe5114;
   transition: 2s;
 }
 .abt-end-para-btn:active {
@@ -212,20 +219,19 @@
   }
 
   .vl {
-    margin-left: 200px;
+    /* margin-left: 200px; */
     margin-top: 75px;
     height: 981px;
   }
   .abt-end-para-all {
-    width:100%;
-    margin: 0 ;
+    width: 100%;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 950px) {
-
-  .abt-droptext-lt-rt{
-    display:grid;
+  .abt-droptext-lt-rt {
+    display: grid;
   }
   .abt-droptext-lt {
     width: 45%;
@@ -237,9 +243,5 @@
     margin-top: -930px;
   }
 
-  .vl {
-    margin-left: 190px;
-    margin-top: 75px;
-    height: 1187px;
-  }
+
 }

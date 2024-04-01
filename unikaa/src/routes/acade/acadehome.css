@@ -6,13 +6,16 @@
   /* opacity: 0.9; */
   /* background-color: darkslateblue; */
   overflow: hidden;
-  background: #c33764;
+  /* background: #c33764;
   background: -webkit-linear-gradient(
       rgba(29, 38, 113, 0.8),
       rgba(195, 55, 100, 0.8)
     ),
     url("./acadeimg/701.jpg");
   background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)),
+    url("./acadeimg/701.jpg"); */
+
+    background: linear-gradient(rgb(254,81,20, 0.5), rgba(254,81,20, 0.5)),   
     url("./acadeimg/701.jpg");
   background-size: cover;
 }
@@ -80,7 +83,7 @@
   color: white;
 }
 .acard-btn:hover {
-  background-color: white;
+  background-color: rgb(254, 81, 20, 0.8);;
   color: black;
   transition: 2s;
 }
@@ -101,7 +104,7 @@
 }
 .acard-abtbtn:hover {
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(254, 81, 20, 0.8);;
   color: black;
   transition: 2s;
 }
@@ -209,7 +212,8 @@
 }
 .acard-moreinfo:hover {
   /* color: #cd015c; */
-  background-color: white;
+  transition: 2s;
+  background-color: rgb(254, 81, 20, 0.8);
 }
 .acade-home-card-pic {
   transition-duration: 1500ms;

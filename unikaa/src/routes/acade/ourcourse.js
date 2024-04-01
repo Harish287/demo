@@ -17,9 +17,10 @@ import Beautytherpy from "./acadeimg/Beauty-Therapy.webp";
 function Ourcourse() {
   return (
     <>
+       <Navbar />
       <div className="acade-our">
         <div className="acade-our-nav">
-          <Navbar />
+       
           <h6>Unikaa Beauty Academy Passion And Inspiration</h6>
           <h4>A Business Tailor - Made For You</h4>
           <a href="/contact">

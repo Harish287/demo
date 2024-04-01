@@ -4,15 +4,17 @@
   /* position: absolute; */
   background-repeat: no-repeat;
   /* opacity: 0.9; */
-  background: black;
+  /* background: black; */
   overflow: hidden;
-  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
-  background: -webkit-linear-gradient(
+  /* background: #c33764; */
+   /* fallback colour. Make sure this is just one solid colour. */
+  /* background: -webkit-linear-gradient(
       rgba(29, 38, 113, 0.8),
       rgba(195, 55, 100, 0.8)
     ),
-    url("https://bit.ly/2rlzaXi");
-  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)),
+    url("https://bit.ly/2rlzaXi"); */
+  /* background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)), */
+  background: linear-gradient(rgb(254,81,20, 0.5), rgba(254,81,20, 0.5)),   
     url("./acadeimg/abt.jpg"); /* The least supported option. */
   background-size: cover;
 }
@@ -44,7 +46,7 @@ justify-content: center;
 }
 .acade-franchebtn:hover{
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(254, 81, 20, 0.8);
   color: black;
   transition: 2s;
 }

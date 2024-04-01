@@ -76,8 +76,8 @@ const aboutus = () => {
       </div>
 
       <AnimatedOnScroll animationIn="fadeInDownBig">
-        <Page>
-          <div class="vl"></div>{" "}
+        <Page  style={{display:"flex",justifyContent:"center"}}>
+          <div class="vl"></div>
         </Page>
       </AnimatedOnScroll>
       <div className="abt-droptext-lt-rt">
@@ -142,7 +142,7 @@ const aboutus = () => {
             <div className="col-lg-4 col-md-4 col-12">
               <div className="abtus-p2" style={{ width: "100%" }}>
                 <h3 className="abt-us-h3">Milestones Over The Years</h3>
-                <p>
+                <p className="abt-us-p3">
                   The modern Indian woman has many responsibilities, from caring
                   for her family to meeting deadlines at work. Every woman needs
                   a place to escape. Unikaa's is that place for women. It is an
