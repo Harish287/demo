@@ -71,7 +71,7 @@ const Footeracade = () => {
             Email Id
           </p>
 
-          <div className="socialmedia">
+          <div className="Acade-socialmedia">
             <p>
               <a href="sdasda">
                 <img src={fb} alt="" />

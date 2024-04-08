@@ -1,175 +1,191 @@
 .section__padding {
-    padding: 2rem 10rem 0rem 10rem;
-  }
-  
-  .Footer-bridal {
-    background-color:  #fe5114;
-    width: 100%;
-    height: auto;
-    margin: 0%;
-  }
+  padding: 2rem 10rem 0rem 10rem;
+}
+
+.Footer-bridal {
+  background-color: #fe5114;
+  width: 100%;
+  height: auto;
+  margin: 0%;
+}
+.sb__footer-bridal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fe5114;
+  height: auto;
+
+  /* margin-top: 44%; */
+}
+.sb__footer-bridal-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.sb__footer-bridal-links_div {
+  width: 150px;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: black;
+}
+.sb__footer-bridal-links_div a {
+  color: black;
+  text-decoration: row;
+  text-decoration: none;
+  font-size: 20px;
+}
+.bridal-socialmedia img {
+  width: 40px;
+  margin: 2px;
+  display: flex;
+  padding: 5px;
+  background-color: white;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.bridal-socialmedia {
+  color: #365486;
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+  margin-left: -70px;
+  box-sizing: border-box;
+  border-color: black;
+}
+.sb__footer-bridal-links_div h4 {
+  font-size: 20px;
+  line-height: 17px;
+  margin-bottom: 0.9rem;
+}
+.sb__footer-bridal-links_div p {
+  line-height: 15px;
+  margin: 1.3rem -36px 2px 0px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sb__footer-bridal-below {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-top: 0.2rem; */
+  padding: 3px 0;
+  background-color: white;
+}
+.sb__footer-bridal-below-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.sb__footer-bridal-below-links p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+hr {
+  color: white !important;
+  width: 100%;
+}
+.sb__footer-bridal-copyright p {
+  font-size: 13px;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+@media screen and (max-width: 850px) {
   .sb__footer-bridal {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color:  #fe5114;
+    
     height: auto;
-  
-    /* margin-top: 44%; */
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+
+    /* align-items: center; */
   }
-  .sb__footer-bridal-links {
+
+  .Footer-bridal {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 2rem;
-  }
-  .sb__footer-bridal-links_div {
-    width: 150px;
-    margin: 1rem;
-    display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    color: black;
-  }
-  .sb__footer-bridal-links_div a {
-    color: black;
-    text-decoration: row;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  .socialmedia img {
-    width: 40px;
-    margin: 2px;
-    display: flex;
-    padding: 5px;
-    background-color: white;
-    border-radius: 14px;
-    cursor: pointer;
-  }
-  .socialmedia {
-    color:  #365486;
-    display: flex;
-    gap: 40px;
-    margin-top: 30px;
-    margin-left: -70px;
-    box-sizing: border-box;
-    border-color: black;
+    width: 100%;
+    justify-content: center;
   }
   .sb__footer-bridal-links_div h4 {
-    font-size: 20px;
-    line-height: 17px;
-    margin-bottom: 0.9rem;
+    text-align: center;
   }
+
   .sb__footer-bridal-links_div p {
     line-height: 15px;
-    margin: 1.3rem -36px 2px 0px;
+    margin: 1rem 0px 0px 0px;
     cursor: pointer;
     font-size: 16px;
+    text-align: center;
   }
-  
-  .sb__footer-bridal-below {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* margin-top: 0.2rem; */
-    padding: 3px 0;
-    background-color: white;
+
+  .sb__footer-bridal-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
   }
-  .sb__footer-bridal-below-links {
-    display: flex;
-    flex-direction: row;
+}
+@media screen and (max-width: 550px) {
+  .sb__footer-bridal-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
   }
-  
-  .sb__footer-bridal-below-links p {
-    font-size: 13px;
-    line-height: 20px;
-    margin-left: 20px;
-    color: white;
-    font-weight: 600;
-  }
-  
-  hr {
-    color: white !important;
-    width: 100%;
-  }
-  .sb__footer-bridal-copyright p {
-    font-size: 13px;
-    line-height: 15px;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-  }
-  @media screen and (max-width: 850px) {
-    .sb__footer-bridal {
-      /* width: 152%; */
-      background-color:  #365486;
-      height: auto;
-      flex-direction: inherit;
-      justify-content: center;
-  
-      /* align-items: center; */
-    }
-  
-    .sb__footer-bridal-heading h1 {
-      font-size: 44px;
-      line-height: 50px;
-    }
-  }
-  @media screen and (max-width: 550px) {
-    .sb__footer-bridal-heading h1 {
-      font-size: 34px;
-      line-height: 42px;
-    }
-    /* .section__padding {
+  /* .section__padding {
       padding: 0rem 12rem 0rem 0rem;
     }
     .socialmedia {
       color:  #365486;
     } */
-    .sb__footer-bridal-links div {
-      margin: 1rem 0;
-    }
-    .sb__footer-bridal-btn p {
-      font-size: 14px;
-      line-height: 20px;
-    }
-  
-    .socialmedia {
-      color:  #365486;
-      display: flex;
-      gap: 40px;
-      margin-top: 70px;
-      box-sizing: border-box;
-      border-color: black;
-      margin-left: -157px;
-    }
-    .sb__footer-bridal-below {
-      flex-direction: column;
-      justify-content: left;
-    }
-    .sb__footer-bridal-below-links {
-      flex-direction: column;
-    }
-    .sb__footer-bridal-below-links p {
-      margin-left: 0rem;
-      margin-top: 1rem;
-    }
+  .sb__footer-bridal-links div {
+    margin: 1rem 0;
   }
-  @media screen and (max-width: 400px ) {
-    .sb__footer-bridal-heading h1 {
-      font-size: 27px;
-      line-height: 38px;
-    }
+  .sb__footer-bridal-btn p {
+    font-size: 14px;
+    line-height: 20px;
   }
-  @media screen and (max-width: 786px) {
-  
+
+  .bridal-socialmedia {
+    color: #365486;
+    display: flex;
+    gap: 15px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    justify-content: center;
+    border-color: black;
+    margin-left: 0;
   }
-  @media screen and (min-width: 375px) {
-  
+  .sb__footer-bridal-below {
+    flex-direction: column;
+    justify-content: left;
   }
-  @media screen and (min-width: 667px) {
-  
+  .sb__footer-bridal-below-links {
+    flex-direction: column;
   }
+  .sb__footer-bridal-below-links p {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sb__footer-bridal-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 786px) {
+}
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 667px) {
+}

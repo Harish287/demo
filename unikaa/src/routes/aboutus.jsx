@@ -1,6 +1,6 @@
 import React from "react";
 
-import image from "../Assets/veena.webp";
+import image from "../Assets/WhatsAp.jpeg";
 import "../aboutus.css";
 import image2 from "../Assets/home-1.webp";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
@@ -24,7 +24,7 @@ const aboutus = () => {
 
       <div className="abtheader">
         <div className="about-imag">
-          <h1>Aboutus</h1>
+          <h1>About Us</h1>
         </div>
         <div className="about-head">
           <h2>Unikaa's - Creating Experiences With Businesses</h2>
@@ -36,24 +36,26 @@ const aboutus = () => {
       <div className="container">
         <div className="row abt-imagealine">
           <div className="col-lg-4 col-md-4 col-12 ">
-            <img src={image} alt="loading" style={{ width: "100%" }}></img>
+            <img
+              src={image}
+              alt="loading"
+              style={{ width: "100%", height: "280px", objectFit: "cover" }}
+            ></img>
           </div>
           <div className="col-lg-4 col-md-4 col-12">
             <div className="abtus-p" style={{ width: "100%" }}>
               <h3 className="abt-us-h1">Creating A Beautiful World</h3>
               <p>
-                Unikaa's was conceived with the idea of the modern Indian.
-                Founded by K. Veena, whose knowledge of the international beauty
-                industry pioneered a new era in the hair and beauty care
-                industry in India, Unikaa's has made a path-breaking change in
-                the way the beauty industry has been perceived.
+               Agilan is the passionate visionary behind Unikaa Beauty academy. With his expertise, creativity, and
+                dedication to excellence, Agilan has transformed
+                Unikaa beauty academy into a premier destination for beauty and
+                wellness.
                 <p></p>
-                So in the early 2000s, she made that dream a reality by setting
-                up her first salon in Chennai. It took her only a while to
-                understand the market potential and the ever-increasing demand
-                for professional grooming. In 2004 her husband co-founder & CEO,
-                CK Kumaravel joined and ever since then, the Unikaa's team has
-                been able to meet every challenge in this competitive industry.
+                Under Agilan leadership, Unikaa beauty academy
+                has become synonymous with quality, innovation, and exceptional
+                customer service. He continually strives to introduce new
+                services, incorporate cutting-edge technologies, and uphold the
+                highest standards of professionalism.
               </p>
             </div>
           </div>
@@ -76,7 +78,7 @@ const aboutus = () => {
       </div>
 
       <AnimatedOnScroll animationIn="fadeInDownBig">
-        <Page  style={{display:"flex",justifyContent:"center"}}>
+        <Page style={{ display: "flex", justifyContent: "center" }}>
           <div class="vl"></div>
         </Page>
       </AnimatedOnScroll>
@@ -115,7 +117,6 @@ const aboutus = () => {
           </AnimatedOnScroll>
           <AnimatedOnScroll animationIn="bounceInLeft">
             <h3 className="droptext-rt">
-             
               2014 - Signing On Actress Kareena Kapoor as the Face of Unikaa's
             </h3>
           </AnimatedOnScroll>
@@ -130,63 +131,60 @@ const aboutus = () => {
             </h3>
           </AnimatedOnScroll>
         </div>
-        </div>
-        <br />
-        <br />
+      </div>
+      <br />
+      <br />
 
-        <div className="container2">
-          <div className="row abt2-imagealine">
-            <div className="col-lg-4 col-md-4 col-12 ">
-              <img src={image2} alt="loading" style={{ width: "100%" }}></img>
-            </div>
-            <div className="col-lg-4 col-md-4 col-12">
-              <div className="abtus-p2" style={{ width: "100%" }}>
-                <h3 className="abt-us-h3">Milestones Over The Years</h3>
-                <p className="abt-us-p3">
-                  The modern Indian woman has many responsibilities, from caring
-                  for her family to meeting deadlines at work. Every woman needs
-                  a place to escape. Unikaa's is that place for women. It is an
-                  oasis to detox, rejuvenate and relax!
-                  <p></p>
-                  With two decades of experience, Unikaa's has revolutionized
-                  the beauty and franchising industry with over 650+ salons
-                  spread across India. We are happy about the fact that Unikaa's
-                  has created 400 women franchise partners and trained over
-                  10000 staff. Thanks to our 30 lakh+ customers!
-                  <p></p> Because when you look good, you feel good!
-                </p>
-              </div>
+      <div className="container2">
+        <div className="row abt2-imagealine">
+          <div className="col-lg-4 col-md-4 col-12 ">
+            <img src={image2} alt="loading" style={{ width: "100%" }}></img>
+          </div>
+          <div className="col-lg-4 col-md-4 col-12">
+            <div className="abtus-p2" style={{ width: "100%" }}>
+              <h3 className="abt-us-h3">Milestones Over The Years</h3>
+              <p className="abt-us-p3">
+                The modern Indian woman has many responsibilities, from caring
+                for her family to meeting deadlines at work. Every woman needs a
+                place to escape. Unikaa's is that place for women. It is an
+                oasis to detox, rejuvenate and relax!
+                <p></p>
+                With two decades of experience, Unikaa's has revolutionized the
+                beauty and franchising industry with over 650+ salons spread
+                across India. We are happy about the fact that Unikaa's has
+                created 400 women franchise partners and trained over 10000
+                staff. Thanks to our 30 lakh+ customers!
+                <p></p> Because when you look good, you feel good!
+              </p>
             </div>
           </div>
         </div>
+      </div>
 
+      <div className="abt-end-para-all">
+        <h4 className="abt-end-para">To Helping Women Be Boundless</h4>
+        <p className="abt-end-para-p">
+          It is impossible to revolutionize the beauty industry without
+          beginning at home. Unikaa's female entrepreneurship programs have
+          given many aspiring businesswomen a head start. Our strategy offers
+          each franchisee the assistance they need to launch a firm without any
+          difficulties.In other words, At Unikaa's, we support women's financial
+          independence and, over the previous 22 years, we have enabled 400
+          women to launch their own businesses. Our goal is to establish a
+          society in India devoid of housewives, where women are inspired to
+          follow their passions as a means of employment. Because there is no
+          better way to make a style statement than to stand on your own two
+          feet, Unikaa's wants to empower 2000 women entrepreneurs, open 3000
+          salons, and create one million employment by the year 2025. Come be a
+          part of the Unikaa's family!
+        </p>
+        <a href="/">
+          {" "}
+          <button className="abt-end-para-btn"> join us </button>{" "}
+        </a>
+      </div>
 
-<div className="abt-end-para-all" >
-          <h4 className="abt-end-para">To Helping Women Be Boundless</h4>
-          <p className="abt-end-para-p">
-            It is impossible to revolutionize the beauty industry without
-            beginning at home. Unikaa's female entrepreneurship programs have
-            given many aspiring businesswomen a head start. Our strategy offers
-            each franchisee the assistance they need to launch a firm without
-            any difficulties.In other words, At Unikaa's, we support women's
-            financial independence and, over the previous 22 years, we have
-            enabled 400 women to launch their own businesses. Our goal is to
-            establish a society in India devoid of housewives, where women are
-            inspired to follow their passions as a means of employment. Because
-            there is no better way to make a style statement than to stand on
-            your own two feet, Unikaa's wants to empower 2000 women
-            entrepreneurs, open 3000 salons, and create one million employment
-            by the year 2025. Come be a part of the Unikaa's family!
-          </p>
-          <a href="/"> <button className="abt-end-para-btn" > join us </button> </a>
-        </div>
-
-
-
-
-
-        <br />
-     
+      <br />
     </>
   );
 };

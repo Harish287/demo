@@ -8,7 +8,7 @@ const CustomerListComponent = () => {
   useEffect(() => {
     // Replace 'YOUR_API_ENDPOINT' with the actual API endpoint.
     axios
-      .get("https://unikaabeautyacademy.com/costomer_offer/read.php")
+      .get("https://unikaabeauty.com/unikaabeautyacademy/costomer_offer/read.php")
       .then((response) => {
         setCustomerList(response.data.data);
       })

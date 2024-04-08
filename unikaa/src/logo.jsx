@@ -1,5 +1,7 @@
 import React from "react";
 // import "../routes/offers.css";
+import { Link } from "react-router-dom";
+
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import image1 from "./Assets/hair _cut 14.jpg";
@@ -36,7 +38,9 @@ function Logo() {
             />
 
             <Carousel.Caption>
-              <button className="book-now-slide1-btn">Book Now</button>
+            <Link to="/booknow"><button className="book-now-slide1-btn">
+                Book Now
+              </button></Link>  
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -49,7 +53,7 @@ function Logo() {
             />
 
             <Carousel.Caption>
-              <button className="book-now-slide2-btn">booknow</button>
+            <Link to="/booknow"> <button className="book-now-slide2-btn">booknow</button></Link> 
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -62,7 +66,7 @@ function Logo() {
             />
 
             <Carousel.Caption>
-              <button className="book-now-slide3-btn">booknow</button>{" "}
+            <Link to="/booknow"> <button className="book-now-slide3-btn">booknow</button></Link> 
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -75,7 +79,7 @@ function Logo() {
               alt="..."
             />{" "}
             <Carousel.Caption>
-              <button className="book-now-slide4-btn">booknow</button>{" "}
+            <Link to="/booknow"> <button className="book-now-slide4-btn">booknow</button></Link> 
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -88,7 +92,7 @@ function Logo() {
             />
 
             <Carousel.Caption>
-              <button className="book-now-slide5-btn">booknow</button>
+            <Link to="/booknow"> <button className="book-now-slide5-btn">booknow</button></Link> 
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -101,7 +105,7 @@ function Logo() {
             />
 
             <Carousel.Caption>
-              <button className="book-now-slide6-btn">booknow</button>
+            <Link to="/booknow"><button className="book-now-slide6-btn">booknow</button></Link> 
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -120,8 +124,7 @@ function Logo() {
           <div className="row log2-imagealine">
             <div className="col-lg-4 col-md-4 col-12 ">
               <AnimatedOnScroll animationIn="bounceInLeft">
-             
-                <img 
+                <img
                   src={image2}
                   alt="loading"
                   className="logo-left-card-img "
@@ -143,16 +146,16 @@ function Logo() {
 
           <div className="logo-card">
             <div>
-            <h1>Skin Care</h1>
-            <p>
-              Unikaa skincare services replenish, rejuvenate and revitalise your
-              skin
-              <br></br>
-              <br />
-              <a href="/skincare">
-                <button className="skinknow-btn">Know More</button>
-              </a>
-            </p>
+              <h1>Skin Care</h1>
+              <p>
+                Unikaa skincare services replenish, rejuvenate and revitalise
+                your skin
+                <br></br>
+                <br />
+                <a href="/skincare">
+                  <button className="skinknow-btn">Know More</button>
+                </a>
+              </p>
             </div>
             <img src={jeniliya} className="skincard-img" alt="" />
           </div>

@@ -30,12 +30,16 @@ const services = () => {
       </div>
 
       <div className="brideservice1">
+        <div className="brideimages">
         <img src={Pinkimg} className="brideservimg" alt="" />
-        <h6>Our services</h6>
-
-        <h2>Bridal Services</h2>
         <img src={Pinkimgs} className="brideservimgs" alt="" />
+        </div>
+        <div className="our-service-bride">
+        <h6>Our services</h6>
+        <h2>Bridal Services</h2>
+        </div>
       </div>
+
       <section className="course-box">
         <div className="course-box1">
           <img src={Postbridalcare} className="post-icon" alt="" />
@@ -128,7 +132,7 @@ const services = () => {
       {/* </table> */}
 
       <div className="table-service">
-        <Container className="p-1">
+        <Container className="p-1 table-all1">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -145,7 +149,7 @@ const services = () => {
           </Col>
         </Container>
 
-        <Container className="p-1">
+        <Container className="p-1 table-all2">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -162,7 +166,7 @@ const services = () => {
           </Col>
         </Container>
 
-        <Container className="p-1">
+        <Container className="p-1 table-all3">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -179,7 +183,7 @@ const services = () => {
           </Col>
         </Container>
 
-        <Container className="p-1">
+        <Container className="p-1 table-all4">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />

@@ -9,7 +9,8 @@ import Service2 from "./serviceforhim/serviceforhim3";
 const HaircutList = () => {
   const [haircutData, setHaircutData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const apiUrl = "https://unikaabeautyacademy.com/boys_color_api/read.php";
+  const apiUrl =
+    "http://unikaabeauty.com/unikaabeautyacademy/boys_color_api/read.php";
 
   useEffect(() => {
     const fetchData = async () => {
@@ -52,7 +53,6 @@ const HaircutList = () => {
               </tr>
             ))}
             <tr style={{ borderWidth: "1px" }}>
-          
               <td colSpan="3">
                 <div className="tax-for-him">
                   <p>taxes are applicable</p>

@@ -10,7 +10,7 @@ import Service3 from "./serviceforher/serviceforher4";
 const HaircutList = () => {
   const [haircutData, setHaircutData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const apiUrl = "https://unikaabeautyacademy.com/costomers/read.php";
+  const apiUrl = "http://unikaabeauty.com/unikaabeautyacademy/costomers/read.php";
 
   useEffect(() => {
     const fetchData = async () => {

@@ -24,10 +24,10 @@ body {
 .nav-area {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* max-width: 1300px; */
   margin: 0 auto;
-  padding: 6px 120px;
+  padding: 6px 60px;
   font-size: larger;
   width: 100%;
   background: black;
@@ -199,6 +199,7 @@ h6 {
     padding: 0.5rem 0;
     background-color: #fff;
     border-radius: 0.5rem;
+    color: black;
   }
 
   .mobile-nav .menu-items a {

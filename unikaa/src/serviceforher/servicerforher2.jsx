@@ -4,7 +4,8 @@ import axios from "axios";
 const HaircutList = () => {
   const [haircutData, setHaircutData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const apiUrl = "https://unikaabeautyacademy.com/textture_api/read.php";
+  const apiUrl =
+    "https://unikaabeauty.com/unikaabeautyacademy/textture_api/read.php";
 
   useEffect(() => {
     const fetchData = async () => {
@@ -46,7 +47,7 @@ const HaircutList = () => {
               </tr>
             ))}
             <tr style={{ borderWidth: "1px" }}>
-            <td colSpan="3">
+              <td colSpan="3">
                 <div className="tax-for-her">
                   <p>taxes are applicable</p>
                   <p>

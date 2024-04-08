@@ -357,7 +357,8 @@
     margin: 0 auto;
     padding: 0;
     margin-top: 30px;
-    width: 66%;
+    /* width: 66%; */
+height: auto;
   }
   .logo-card p {
     padding: 0;
@@ -366,7 +367,7 @@
   .skincard-img {
     width: 50%;
     height: 100%;
-
+height: auto;
     object-fit: cover;
     padding: 0;
   }
@@ -442,5 +443,6 @@
   .logo-card {
     margin: 20 auto;
     width: 100%;
+    height: auto;
   }
 }

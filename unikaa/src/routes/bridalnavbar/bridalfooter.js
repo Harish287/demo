@@ -73,7 +73,7 @@ const Footerbridal = () => {
             Email Id{" "}
           </p>
 
-          <div className="socialmedia">
+          <div className="bridal-socialmedia">
             <p>
               <a href="sdasda">
                 <img src={fb} alt="" />

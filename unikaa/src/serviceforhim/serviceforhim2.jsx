@@ -4,7 +4,7 @@ import axios from "axios";
 const HaircutList = () => {
   const [haircutData, setHaircutData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const apiUrl = "https://unikaabeautyacademy.com/boys_facial_api/read.php";
+  const apiUrl = "https://unikaabeauty.com/unikaabeautyacademy/boys_facial_api/read.php";
 
   useEffect(() => {
     const fetchData = async () => {

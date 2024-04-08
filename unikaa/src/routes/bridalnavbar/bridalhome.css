@@ -122,28 +122,42 @@
   box-sizing: border-box;
   background-color: gainsboro;
   /* position: absolute; */
-  margin: 50px 110px;
+  margin: 0 auto;
+  width: 85%;
   border-radius: 20px;
-  height: 500px;
+  height: auto;
+  display: flex;
+  padding: 35px;
+  margin-top: 50px;
 }
+.bridalhometraildiv1 {
+  width: 50%;
+}
+.bridalhometraildiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .bridehometrial h1 {
   font-size: 60px;
   margin-left: 43px;
-  margin-top: 7%;
+  /* margin-top: 7%; */
   padding-top: 100px;
 }
 .bridehometrial p {
   font-size: 20px;
-  padding-right: 763px;
+  /* padding-right: 763px;
   line-height: 30px;
-  margin-top: 3%;
+  margin-top: 3%; */
   margin-left: 59px;
   margin-bottom: 6%;
 }
 .trialbooknow-btn {
   display: flex;
   margin-left: 65px;
-  margin-top: -63px;
+  /* margin-top: -63px; */
   box-sizing: border-box;
   padding: 8px 25px;
   border-radius: 25px;
@@ -163,16 +177,26 @@ a {
 .trialcard-img {
   display: flex;
   float: right;
-  margin-top: -368px;
-  margin-right: 96px;
+  /* margin-top: -368px; */
+  /* margin-right: 96px; */
   height: 400px;
 }
 @media screen and (max-width: 850px) {
   .bridehometrial {
     width: 100%;
     margin: 0;
-    height: 770px;
+    height: auto;
+    flex-direction: column;
+    display: flex;
   }
+
+  .bridalhometraildiv1 {
+    width: 100%;
+  }
+  .bridalhometraildiv2 {
+  width: 100%;
+  }
+
   .bridehometrial p {
     padding: 0;
     margin: 0;
@@ -185,10 +209,12 @@ a {
   }
   .trialcard-img {
     margin: 0;
+    width: 100%;
+    object-fit: cover;
   }
   .trialbooknow-btn {
     display: flex;
-    margin: 0;
+    /* margin: 0; */
   }
 }
 
@@ -198,29 +224,32 @@ a {
   box-sizing: border-box;
   background-color: gainsboro;
   /* position: absolute; */
-  margin: 50px 110px;
+  margin: 0 auto;
+  width: 85%;
   border-radius: 20px;
-  height: 500px;
+  height: auto;
+  display: flex;
+  padding: 35px;
+  margin-top: 50px;
 }
 .brideTrial-Makeup h1 {
   font-size: 60px;
   margin-left: 43px;
-  margin-top: 10%;
+  /* margin-top: 7%; */
   padding-top: 100px;
 }
 .brideTrial-Makeup p {
   font-size: 20px;
-  padding-right: 763px;
-
+  /* padding-right: 763px;
   line-height: 30px;
-  margin-top: 3%;
+  margin-top: 3%; */
   margin-left: 59px;
   margin-bottom: 6%;
 }
 .Trial-Makeup-btn {
   display: flex;
   margin-left: 65px;
-  margin-top: -63px;
+  /* margin-top: -63px; */
   box-sizing: border-box;
   padding: 8px 25px;
   border-radius: 25px;
@@ -235,15 +264,26 @@ a {
 
 .Trial-Makeupcard-img {
   display: flex;
-  float: right;
+  /* float: right;
   margin-top: -368px;
-  margin-right: 96px;
+  margin-right: 96px; */
   height: 400px;
+}
+.brideTrial-Makeup1{
+  width: 50%;
+}
+
+.brideTrial-Makeup2{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-cross-effect-head {
   text-align: center;
   font-size: 50px;
+  margin-top: 60px;
 }
 
 .image-comparision {
@@ -252,9 +292,9 @@ a {
   object-fit: cover;
   /* margin-left: 530px;
    */
-   margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 110px;
+  margin: 0 auto;
+  /* margin-top: 100px; */
+  /* margin-bottom: 110px; */
 }
 .before-para {
   position: absolute;
@@ -267,6 +307,20 @@ a {
   color: darkgrey;
   z-index: -1;
 }
+
+.inner-before {
+  color: rgb(245, 244, 243);
+  text-align: center;
+  font-family: against, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 186px);
+}
+
 .after-para {
   margin-top: -530px;
   margin-left: 866px;
@@ -296,14 +350,33 @@ a {
   transform: rotate(-90deg);
 }
 
+.image-cross-effect{
+width: 50%;
+margin: 60px auto;
+background-color: #dcdcdc;
+padding: 20px;
+}
+
+.before-after{
+  display:flex;
+  justify-content: space-evenly;
+}
 @media screen and (max-width: 850px) {
   .brideTrial-Makeup {
     width: 100%;
     margin: 0;
-    margin-top: 60px;
-    height: 770px;
+    height: auto;
+    flex-direction: column;
+    display: flex;
   }
 
+  .brideTrial-Makeup1{
+   width: 100%;
+  }
+  
+  .brideTrial-Makeup2{
+    width: 100%;
+  }
   .brideTrial-Makeup p {
     padding: 0;
     margin: 0;
@@ -316,20 +389,25 @@ a {
   }
   .Trial-Makeupcard-img {
     margin: 0;
+    width: 100%;
+    object-fit: cover;
   }
   .Trial-Makeup-btn {
     display: flex;
-    margin: 0;
+    /* margin: 0; */
   }
 
   /* brfore & after */
   .image-cross-effect {
-    /* float: right; */
+    width: 100%;
+    background: none;
+    padding: 0;
+    margin: 0;
   }
   .image-comparision {
     /* width: 316px;
     margin-right: 24px; */
-  margin: 0 auto;
+    margin: 0 auto;
   }
   .before-para {
     /* font-size: 45px;
@@ -347,7 +425,7 @@ a {
     z-index: 0;
     font-size: 45px;
      */
-     display: none;
+    display: none;
   }
   .mar-flower2 {
     margin-left: 588px;

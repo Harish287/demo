@@ -5,7 +5,7 @@ import "./bridalhome.css";
 
 import Margin from "./blogimages/123.png";
 import Consulting from "./blogimages/consulting.jpg";
-import imag4 from "./blogimages/istockphoto.jpg"
+import imag4 from "./blogimages/istockphoto.jpg";
 import Prebridal from "./blogimages/Pre-Bridal.jpg";
 import Teach from "./blogimages/teach.jpg";
 import Actual from "./blogimages/acutal.jpg";
@@ -119,42 +119,57 @@ const home = () => {
         {/******************************************************trialsessiocrad ******************************************/}
 
         <div className="bridehometrial">
-          <h1>Trial Makeup Sessions</h1>
-          <p>
-            We know that choosing the right makeup look can be a daunting task,
-            which is why we offer trial makeup sessions. During your trial, our
-            makeup artist will work with you to create a look that highlights
-            your best features and complements your personal style.
-          </p>
-          <a href="/booknow" ><button className="trialbooknow-btn">
-            BookNow <img src={Bookicon} className="book-icon-bride" alt="" />
-          </button></a>
-          <img src={trialcard} className="trialcard-img" alt="" />
+          <div className="bridalhometraildiv1">
+            <h1>Trial Makeup Sessions</h1>
+            <p>
+              We know that choosing the right makeup look can be a daunting
+              task, which is why we offer trial makeup sessions. During your
+              trial, our makeup artist will work with you to create a look that
+              highlights your best features and complements your personal style.
+            </p>
+            <br />
+            <a href="/booknow">
+              <button className="trialbooknow-btn">
+                BookNow
+                <img src={Bookicon} className="book-icon-bride" alt="" />
+              </button>
+            </a>
+          </div>
+          <div className="bridalhometraildiv2">
+            <img src={trialcard} className="trialcard-img" alt="" />
+          </div>
         </div>
 
         <br></br>
 
         <div className="brideTrial-Makeup">
-          <h1>Trial Makeup Sessions</h1>
-          <p>
-            We know that choosing the right makeup look can be a daunting task,
-            which is why we offer trial makeup sessions. During your trial, our
-            makeup artist will work with you to create a look that highlights
-            your best features and complements your personal style.
-          </p>
-          <a href="/booknow" ><button className="Trial-Makeup-btn">
-            BookNow <img src={Bookicon} className="books-icon-bride" alt="" />
-          </button></a>
-          <img src={trialcard} className="Trial-Makeupcard-img" alt="" />
+          <div className="brideTrial-Makeup1">
+            <h1>Trial Makeup Sessions</h1>
+            <p>
+              We know that choosing the right makeup look can be a daunting
+              task, which is why we offer trial makeup sessions. During your
+              trial, our makeup artist will work with you to create a look that
+              highlights your best features and complements your personal style.
+            </p>
+            <a href="/booknow">
+              <button className="Trial-Makeup-btn">
+                BookNow
+                <img src={Bookicon} className="books-icon-bride" alt="" />
+              </button>
+            </a>
+          </div>
+          <div className="brideTrial-Makeup2">
+            <img src={trialcard} className="Trial-Makeupcard-img" alt="" />
+          </div>
         </div>
-
-
-
 
         <div>
           <h1 className="image-cross-effect-head">Pre and Post Bridal Look</h1>
           <div className="image-cross-effect">
-            <img src={Flower1} className="mar-flower1" alt="" />
+         <div className="before-after">  <p> before</p>
+            <p> After</p></div> 
+            {/* <img src={Flower1} className="mar-flower1" alt="" /> */}
+
             <ReactCompareSlider
               className="image-comparision"
               itemOne={
@@ -173,9 +188,9 @@ const home = () => {
                 />
               }
             />
-            <p className="before-para">Before</p>
-            <p className="after-para">After</p>
-            <img src={Flower2} className="mar-flower2" alt="" />
+            {/* <p className="before-para">Before</p>
+            <p className="after-para">After</p> */}
+            {/* <img src={Flower2} className="mar-flower2" alt="" /> */}
           </div>
         </div>
 
@@ -189,27 +204,3 @@ const home = () => {
 };
 
 export default home;
-
-// [
-//   {
-//     name: "Agil",
-//     artistName: "myname",
-//     exp: "8",
-//     artistphoto: "",
-//     bridalphoto: [
-//       { name: "bridal1", phto1: "", photo2: "" },
-//       { name: "bridal1", phto1: "", photo2: "" },
-//       { name: "bridal1", phto1: "", photo2: "" },
-//     ],
-//   }, {
-//     name: "Agil",
-//     artistName: "myname",
-//     exp: "8",
-//     artistphoto: "",
-//     bridalphoto: [
-//       { name: "bridal1", phto1: "", photo2: "" },
-//       { name: "bridal1", phto1: "", photo2: "" },
-//       { name: "bridal1", phto1: "", photo2: "" },
-//     ],
-//   },
-// ];
