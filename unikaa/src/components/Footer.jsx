@@ -6,8 +6,6 @@ import insta from "../Assets/insta.png";
 import linkedin from "../Assets/im.png";
 import youtube from "../Assets/48968.png";
 
-
-
 // import App from "../App"
 
 //******************************* fonticon import***************////
@@ -79,22 +77,22 @@ const Footer = () => {
 
           <div className="socialmedia">
             <p>
-              <a href="sdasda">
+              <a href="https://www.facebook.com/profile.php?id=61558117415540">
                 <img src={fb} alt="" />
               </a>
             </p>
             <p>
-              <a href="ssaa">
+              <a href="https://twitter.com/Unikaabeauty">
                 <img src={twitter} alt="" />
               </a>
             </p>
             <p>
-              <a href="https://www.instagram.com/_.mr.thunder_gray._">
+              <a href="https://www.instagram.com/unikaabeauty">
                 <img src={insta} alt="" />
               </a>
             </p>
             <p>
-              <a href="gfgfg">
+              <a href="https://www.linkedin.com/in/unikaa-beauty-311122304">
                 <img src={linkedin} alt="" />
               </a>
             </p>

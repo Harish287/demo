@@ -86,7 +86,7 @@ const aboutus = () => {
       <div className="abt-droptext-lt-rt">
         <div className="abt-droptext-lt">
           <AnimatedOnScroll animationIn="bounceInRight">
-            <h3 className="droptext-lt">2006 - First franchisee</h3>
+            <h3 className="droptext-lt">2023 - First franchisee</h3>
           </AnimatedOnScroll>
           <AnimatedOnScroll animationIn="bounceInRight">
             <h3 className="droptext-lt"> 2009 - 100+ Salons Across India</h3>
@@ -108,7 +108,7 @@ const aboutus = () => {
         <div className="abt-droptext-rt">
           <AnimatedOnScroll animationIn="bounceInLeft">
             <h3 className="droptext-rt">
-              2008 - Launch Of Unikaa's Training Academy
+              2023 - Launch Of Unikaa's Training Academy
             </h3>
           </AnimatedOnScroll>
           <AnimatedOnScroll animationIn="bounceInLeft">
@@ -123,12 +123,12 @@ const aboutus = () => {
           </AnimatedOnScroll>
           <AnimatedOnScroll animationIn="bounceInLeft">
             <h3 className="droptext-rt">
-              2017 - Started Franchising Unikaa's Training Academy
+              2023 - Started Franchising Unikaa's Training Academy
             </h3>
           </AnimatedOnScroll>
           <AnimatedOnScroll animationIn="bounceInLeft">
             <h3 className="droptext-rt">
-              2021 - Launch Of Unikaa's School of makeup{" "}
+              2023 - Launch Of Unikaa's School of makeup{" "}
             </h3>
           </AnimatedOnScroll>
         </div>
@@ -139,7 +139,7 @@ const aboutus = () => {
       <div className="container2">
         <div className="row abt2-imagealine">
           <div className="col-lg-4 col-md-4 col-12 ">
-            <img src={image2} alt="loading" style={{ width: "100%" }}></img>
+            <img src={image2} alt="loading" style={{ width: "100%" ,height:"100%", objectFit:"cover"}}></img>
           </div>
           <div className="col-lg-4 col-md-4 col-12">
             <div className="abtus-p2" style={{ width: "100%" }}>

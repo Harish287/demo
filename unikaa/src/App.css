@@ -3,6 +3,7 @@
   padding: 0;
   height: auto;
   box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -104,8 +105,8 @@ h6 {
   text-align: left;
   padding: 0.2rem 1rem;
   font-size: 19px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
 }
 
 .desktop-nav .menu-items a:hover,

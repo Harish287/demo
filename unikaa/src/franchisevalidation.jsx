@@ -25,6 +25,18 @@ function Franchisevalidation(values) {
     errors.phone = "";
   }
 
+  if (values.experience === "") {
+    errors.experience = "enter you experience details";
+  } else {
+    errors.experience = "";
+  }
+
+  if (values.confirm === "") {
+    errors.confirm = "checkbox should not be empty";
+  } else {
+    errors.confirm = "";
+  }
+
   return errors;
 }
 

@@ -1,8 +1,9 @@
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
-import Logo from ".//1.png";
+// import Logo from ".//1.png";
 import "../Navbar/Header.css";
+import Logo from "../../Assets/WhatsApp Image 2024-04-24 at 3.57.37 PM copy (3).png"
 
 
 

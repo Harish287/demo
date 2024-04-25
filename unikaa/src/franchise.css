@@ -12,6 +12,11 @@
   margin-left: 120px;
   color: aliceblue;
 }
+
+.franchise-width {
+  width: 50%;
+  margin: 0 auto;
+}
 .franchise1p {
   font-size: 24px;
   display: flex;
@@ -27,6 +32,11 @@
   justify-content: left;
   margin-top: 0px;
   margin-left: 120px;
+}
+
+.francise-card {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .franchise2h h3 {
@@ -55,9 +65,14 @@
   width: 80rem;
   display: flex;
   justify-content: center;
-  margin:0 auto;
+  margin: 0 auto;
   align-items: center;
   background-color: gainsboro;
+}
+
+.yes-or-no-button{
+  display: flex;
+  gap: 20px;
 }
 @media screen and (max-width: 960px) {
   .francep {
@@ -68,6 +83,10 @@
   .franchise1p {
     /* text-align: center; */
     margin-left: 64px;
+  }
+
+  .francise-card {
+    width: 100%;
   }
   .franchise2p {
     margin-left: 64px;
@@ -81,6 +100,11 @@
   .frenchisecard {
     width: 100%;
     margin-left: 0px;
+  }
+
+  .franchise-width {
+    width: 100%;
+    margin: 0 auto;
   }
 
   .franchise2h h3 {
@@ -201,7 +225,6 @@
     padding: 0px;
   }
 }
-
 
 .francesuppo {
   color: white;
