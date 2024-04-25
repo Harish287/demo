@@ -79,6 +79,7 @@
   color: black;
   font-size: large;
   border: none;
+  background: none;
   margin-bottom: 5%;
 }
 .acardour-moreinfo:hover {
@@ -121,11 +122,13 @@
   }
   .acade-our-dep-card-secondrow {
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 0;
     display: flex;
+    gap: 0;
     /* margin-left: 50px; */
     justify-content: center;
     align-items: center;
+
   }
 }
 
@@ -162,8 +165,10 @@
   margin: 0 auto;
 }
 .masterour-card-pic {
-  width: 25rem;
+  width: 100%;
   /* margin: 0 auto; */
+  height: 300px;
+  object-fit: cover;
   /* width: 96%; */
   transition: 0.5s all ease-in-out;
 }
@@ -175,8 +180,10 @@
 }
 .masterour-card-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 70px;
+  background: grey;
+  padding: 30px;
 }
 
 @media screen and (max-width: 850px) {

@@ -32,6 +32,7 @@ function Makeup() {
     setthirdimg(true);
   };
 
+
   const [secondfirstimg, setsecondfirstimg] = useState(true);
   const [secondsecondimg, setsecondsecondimg] = useState(false);
   const [secondthirdimg, setsecondthirdimg] = useState(false);
@@ -125,6 +126,9 @@ function Makeup() {
             </div>
           </div>
         </div>
+
+
+        
 
         {/* image-handle-change-card-bride-make2 */}
 

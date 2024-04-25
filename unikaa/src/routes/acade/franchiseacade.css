@@ -39,7 +39,8 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: baseline;
-  margin-left: 45%;
+  /* margin-left: 45%; */
+  margin: 0 auto;
    font-size: 18px;
   padding: 10px;
   background-color: transparent;
@@ -75,7 +76,7 @@ justify-content: center;
 }
 
 .acade-franchise-card1 {
-  background-color: darkslateblue;
+  background-color: #fe5114;
   box-sizing: border-box;
   /* padding: 50px 0px; */
   margin-top: 20px;
@@ -146,7 +147,7 @@ justify-content: center;
 }
 
 .acade-franchise-WhyToChoose p {
-  /* border: 1px solid darkblue; */
+  /* border: 1px solid #fe5114; */
   line-height: 30px;
   width: 245px;
   font-size: 17px;
@@ -191,7 +192,7 @@ justify-content: center;
   width: 60px;
   margin-top: 20%;
   transform: translateX(180%);
-  color: darkblue;
+  color: #fe5114;
 }
 
 .benifits-of-owning-in-franchise-card p {
@@ -199,7 +200,7 @@ justify-content: center;
   font-weight: bold;
   margin-top: 20px;
   text-align: center;
-  color: darkblue;
+  color: #fe5114;
 }
 
 .benifits-of-owning-in-franchise-card1 {
@@ -209,7 +210,7 @@ justify-content: center;
   width: 60px;
   margin-top: 20%;
   transform: translateX(180%);
-  color: darkblue;
+  color: #fe5114;
 }
 
 .benifits-of-owning-in-franchise-card1 p {
@@ -217,7 +218,7 @@ justify-content: center;
   font-weight: bold;
   margin-top: 20px;
   text-align: center;
-  color: darkblue;
+  color: #fe5114;
 }
 
 .benifits-of-owning-in-franchise-card2 {
@@ -228,7 +229,7 @@ justify-content: center;
   width: 60px;
   margin-top: 20%;
   transform: translateX(180%);
-  color: darkblue;
+  color: #fe5114;
 }
 
 .benifits-of-owning-in-franchise-card2 p {
@@ -236,7 +237,7 @@ justify-content: center;
   font-weight: bold;
   margin-top: 20px;
   text-align: center;
-  color: darkblue;
+  color: #fe5114;
 }
 
 .benifits-of-owning-in-franchise-card3 {
@@ -247,7 +248,7 @@ justify-content: center;
   width: 60px;
   margin-top: 20%;
   transform: translateX(180%);
-  color: darkblue;
+  color: #fe5114;
 }
 
 .benifits-of-owning-in-franchise-card3 p {
@@ -255,7 +256,7 @@ justify-content: center;
   margin-top: 20px;
   text-align: center;
   font-weight: bold;
-  color: darkblue;
+  color: #fe5114;
 }
 
 .benifits-of-owning-in-franchise-card-1 {

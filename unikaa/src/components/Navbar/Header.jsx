@@ -9,10 +9,10 @@ import "../Navbar/Header.css";
 const Header = () => {
   return (
     <header>
-      <div className="top">
+      {/* <div className="top">
         <h1>unikaa</h1>
         <p>hair and beauty salon</p>
-      </div>
+      </div> */}
       <div className="nav-area">
         <Link to="/logo" className="logo">
           <img src={Logo} alt="" />

@@ -13,6 +13,10 @@
   width: 100px;
 }
 
+.bridal-nav-bg{
+  height: 70px;
+}
+
 @media screen and (max-width: 850px) {
   .navbar-expand .navbar-nav {
     flex-direction: column;
@@ -32,10 +36,14 @@
     margin-top: -75px;
     margin-left: -50px;
     /* padding: 43px 1052px 59px 1px; */
+    /* margin-top: 50px; */
     width: 290px;
   }
   .navbar-brand {
     visibility: hidden;
+  }
+  .bridal-nav-bg{
+    height: auto;
   }
 }
 
@@ -51,7 +59,7 @@
   font-size: 20px;
   font-weight: lighter;
   color: black;
-  background-color: white;
+  /* background-color: white; */
 }
 .btn-outline-success {
   color: black;
@@ -81,4 +89,11 @@
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #fff;
   --bs-gradient: none;
+}
+
+@media screen and (max-width: 850px) {
+.mobile-nav-acade{
+display: flex;
+flex-direction: column;
+}
 }

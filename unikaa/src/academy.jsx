@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Imagelogo from "./unikaalogo.png";
 
-
 import ScrollTop from "./scrolltop";
 
 const Navbar = () => {
@@ -45,16 +44,21 @@ const Navbar = () => {
                 <FaTimes size={30} />
               </button>
               <ul className="navbar-nav-nav">
-                <li className="nav-item-acade">
-                  {/* <h1>unikaa</h1> */}
+                {/* <li>
+                  <Link to="/" className="text-decoration-none text-secondary">home</Link>
+                </li> */}
+                <div>
+                  <li className="nav-item-acade">
+                    {/* <h1>unikaa</h1> */}
 
-                  <Link
-                    to="/home"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
-                  >
-                    <img src={Imagelogo} alt="" />{" "}
-                  </Link>
-                </li>
+                    <Link
+                      to="/"
+                      className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
+                    >
+                      <img src={Imagelogo} alt="" />{" "}
+                    </Link>
+                  </li>{" "}
+                </div>
 
                 <li className="nav-item">
                   <Link
@@ -101,7 +105,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <ScrollTop/>
+      <ScrollTop />
     </nav>
   );
 };

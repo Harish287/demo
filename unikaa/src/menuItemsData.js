@@ -1,6 +1,16 @@
 import "./App.css";
 export const menuItemsData = [
   {
+    title: "About Us",
+    url: "/aboutus",
+    submenu: [
+      {
+        title: "Media",
+        url: "media",
+      },
+    ],
+  },
+  {
     title: "Our Services",
     url: "",
 
@@ -20,27 +30,23 @@ export const menuItemsData = [
     ],
   },
   {
-    title: "Offers",
-    url: "/Offers",
+    title: "Academy",
+    url: "/academy",
   },
   {
     title: "Bridal",
     url: "/homes",
   },
   {
+    title: "Offers",
+    url: "/Offers",
+  },
+
+  {
     title: "Franchise",
     url: "/franchise",
   },
-  {
-    title: "About Us",
-    url: "/aboutus",
-    submenu: [
-      {
-        title: "Media",
-        url: "media",
-      },
-    ],
-  },
+
   // {
   //   title: "Salon Locator",
   //   url: "/salonlocator",
@@ -59,10 +65,7 @@ export const menuItemsData = [
       },
     ],
   },
-  {
-    title: "Academy",
-    url: "/academy",
-  },
+
   {
     title: "Blog",
     url: "/blog",

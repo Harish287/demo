@@ -46,16 +46,17 @@ const aboutus = () => {
             <div className="abtus-p" style={{ width: "100%" }}>
               <h3 className="abt-us-h1">Creating A Beautiful World</h3>
               <p>
-               Agilan is the passionate visionary behind Unikaa Beauty academy. With his expertise, creativity, and
-                dedication to excellence, Agilan has transformed
-                Unikaa beauty academy into a premier destination for beauty and
-                wellness.
+                Mr Agilan sir was the founder and CEO of Unikaa Beauty Academy,
+                and he is the enthusiastic genius behind it. He has evolved
+                Unikaabeauty Academy into a premier beauty and wellness
+                destination via his knowledge, innovation, and commitment to
+                quality.
                 <p></p>
-                Under Agilan leadership, Unikaa beauty academy
-                has become synonymous with quality, innovation, and exceptional
-                customer service. He continually strives to introduce new
-                services, incorporate cutting-edge technologies, and uphold the
-                highest standards of professionalism.
+                Under the direction of our CEO, Unikaabeauty Academy has been
+                known with quality, innovation, and great customer service. He
+                is constantly striving to provide new services, integrate
+                cutting-edge technologies, and maintain the highest levels of
+                professionalism.
               </p>
             </div>
           </div>

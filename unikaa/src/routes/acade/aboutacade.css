@@ -18,14 +18,14 @@
     url("./acadeimg/hair_cut\ 6.jpg"); /* The least supported option. */
   background-size: cover;
 }
-.acade-abt h6 {
+.acade-abt-nav-back-text h6 {
   display: flex;
   justify-content: center;
   color: white;
   margin-top: 8%;
   font-size: 35px;
 }
-.acade-abt h4 {
+.acade-abt-nav-back-text h4 {
   display: flex;
   color: white;
   justify-content: center;

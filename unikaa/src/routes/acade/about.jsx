@@ -10,9 +10,11 @@ const about = () => {
       <Navbar />
       <div className="acade-abt">
         <div className="acade-abt-nav">
+          <div className="acade-abt-nav-back-text">
           <h6>Unikaa Beauty Academy Passion And Inspiration</h6>
           <h4>A Business Tailor - Made For You</h4>
         </div>
+        </div> 
       </div>
       <div>
         <div className="abut-acade-top">

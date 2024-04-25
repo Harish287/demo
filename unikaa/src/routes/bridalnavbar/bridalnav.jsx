@@ -46,19 +46,27 @@ function ColorSchemesExample() {
                 >
                   <FaTimes size={30} color="crimson" />
                 </button>
-                <Navbar bg="" data-bs-theme="dark">
+
+                
+                <Navbar bg="" className="bridal-nav-bg" data-bs-theme="dark" style={{background:"#fe5114"}}>
                   <Container>
                     <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
-                      <Nav.Link href="/homes">
-                        <img src={Bride} alt="" className="bridal-name" />
-                      </Nav.Link>
-                      <Nav.Link href="/homes">Home</Nav.Link>
-                      <Nav.Link href="/Services">Services</Nav.Link>
-                      <Nav.Link href="/makeup">Makeup Experts</Nav.Link>
-                      <Nav.Link href="/blogs">Blogs</Nav.Link>
-                      <Button href="/booknow" variant="outline-success">
-                        Book Now
-                      </Button>
+                      <div>
+                       
+                        <Nav.Link href="/">
+                          <img src={Bride} alt="" className="bridal-name" />
+                        </Nav.Link>
+                      </div>
+                      <div className="d-flex mobile-nav-acade">
+                       
+                        <Nav.Link href="/homes">Home</Nav.Link>
+                        <Nav.Link href="/Services">Services</Nav.Link>
+                        <Nav.Link href="/makeup">Makeup Experts</Nav.Link>
+                        <Nav.Link href="/blogs">Blogs</Nav.Link>
+                        <Button href="/booknow" variant="outline-success">
+                          Book Now
+                        </Button>
+                      </div>
                     </Nav>
                   </Container>
                 </Navbar>

@@ -3,7 +3,6 @@ import Navbar from "../../academy";
 import "./acadehome.css";
 // import Acutal from "./acutal.jpg";
 
-
 import Hairdressing from "./acadeimg/hairdressings.avif";
 import Beautytherapy from "./acadeimg/beautytherapy.jpg";
 import Cosmetology from "./acadeimg/Cosmetology.jpg";
@@ -13,12 +12,11 @@ import Nailart from "./acadeimg/nailart.jpg";
 import Makeupartistert from "./acadeimg/makeupartistery.jpg";
 import Beautytherpy from "./acadeimg/Beauty-Therapy.webp";
 
-
 import Placement from "./acadeimg/placement-logo.png";
 import Practical from "./acadeimg/practical.png";
 import Certification from "./acadeimg/certification.png";
-import Training from "./acadeimg/trining.png"
-import Trainingtime from "./acadeimg/triningtime.jpg"
+import Training from "./acadeimg/trining.png";
+import Trainingtime from "./acadeimg/triningtime.jpg";
 
 import { FaArrowRight } from "react-icons/fa";
 
@@ -29,22 +27,27 @@ const home = () => {
     <div className="acade-home">
       <Navbar />
       <div className="acade-nav">
-        <div className="home-bg"> </div>
-        <h6>UNIKAA Beauty Academy</h6>
-        <h4>Learn From Beauty Experts</h4>
-        <p>
-          Unikaa Beauty Academy Learn From International Beauty Experts Unikaa
-          Beauty Academy: Empowering students with expert training in hair,
-          skin, makeup, and nails, unveiling the artistry within for the pursuit
-          of timeless beauty.
-        </p>
-        <div className="acard-btns">
-          <a href="/ourcourse">
-            <button className="acard-btn">COURSES </button>
-          </a>
-          <a href="/about">
-            <button className="acard-abtbtn">ABOUTUS </button>
-          </a>
+        <div className="home-bg">
+          <div className="acade-back-text-color">
+          
+            <h1>UNIKAA Beauty Academy</h1>
+            <h4>Learn From Beauty Experts</h4>
+            <p>
+              Unikaa Beauty Academy Learn From International Beauty Experts
+              Unikaa Beauty Academy: Empowering students with expert training in
+              hair, skin, makeup, and nails, unveiling the artistry within for
+              the pursuit of timeless beauty.
+            </p>
+          </div>
+          <br/>
+          <div className="acard-btns">
+            <a href="/ourcourse">
+              <button className="acard-btn">COURSES </button>
+            </a>
+            <a href="/about">
+              <button className="acard-abtbtn">ABOUTUS </button>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -86,89 +89,93 @@ const home = () => {
           <h5>Our Courses</h5>
           <h3>Diploma Courses</h3>
         </div>
-        <div className="acade-home-dep-card-firstrow">
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Cosmetology} className="master-card-pic" alt="" />
+        <div className="card-back-fix">
+          <div className="acade-home-dep-card-firstrow">
+            <div className="acade-home-dep-card">
+              <div className="greeks">
+                <img src={Cosmetology} className="master-card-pic" alt="" />
+              </div>
+              <div className="acade-home-dep-card-body">
+                <h5 className="acade-home-dep-card-title">
+                  Diploma in Basic Cosmetology
+                </h5>
+                <a href="/about">
+                  <button className="acard-moreinfo">
+                    More Info <FaArrowRight />
+                  </button>
+                </a>
+              </div>
             </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Diploma in Basic Cosmetology
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">
-                  More Info <FaArrowRight />
-                </button>
-              </a>
+
+            <div className="acade-home-dep-card">
+              <div className="greeks">
+                <img src={Beautytherapy} className="master-card-pic" alt="" />
+              </div>
+              <div className="acade-home-dep-card-body">
+                <h5 className="acade-home-dep-card-title">
+                  Certificate in Beauty Therapy
+                </h5>
+                <a href="/about">
+                  <button className="acard-moreinfo">
+                    More Info <FaArrowRight />
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div className="acade-home-dep-card">
+              <div className="greeks">
+                <img src={Hairdressing} className="master-card-pic" alt="" />
+              </div>
+              <div className="acade-home-dep-card-body">
+                <h5 className="acade-home-dep-card-title">
+                  Certificate in Hairdressing
+                </h5>
+                <a href="/about">
+                  <button className="acard-moreinfo">
+                    More Info <FaArrowRight />
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Beautytherapy} className="master-card-pic" alt="" />
+          <div className="acade-home-dep-card-secondrow">
+            <div className="acade-home-dep-card">
+              <div className="greeks">
+                <img src={Makeupartist} className="master-card-pic" alt="" />
+              </div>
+              <div className="acade-home-dep-card-body">
+                <h5 className="acade-home-dep-card-title">
+                  Certificate in Pro Makeup Artistry Level 1
+                </h5>
+                <a href="/about">
+                  <button className="acard-moreinfo">
+                    More Info <FaArrowRight />
+                  </button>
+                </a>
+              </div>
             </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Certificate in Beauty Therapy
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">
-                  More Info <FaArrowRight />
-                </button>
-              </a>
-            </div>
-          </div>
 
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Hairdressing} className="master-card-pic" alt="" />
-            </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Certificate in Hairdressing
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">
-                  More Info <FaArrowRight />
-                </button>
-              </a>
+            <div className="acade-home-dep-card">
+              <div className="greeks">
+                <img src={Hairstyling} className="master-card-pic" alt="" />
+              </div>
+              <div className="acade-home-dep-card-body">
+                <h5 className="acade-home-dep-card-title">
+                  Certificate in Hair Styling (Cut & Styling)
+                </h5>
+                <a href="/about">
+                  <button className="acard-moreinfo">
+                    More Info <FaArrowRight />
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="acade-home-dep-card-secondrow">
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Makeupartist} className="master-card-pic" alt="" />
-            </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Certificate in Pro Makeup Artistry Level 1
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">
-                  More Info <FaArrowRight />
-                </button>
-              </a>
-            </div>
-          </div>
-
-          <div className="acade-home-dep-card">
-            <div className="greeks">
-              <img src={Hairstyling} className="master-card-pic" alt="" />
-            </div>
-            <div className="acade-home-dep-card-body">
-              <h5 className="acade-home-dep-card-title">
-                Certificate in Hair Styling (Cut & Styling)
-              </h5>
-              <a href="/about">
-                <button className="acard-moreinfo">
-                  More Info <FaArrowRight />
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
+        {/* Masterclass */}
 
         <div className="masterclasses">
           <h3>Master Classes</h3>
@@ -222,7 +229,7 @@ const home = () => {
           </div>
         </div>
 
-{/**************************************************enroll*************************************/}
+        {/**************************************************enroll*************************************/}
         <div className="background-acade-home">
           <h2>Enroll Now</h2>
           <p>
@@ -243,7 +250,6 @@ const home = () => {
 
         {/*****************************************Our Best Features*****************************************/}
         <div className="over-all-our-best">
-
           <div className="our-best">
             <h1 className="our-best-head">Our Best Features</h1>
             <p className="our-best-1stpara">
@@ -253,7 +259,7 @@ const home = () => {
             </p>
             <div>
               <div className="placement-offer">
-              <img src={Placement} className="our-best-logo" alt="" />
+                <img src={Placement} className="our-best-logo" alt="" />
                 <h2>Placements offered</h2>
                 <p>
                   We provide a variety of placement opportunities to help you
@@ -262,7 +268,7 @@ const home = () => {
               </div>
 
               <div className="placement-offer">
-              <img src={Practical} className="our-best-logo" alt="" />
+                <img src={Practical} className="our-best-logo" alt="" />
                 <h2>Practical learning method</h2>
                 <p>
                   Our curriculum emphasizes practical learning, ensuring that
@@ -271,7 +277,7 @@ const home = () => {
                 </p>
               </div>
               <div className="placement-offer">
-              <img src={Certification} className="our-best-logo" alt="" />
+                <img src={Certification} className="our-best-logo" alt="" />
                 <h2>Certification</h2>
                 <p>
                   Upon successful completion of the program, you will receive a
@@ -280,7 +286,7 @@ const home = () => {
                 </p>
               </div>
               <div className="placement-offer">
-              <img src={Training} className="our-best-logo" alt="" />
+                <img src={Training} className="our-best-logo" alt="" />
                 <h2>Training from industry experts</h2>
                 <p>
                   Training from Industry experts - Benefit from our training
@@ -290,13 +296,11 @@ const home = () => {
               </div>
             </div>
           </div>
-          <div>
-          <img src={Trainingtime} className="our-best-img" alt="" />
+
+          <div className="our-best-image-full">
+            <img src={Trainingtime} className="our-best-img" alt="" />
           </div>
         </div>
-       
-
-    
       </div>
       <Acardefooter />
     </div>

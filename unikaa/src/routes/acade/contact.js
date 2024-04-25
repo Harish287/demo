@@ -55,15 +55,17 @@ function Contact() {
     <>
       <Navbar />
       <br />
+<div>
+      <h1 className="academy-contact-h1"> Unikaa Academy Enquiry</h1>
 
-      <h1 className="academy-contact-h1"> contact</h1>
-
-      <div className="container mt-5">
-        <div class="card bg-light" style={{ width: "100%" }}>
-          <div class="card-body">
+      <div className="container mt-5  contact-full" >
+        <div class="card contact-full-back"  
+        // style={{ width: "100%" }}
+        >
+          <div class="card-body class-full-second">
             <form action="" onSubmit={handleSubmit}>
-              <div className="container row g-5 mt-5">
-                <div className="col-md-6 ">
+              <div className="container column g-5 mt-5">
+                <div className="col-md-12 ">
                   <label htmlFor="fname" className="form-label">
                     <strong>Full Name</strong>
                   </label>
@@ -79,7 +81,7 @@ function Contact() {
                   )}
                 </div>
 
-                <div className="col-md-6 mb-3">
+                <div className="col-md-12 mb-3">
                   <label htmlFor="number" className="form-label">
                     <strong>Phone Number</strong>
                   </label>
@@ -95,7 +97,7 @@ function Contact() {
                   )}
                 </div>
 
-                <div className="col-md-6 mb-3">
+                <div className="col-md-12 mb-3">
                   <label htmlFor="email" className="form-label">
                     <strong>Email</strong>
                   </label>
@@ -111,7 +113,7 @@ function Contact() {
                   )}
                 </div>
 
-                <div className="col-md-6 mb-3">
+                <div className="col-md-12 mb-3">
                   <label htmlFor="course" className="form-label">
                     <strong>Course</strong>
                   </label>
@@ -150,7 +152,7 @@ function Contact() {
                   )}
                 </div>
 
-                <div className="col-md-6 mb-3">
+                <div className="col-md-12 mb-3">
                   <label htmlFor="message" className="form-label">
                     <strong>Message</strong>
                   </label>
@@ -167,7 +169,7 @@ function Contact() {
                 </div>
 
                 <div class="col-12">
-                  <button type="submit" className="btn btn-primary w-50">
+                  <button type="submit" className="btn btn-primary w-100">
                     Submit
                   </button>
                 </div>
@@ -176,6 +178,11 @@ function Contact() {
           </div>
         </div>
       </div>
+
+
+      </div>
+
+
 
       <br />
       <div></div>

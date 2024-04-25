@@ -1,6 +1,6 @@
 .bride-home-head {
   font-size: 60px;
-  /* font-family: Courier, monospace; */
+  font-family: Courier, monospace;
   line-height: 162px;
   align-items: center;
   display: flex;
@@ -10,9 +10,9 @@
   color: black;
   height: 100px;
   margin-top: 20px;
-  font-family: against, sans-serif;
+  font-family: var(--font--against_regular), sans-serif;
   font-style: normal;
-  /* font-weight: 400; */
+  font-weight: 400;
   line-height: normal;
 }
 .topmargin {
@@ -237,6 +237,7 @@ a {
   margin-left: 43px;
   /* margin-top: 7%; */
   padding-top: 100px;
+  
 }
 .brideTrial-Makeup p {
   font-size: 20px;

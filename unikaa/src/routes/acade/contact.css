@@ -1,3 +1,13 @@
+
+.contact-full{
+  width: 50%;
+}
+
+.class-full-second{
+  width: 50%;
+  margin: 0 auto;
+}
+
 .acadamy-address-details-card {
   display: flex;
   width: 90%;
@@ -34,9 +44,25 @@
   justify-content: center;
 }
 
+.contact-full-back{
+  background-image: url(https://homeservicebeautyparlour.com/assets/images/06/skin-care-slider.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 
 @media screen and (max-width: 850px) {
   .acadamy-address-details-card-info {
     height: auto;
+  }
+
+  .contact-full{
+    width: 100%;
+  }
+
+  .class-full-second{
+    width: 100%;
+    margin: 0 auto;
   }
 }

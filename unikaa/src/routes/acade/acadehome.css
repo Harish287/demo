@@ -15,87 +15,55 @@
   background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)),
     url("./acadeimg/701.jpg"); */
 
-    background: linear-gradient(rgb(254,81,20, 0.5), rgba(254,81,20, 0.5)),   
+  background: linear-gradient(rgb(254, 81, 20, 0.5), rgba(254, 81, 20, 0.5)),
     url("./acadeimg/701.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
-.acade-nav h6 {
-  display: flex;
-  top: 20%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: center;
-  position: absolute;
-  margin-left: 36%;
-  margin-top: -4%;
-  padding: 0px 0px;
-  color: white;
-  font-size: 35px;
+.acade-back-text-color h1 {
 }
-.acade-nav h4 {
-  display: flex;
-  top: 18%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: center;
-  position: absolute;
-  margin-left: 39%;
-  margin-top: 0%;
-  padding: 0px 0px;
-  color: white;
-  font-size: 27px;
+.acade-back-text-color h4 {
 }
-.acade-nav p {
-  display: flex;
-  top: 20%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: center;
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 2%;
-  color: white;
-  font-size: 22px;
+.acade-back-text-color p {
+  font-size: 20px;
+  font-weight: 700;
+}
 
-  text-align: center;
-  /* padding: 0 175px; */
-  font-weight: bold;
+.acard-btns {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.acard-btn:hover {
+  background-color: rgb(254, 81, 20, 0.8);
+  color: black;
+  transition: 2s;
 }
 
 .acard-btn {
-  display: flex;
-  top: 20%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: center;
-  position: absolute;
-  margin-left: 51%;
   margin-top: 7%;
   font-size: 18px;
   padding: 6px 12px;
   background-color: transparent;
-  cursor: pointer;
   color: white;
 }
-.acard-btn:hover {
-  background-color: rgb(254, 81, 20, 0.8);;
-  color: black;
-  transition: 2s;
+
+.acade-back-text-color {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
+
 .acard-abtbtn {
-  display: flex;
+  /* display: flex;
   top: 20%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
   align-content: center;
   position: absolute;
-  margin-left: 41%;
+  margin-left: 41%; */
   margin-top: 7%;
   font-size: 18px;
   padding: 6px 12px;
@@ -104,7 +72,7 @@
 }
 .acard-abtbtn:hover {
   cursor: pointer;
-  background-color: rgb(254, 81, 20, 0.8);;
+  background-color: rgb(254, 81, 20, 0.8);
   color: black;
   transition: 2s;
 }
@@ -129,14 +97,19 @@
 @media screen and (max-width: 850px) {
   .home-bg {
     width: 100%;
+    height: auto;
   }
 
+  .acade-back-text-color {
+    width: 100%;
+   
+}
   .acade-nav p {
-    font-size: 14px;
+    /* font-size: 14px;
     color: white;
     font-weight: 200px;
     text-align: center;
-    margin-top: -35px;
+    margin-top: -35px; */
   }
 
   /* .acard-btns{
@@ -144,31 +117,31 @@
     justify-content: space-evenly;
   } */
   .acard-btn {
-    display: flex;
+    /* display: flex;
     margin-top: 85px;
-    margin-left: 200px;
+    margin-left: 200px; */
   }
   .acard-abtbtn {
-    display: flex;
+    /* display: flex;
     margin-top: 85px;
-    margin-left: 75px;
+    margin-left: 75px; */
   }
-  .acade-nav h6 {
-    display: flex;
+  .acade-nav h1 {
+    /* display: flex;
     margin-top: -103px;
     font-size: 24px;
     margin-left: 60px;
     align-items: center;
     color: white;
-    justify-content: center;
+    justify-content: center; */
   }
   .acade-nav h4 {
-    display: flex;
+    /* display: flex;
     margin-top: -62px;
     font-size: 18px;
     margin-left: 90px;
     color: white;
-    text-align: center;
+    text-align: center; */
   }
   .acadehometop h4 {
     padding: 20px;
@@ -193,7 +166,8 @@
 }
 
 .acade-home-dep-card {
-  width: 25rem;
+  width: 23rem;
+  /* height: 300px; */
   /* background-color: #eb3989; */
 }
 .acade-home-dep-card-title {
@@ -205,7 +179,7 @@
   cursor: pointer;
   text-decoration: none;
   color: black;
-
+  background: none;
   font-size: large;
   border: none;
   margin-bottom: 5%;
@@ -229,8 +203,8 @@
 }
 .acade-home-dep-card-firstrow {
   display: flex;
-  justify-content: center;
-  gap: 70px;
+  justify-content: space-around;
+  /* gap: 70px; */
 }
 .acade-home-dep-card-secondrow {
   display: flex;
@@ -250,11 +224,12 @@
   }
   .acade-home-dep-card-secondrow {
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 0;
     display: flex;
     /* margin-left: 50px; */
     justify-content: center;
     align-items: center;
+    gap: 0;
   }
 }
 .masterclasses h3 {
@@ -291,7 +266,9 @@
   margin: 0 auto;
 }
 .master-card-pic {
-  width: 25rem;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
   /* margin: 0 auto; */
   /* width: 96%; */
   transition: 0.5s all ease-in-out;
@@ -304,8 +281,8 @@
 }
 .master-card-row {
   display: flex;
-  justify-content: center;
-  gap: 70px;
+  justify-content: space-around;
+  /* gap: 70px; */
 }
 
 @media screen and (max-width: 850px) {
@@ -322,9 +299,11 @@
 .background-acade-home {
   margin-top: 3%;
   min-height: 100%;
-  background: url(https://picsum.photos/id/1043/800/600) rgb(72, 61, 139, 0.8);
+  background: url(https://static.wixstatic.com/media/27563e_12f13af0ada142919039687c4cea2d32~mv2.jpg/v1/fill/w_940,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/enroll-now.jpg)
+    rgb(254, 81, 20, 0.5);
   background-size: cover;
   background-blend-mode: multiply;
+  background-attachment: fixed;
 }
 .background-acade-home h2 {
   text-align: center;
@@ -333,10 +312,11 @@
   color: aliceblue;
 }
 .background-acade-home p {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   color: aliceblue;
-  padding: 26px 147px 20px 147px;
+  width: 80%;
+  margin: 0 auto;
 }
 .background-acade-home-btn {
   text-align: center;
@@ -362,7 +342,8 @@
   }
 
   .background-acade-home p {
-    padding: 20px;
+    /* padding: 20px; */
+    width: 100%;
   }
   .background-acade-home-btn {
     display: flex;
@@ -373,15 +354,25 @@
 /*****************************************Our Best Features*****************************************/
 
 .over-all-our-best {
-  background-color: darkslateblue;
+  background-color: grey;
   margin-bottom: 20px;
   padding-bottom: 20px;
   box-sizing: border-box;
+  display: flex;
+  margin-top: 10px;
 }
+
+.our-best-image-full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .our-best {
   box-sizing: border-box;
-  width: 45%;
-  margin-left: 100px;
+  width: 50%;
+  /* margin-left: 100px; */
   margin-top: 60px;
   color: white;
 }
@@ -407,15 +398,23 @@
   font-size: 18px;
 }
 
+.card-back-fix {
+  background-image: url(https://homeservicebeautyparlour.com/assets/images/06/skin-care-slider.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 .our-best-logo {
   width: 110px;
 }
 
 .our-best-img {
-  width: 45%;
+  /* width: 45%;
   margin-left: 760px;
-  margin-top: -772px;
+  margin-top: -772px; */
   box-sizing: border-box;
+  display: flex;
 }
 
 @media screen and (max-width: 850px) {
@@ -430,5 +429,12 @@
     margin: 0;
     width: 100%;
     margin-top: 5%;
+  }
+  .over-all-our-best {
+    display: flex;
+    flex-direction: column;
+  }
+  .our-best-image-full {
+    width: 100%;
   }
 }

@@ -32,6 +32,8 @@ const franchise = () => {
     <>
       {/********************************************scrollanimation*******************************************/}
 
+  
+
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
@@ -57,6 +59,10 @@ const franchise = () => {
           </AnimatedOnScroll>
         </div>
       </div>
+
+{/* Form for fanchise */}
+
+      <Fanchise />
 
       <div className="franchise2h">
         <h3>
@@ -422,7 +428,7 @@ const franchise = () => {
         </div>
       </Card>
       <br></br>
-      <Fanchise />
+   
     </>
   );
 };

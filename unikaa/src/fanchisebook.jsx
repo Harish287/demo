@@ -41,7 +41,7 @@ function Franchise() {
     <>
       <br />
 
-      <h1 className="academy-contact-h1"> contact</h1>
+      <h1 className="academy-contact-h1"> Unikaa Fanchise Enquiry</h1>
 
       <div className="container mt-5">
         <div class="card bg-light francise-card">
