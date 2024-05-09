@@ -68,7 +68,9 @@
 
 .skinknow-btn:hover {
   border: 1px solid #fe5114;
-  background: #fe5114;
+  /* background: #fe5114; */
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
+
   color: white;
   transition: 1s;
 }
@@ -113,7 +115,9 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -129,7 +133,9 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -140,7 +146,9 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -151,7 +159,9 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -162,7 +172,9 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -173,7 +185,9 @@
   display: flex;
   margin-top: -30px;
   margin-left: 50px;
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
   padding: 10px 60px;
   box-sizing: border-box;
   border-radius: 33px;
@@ -275,7 +289,9 @@
   padding: 5px;
 }
 .logo-p4 a button:hover {
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
+
   color: white;
   transition: 1s;
   border: 1px solid #fe5114;
@@ -332,7 +348,9 @@
   padding: 5px;
 }
 .logo-p5 a button:hover {
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
   color: white;
   transition: 1s;
   border: 1px solid #fe5114;
