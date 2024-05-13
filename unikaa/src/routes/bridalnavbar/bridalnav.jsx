@@ -31,7 +31,7 @@ function ColorSchemesExample() {
               >
                 <FaBars size={30} color="crimson" />
               </button>
-              <p className="brialtop">bridal</p>
+              {/* <p className="brialtop">bridal</p> */}
               <div
                 className={
                   navToggler
@@ -48,7 +48,7 @@ function ColorSchemesExample() {
                 </button>
 
                 
-                <Navbar bg="" className="bridal-nav-bg" data-bs-theme="dark" style={{background:"#fe5114"}}>
+                <Navbar bg="" className="bridal-nav-bg" data-bs-theme="dark" style={{    background:"linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%)"}}>
                   <Container>
                     <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
                       <div>

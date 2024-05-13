@@ -38,7 +38,7 @@ const Footeracade = () => {
         </div>
         <div className="sb__footer-acade-links_div">
           <h4>About Unikaa</h4>
-          <a href="/why-choose-naturals-beauty-academy">
+          <a href="/why-choose-unikaa-beauty-academy">
             <p style={{lineHeight:"23px"}}>Why Choose Unikaa Beauty Academy? </p>
           </a>
           <a href="/diploma-in-cosmetology-at-unikaa-beauty-academy">

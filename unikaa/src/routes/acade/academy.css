@@ -110,7 +110,8 @@ background-size:cover; */
     list-style: none;
     text-decoration: none;
     gap: 30px;
-    background: #fe5114;
+    /* background: #fe5114; */
+    background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
     height: 60px;
     padding: 20px;
     width: 100%;

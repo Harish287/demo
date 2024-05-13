@@ -37,7 +37,7 @@ import About from "./routes/acade/about";
 import Contact from "./routes/acade/contact";
 import Ourcourse from "./routes/acade/ourcourse";
 import Deploma from "./routes/acade/diploma-in-cosmetology-at-unikaa-beauty-academy";
-import Whytochoose from "./routes/acade/why-choose-naturals-beauty-academy";
+import Whytochoose from "./routes/acade/why-choose-unikaa-beauty-academy";
 import Academysubmit from "./routes/acade/academysubmit";
 
 import Blog from "./routes/blog";
@@ -119,8 +119,7 @@ const router = createBrowserRouter([
         path: "blog",
         element: <Blog />,
       },
-      { path: "franchisesubmit", 
-      element: <Franchisesubmit /> },
+      { path: "franchisesubmit", element: <Franchisesubmit /> },
     ],
   },
   // **************************bridal********************//
@@ -181,7 +180,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/why-choose-naturals-beauty-academy",
+    path: "/why-choose-unikaa-beauty-academy",
     element: <Whytochoose />,
   },
 ]);

@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 2rem 10rem 0rem 10rem;
+  padding: 0rem 10rem 0rem 10rem;
 }
 
 .Footer {
@@ -70,7 +70,8 @@
 }
 .sb__footer-links_div p {
   line-height: 15px;
-  margin: 1.3rem -36px 2px 0px;
+  /* margin: 1.3rem -36px 2px 0px; */
+  margin: 0.8rem -36px 2px 0px;
   cursor: pointer;
   font-size: 16px;
 }

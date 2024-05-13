@@ -3,7 +3,8 @@
 }
 
 .Footer-bridal {
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
   width: 100%;
   height: auto;
   margin: 0%;
@@ -12,8 +13,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #fe5114;
+  /* background-color: #fe5114; */
   height: auto;
+  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
 
   /* margin-top: 44%; */
 }

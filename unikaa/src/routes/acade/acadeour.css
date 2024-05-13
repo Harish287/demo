@@ -13,7 +13,7 @@
       rgba(195, 55, 100, 0.8)
     ),
     url("https://bit.ly/2rlzaXi"); */
-  background: linear-gradient(rgb(254,81,20, 0.5), rgba(254,81,20, 0.5)),   
+  background: linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)),
     url("./acadeimg/our-acade.jpg"); 
     /* The least supported option. */
   background-size: cover;

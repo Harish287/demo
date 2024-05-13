@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr></hr>
+      {/* <hr></hr> */}
       <div className="sb__footer-below">
         <div className="sb__footer-copyrights">
           <p>@{new Date().getFullYear()} Unikaa. All rights reserved.</p>
