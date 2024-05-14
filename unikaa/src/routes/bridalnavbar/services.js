@@ -16,7 +16,7 @@ import Postbride from "./blogimages/Post-bridal-care.webp";
 import "./brideservices.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Card, Col } from "react-bootstrap";
+import { div, Card, Col } from "react-bootstrap";
 import img1 from "./blogimages/topquality.png";
 import Bridalfooter from "./bridalfooter";
 
@@ -132,7 +132,7 @@ const services = () => {
       {/* </table> */}
 
       <div className="table-service">
-        <Container className="p-1 table-all1">
+        <div className=" table-all1">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -147,9 +147,9 @@ const services = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Container>
+        </div>
 
-        <Container className="p-1 table-all2">
+        <div className="p-1 table-all2">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -164,9 +164,9 @@ const services = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Container>
+        </div>
 
-        <Container className="p-1 table-all3">
+        <div className="p-1 table-all3">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -181,9 +181,9 @@ const services = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Container>
+        </div>
 
-        <Container className="p-1 table-all4">
+        <div className="p-1 table-all4">
           <Col className="table-size" md="4">
             <Card classname="card-clor">
               <Card.Img variant="top" src={img1} />
@@ -198,7 +198,7 @@ const services = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Container>
+        </div>
       </div>
 
       <div className="bridal-service-quality">

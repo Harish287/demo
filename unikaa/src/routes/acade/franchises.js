@@ -72,7 +72,7 @@ const franchise = () => {
       </div>
 
       {/**************************************Unikaa Beauty Academy's Mission***********************************/}
-      <div>
+      <div className="franchise-academy-mission-full">
         <div className="franchise-academy-mission">
           <h4>Unikaa Beauty Academy's Mission</h4>
           <p>
@@ -91,16 +91,15 @@ const franchise = () => {
             business, and have established the Unikaa Beauty Academy in Chennai,
             which offers multiple Certificate, Diploma, Master & Short term
             courses to upgrade the skills of our partners & students.
-          </p>
-        </div>
-
-        <div className="franchise-academy-mission-img">
-          <div className="franchise-academy-mission-text">
-            <h3>Unikaa beauty acadamy</h3>
-            <h5>hair|skin|makeup|nails</h5>
-            <p>Franchise</p>
-          </div>
-          <img src={Beauty} alt="" className="beauty-acadamy-img" />
+          </p> </div>
+          <div className="franchise-academy-mission-img">
+            <div className="franchise-academy-mission-text">
+              <h3>Unikaa beauty acadamy</h3>
+              <h5>hair|skin|makeup|nails</h5>
+              <p>Franchise</p>
+            </div>
+            <img src={Beauty} alt="" className="beauty-acadamy-img" />
+         
         </div>
       </div>
 
@@ -109,12 +108,10 @@ const franchise = () => {
       <div className="all-card-franchise-acard">
         <h2>Benefits Of Owning Unikaa Beauty Academy</h2>
       </div>
-    
-      <div className="all-card-franchise-acard-next">
-      <div className="benifits-of-owning-in-franchise">
-      
-          <div className="benifits-of-owning-in-franchise-card">
 
+      <div className="all-card-franchise-acard-next">
+        <div className="benifits-of-owning-in-franchise">
+          <div className="benifits-of-owning-in-franchise-card">
             <div className="benifits-of-owning-in-franchise-card-1">
               <i>
                 <FaTrophy />
@@ -137,7 +134,6 @@ const franchise = () => {
             </div>
           </div>
 
-
           <div className="benifits-of-owning-in-franchise-card1">
             <div className="benifits-of-owning-in-franchise-card1-1">
               <i>
@@ -152,7 +148,7 @@ const franchise = () => {
               </i>
               <p>ROI in 24 - 36 Months</p>
             </div>
-            
+
             <div className="benifits-of-owning-in-franchise-card1-3">
               <i>
                 <FaLightbulb />
@@ -162,7 +158,6 @@ const franchise = () => {
           </div>
 
           <div className="benifits-of-owning-in-franchise-card2">
-
             <div className="benifits-of-owning-in-franchise-card2-1">
               <i>
                 <FaAward />
@@ -185,9 +180,7 @@ const franchise = () => {
             </div>
           </div>
 
-
           <div className="benifits-of-owning-in-franchise-card3">
-            
             <div className="benifits-of-owning-in-franchise-card3-1">
               <i>
                 <FaStore />
@@ -208,7 +201,6 @@ const franchise = () => {
               </i>
               <p>TTrained 50k Students</p>
             </div>
-            
           </div>
         </div>
       </div>

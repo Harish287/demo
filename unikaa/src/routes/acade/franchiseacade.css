@@ -28,6 +28,13 @@ justify-content: center;
   color: white;
 
 }
+
+.franchise-academy-mission-full {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+}
 .acade-franche h4 {
   display: flex;
 justify-content: center;
@@ -76,7 +83,7 @@ justify-content: center;
 }
 
 .acade-franchise-card1 {
-  background-color: #fe5114;
+  background-color: #2ed582;
   box-sizing: border-box;
   /* padding: 50px 0px; */
   margin-top: 20px;
@@ -110,14 +117,14 @@ justify-content: center;
 }
 .franchise-academy-mission p {
   margin-top: 20px;
-  color: darkcyan;
+  color: #1042f5;
   line-height: 30px;
 }
 
 .franchise-academy-mission-img {
-  margin-top: -454px;
+  /* margin-top: -454px;
   margin-left: 890px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
 }
 .beauty-acadamy-img {
   width: 410px;
@@ -147,7 +154,7 @@ justify-content: center;
 }
 
 .acade-franchise-WhyToChoose p {
-  /* border: 1px solid #fe5114; */
+  /* border: 1px solid #2ed582; */
   line-height: 30px;
   width: 285px;
   font-size: 17px;
@@ -192,7 +199,7 @@ justify-content: center;
   width: 60px;
   margin-top: 20%;
   transform: translateX(180%);
-  color: #fe5114;
+  color: #2ed582;
 }
 
 .benifits-of-owning-in-franchise-card p {
@@ -200,7 +207,7 @@ justify-content: center;
   font-weight: bold;
   margin-top: 20px;
   text-align: center;
-  color: #fe5114;
+  color: #2ed582;
 }
 
 .benifits-of-owning-in-franchise-card1 {
@@ -210,7 +217,7 @@ justify-content: center;
   width: 60px;
   margin-top: 20%;
   transform: translateX(180%);
-  color: #fe5114;
+  color: #2ed582;
 }
 
 .benifits-of-owning-in-franchise-card1 p {
@@ -218,7 +225,7 @@ justify-content: center;
   font-weight: bold;
   margin-top: 20px;
   text-align: center;
-  color: #fe5114;
+  color: #2ed582;
 }
 
 .benifits-of-owning-in-franchise-card2 {
@@ -229,7 +236,7 @@ justify-content: center;
   width: 60px;
   margin-top: 20%;
   transform: translateX(180%);
-  color: #fe5114;
+  color: #2ed582;
 }
 
 .benifits-of-owning-in-franchise-card2 p {
@@ -237,7 +244,7 @@ justify-content: center;
   font-weight: bold;
   margin-top: 20px;
   text-align: center;
-  color: #fe5114;
+  color: #2ed582;
 }
 
 .benifits-of-owning-in-franchise-card3 {
@@ -248,7 +255,7 @@ justify-content: center;
   width: 60px;
   margin-top: 20%;
   transform: translateX(180%);
-  color: #fe5114;
+  color: #2ed582;
 }
 
 .benifits-of-owning-in-franchise-card3 p {
@@ -256,7 +263,7 @@ justify-content: center;
   margin-top: 20px;
   text-align: center;
   font-weight: bold;
-  color: #fe5114;
+  color: #2ed582;
 }
 
 .benifits-of-owning-in-franchise-card-1 {
@@ -305,6 +312,12 @@ justify-content: center;
   height: 180px;
 }
 
+.benifits-of-owning-in-franchise-card-2-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 850px) {
   .acade-franche h6 {
     margin: 0;
@@ -312,6 +325,15 @@ justify-content: center;
     font-size: 21px;
     margin-top: 20%;
   }
+
+  .franchise-academy-mission-full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+  }
+
   .acade-franche h4 {
     text-align: center;
     font-size: 20px;

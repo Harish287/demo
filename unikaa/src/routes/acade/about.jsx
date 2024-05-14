@@ -17,6 +17,7 @@ const about = () => {
         </div> 
       </div>
       <div>
+        <div className="abut-acade-top-divide">
         <div className="abut-acade-top">
           <h6>About Our Unikaa Beauty Academy</h6>
           <h1>A Few Words About Unikaa Beauty Academy</h1>
@@ -47,10 +48,12 @@ const about = () => {
             Placements; Professional Trainers from EMI Facilities; and a Unikaa
             Brand Certificate upon course completion, which will make them feel
             proud and inspired for the future.
-          </p>
-        </div>
-        <div>
+          </p></div>
           <img src={Acadeabt} alt="" className="abtacade-img" />
+        
+        </div>
+        <div style={{width:"90%",margin:"0 auto", fontSize:"18px",lineHeight:"36px"}}>
+          {/* <img src={Acadeabt} alt="" className="abtacade-img" /> */}
           <p>
             All courses are designed specifically by Industry professionals to
             make the students ‘Industry ready’, whether they are keen to work

@@ -27,12 +27,6 @@ const Footer = () => {
           <a href="/contactus">
             <p>Contact Us</p>
           </a>
-          <a href="/franchise">
-            <p>Franchise Opportunities</p>
-          </a>
-          <a href="/blog">
-            <p>Blog</p>
-          </a>
 
           <a href="/privacypolicy">
             <p>Privacy Policy</p>
@@ -48,6 +42,12 @@ const Footer = () => {
           </a>
           <a href="/bodycare">
             <p>Body Care</p>
+          </a>
+          <a href="/franchise">
+            <p>Franchise Opportunities</p>
+          </a>
+          <a href="/blog">
+            <p>Blog</p>
           </a>
 
           {/* <a href="/bridal">
@@ -65,6 +65,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
 
           <p>location</p>
+          <br />
         </div>
 
         <div className="sb__footer-links_div">

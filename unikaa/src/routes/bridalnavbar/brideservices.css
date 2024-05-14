@@ -259,6 +259,7 @@
 
 .table-service {
   display: flex;
+  justify-content: space-around;
 }
 
 .table-size {

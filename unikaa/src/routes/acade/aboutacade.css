@@ -25,6 +25,11 @@
   margin-top: 8%;
   font-size: 35px;
 }
+.abut-acade-top-divide{
+  display: flex;
+  justify-content: center;
+}
+
 .acade-abt-nav-back-text h4 {
   display: flex;
   color: white;
@@ -47,10 +52,10 @@
 }
 
 .abtacade-img {
-  margin-top: -766px;
-  margin-left: 770px;
+  margin-top: 20px;
+  /* margin-left: 770px; */
   width: 45%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .acade-abt-para-why-us {
@@ -91,6 +96,11 @@
   .acade-abt h6 {
     text-align: center;
     font-size: 20px;
+  }
+
+  .abut-acade-top-divide{
+    display: flex;
+  flex-direction: column;
   }
   .abut-acade-top h6 {
     margin: 0;

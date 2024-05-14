@@ -1,11 +1,11 @@
 .skin {
   background-size: 100% 100%;
   background-position: 0px 0px;
-  background-image: conic-gradient(
+  /* background-image: conic-gradient(
     from 124deg at 50% 50%,
     #ce005a 50%,
     #ff92c8 50%
-  );
+  ); */
   background-size: cover;
   /* background-image: conic-gradient(from 124deg at 50% 50%,  #ff92c8 50%, #ce005a 50%); */
 }
@@ -18,13 +18,14 @@
   background: black;
   overflow: hidden;
   background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
       rgba(29, 38, 113, 0.8),
       rgba(195, 55, 100, 0.8)
     ),
     url("./SkinCare/skin-care.jpg");
   background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
-    url("./SkinCare/skin-care.jpg"); /* The least supported option. */
+    url("./SkinCare/skin-care.jpg");  */
+    background: linear-gradient(rgb(46, 213, 130, 0.8), rgb(15, 61, 248, 0.8)),  url("./SkinCare/skin-care.jpg");
   background-size: cover;
 }
 .skinhead-img h1 {
@@ -63,7 +64,7 @@
   margin-left: -280px;
   margin-top: 51px;
   font-size: 17px;
-  color: white;
+  color: black;
 }
 .skin-div ul li {
   list-style-type: none;
@@ -74,7 +75,7 @@
   font-size: 15px;
   font-size: 17px;
   font-weight: 400;
-  color: white;
+  color: black;
 }
 @media screen and (max-width: 850px) {
   .skincare {
