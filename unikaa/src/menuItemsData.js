@@ -3,12 +3,12 @@ export const menuItemsData = [
   {
     title: "About Us",
     url: "/aboutus",
-    submenu: [
-      {
-        title: "Media",
-        url: "media",
-      },
-    ],
+    // submenu: [
+    //   {
+    //     title: "Media",
+    //     url: "media",
+    //   },
+    // ],
   },
   {
     title: "Our Services",
@@ -51,20 +51,20 @@ export const menuItemsData = [
   //   title: "Salon Locator",
   //   url: "/salonlocator",
   // },
-  {
-    title: "Pricing",
-    url: "",
-    submenu: [
-      {
-        title: "Service For Her",
-        url: "serviceforher",
-      },
-      {
-        title: "Service For Him",
-        url: "serviceforhim",
-      },
-    ],
-  },
+  // {
+  //   title: "Pricing",
+  //   url: "",
+  //   submenu: [
+  //     {
+  //       title: "Service For Her",
+  //       url: "serviceforher",
+  //     },
+  //     {
+  //       title: "Service For Him",
+  //       url: "serviceforhim",
+  //     },
+  //   ],
+  // },
 
   {
     title: "Blog",

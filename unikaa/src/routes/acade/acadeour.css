@@ -182,8 +182,9 @@
   display: flex;
   justify-content: space-between;
   gap: 70px;
-  background: grey;
+  /* background: grey; */
   padding: 30px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 850px) {

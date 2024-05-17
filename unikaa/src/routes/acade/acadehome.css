@@ -204,7 +204,7 @@
 }
 .acade-home-dep-card-firstrow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   /* gap: 70px; */
 }
 .acade-home-dep-card-secondrow {
@@ -355,7 +355,7 @@
 /*****************************************Our Best Features*****************************************/
 
 .over-all-our-best {
-  background-color: grey;
+  background-color: #2ed582;
   margin-bottom: 20px;
   padding-bottom: 20px;
   box-sizing: border-box;
@@ -400,11 +400,12 @@
 }
 
 .card-back-fix {
-  background-image: url(https://homeservicebeautyparlour.com/assets/images/06/skin-care-slider.jpg);
+  /* background-image: url(https://homeservicebeautyparlour.com/assets/images/06/skin-care-slider.jpg); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-}
+  background: linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)), url(http://localhost:3000/static/media/701.575a383….jpg);
+}  
 
 .our-best-logo {
   width: 110px;

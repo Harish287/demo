@@ -30,19 +30,21 @@
 }
 
 .logo-us-h3 {
-  font-size: 20px;
-  line-height: 36px;
+  font-size: 25px;
+  line-height: 25px;
   color: #333;
   margin-left: 20px;
+  padding-top: 30px;
+  font-weight: bolder;
 }
 .pfist {
-  font-size: 34px;
+  font-size: 25px;
   margin-left: 20px;
 }
 .psecnd {
   font-weight: lighter;
-  font-size: 36px;
-  font-family: system-ui;
+  font-size: 25px;
+  /* font-family: system-ui; */
   margin-left: 20px;
 }
 .skincard-img {
@@ -92,10 +94,11 @@
 }
 
 .logo-card h1 {
-  font-size: 60px;
-  margin-left: 43px;
+  font-size: 40px;
+  margin-left: 59px;
   /* margin-top: 7%; */
   padding-top: 100px;
+  font-weight: bolder;
 }
 .logo-card p {
   font-size: 20px;
@@ -217,13 +220,14 @@
 }
 
 .logo-us-h4 {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 36px;
   color: #333;
   margin-left: 20px;
+  font-weight: bolder;
 }
 .pfist3 {
-  font-size: 34px;
+  font-size: 25px;
   margin-left: 20px;
 }
 
@@ -261,19 +265,21 @@
   height: 322px;
 }
 .pfist4 {
-  /* font-size: 34px; */
-  /* margin-left: 20px; */
-  line-height: 60px;
-}
-.logo-us-h4-4 {
-  font-size: 50px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-weight: bolder;
   line-height: 50px;
+}
+
+.logo-us-h4-4 {
+  font-size: 20px;
+  /* line-height: 32px; */
   color: #333;
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 .p-second2 {
   /* font-size: 20px; */
-  /* margin-left: 20px; */
+  margin-left: 20px;
   color: gray;
 }
 
@@ -313,6 +319,7 @@
   line-height: 50px;
   color: #333;
   margin-left: 20px;
+  font-weight: bolder;
 }
 
 .logo-p5 {
@@ -328,7 +335,7 @@
 .log5-imagealine {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 30px;
 }
 .logo-left-card-img5 {
@@ -336,9 +343,9 @@
   height: 340px;
 }
 .logo-skill-5 {
-  font-size: 34px;
+  font-size: 20px;
   margin-left: 20px;
-  line-height: 45px;
+  /* line-height: 45px; */
 }
 .pfist5 {
   font-size: 17px;

@@ -192,7 +192,8 @@ function Logo() {
               <div className="logo-p4">
                 <p className="pfist4">FRANCHISE</p>
                 <h4 className="logo-us-h4-4">
-                  Join The <br />
+                  Join The
+                   {/* <br /> */}
                   Unikaa Family
                 </h4>
 
@@ -263,16 +264,16 @@ function Logo() {
                 <h4 className="logo-us-h4-5">Unikaa Acadamy</h4>
                 <h2 className="logo-skill-5">
                   Hone Your Skills With
-                  <br />
+                  {/* <br /> */}
                   Learning Opportunities
-                  <br />
+                  {/* <br /> */}
                   From Unikaa
                 </h2>
                 <p className="pfist5">
                   Interested to Learn the Art of Make-Up?
-                  <br />
+                  {/* <br /> */}
                   Join Unikaa Beauty Academy – A Wave
-                  <br />
+                  {/* <br /> */}
                   That Creates Artists in The Beauty Industry
                 </p>
                 <a href="/academy">

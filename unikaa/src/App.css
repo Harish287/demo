@@ -3,7 +3,9 @@
   padding: 0;
   height: auto;
   box-sizing: border-box;
-  font-family:  "Open Sans", sans-serif;;
+  /* font-family:  "Open Sans", sans-serif; */
+   font-family: against, sans-serif;
+  
 }
 
 body {

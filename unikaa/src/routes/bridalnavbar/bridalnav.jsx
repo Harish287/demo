@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 
-import Bride from "./blogimages/Bride-PNG-File.png";
+// import Bride from "./blogimages/Bride-PNG-File.png";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./bridal.css";
@@ -54,8 +54,8 @@ function ColorSchemesExample() {
                       <div>
                        
                         <Nav.Link href="/">
-                          <img src={Bride} alt="" className="bridal-name" />
-                        </Nav.Link>
+                          {/* <img src={Bride} alt="" className="bridal-name" /> */}
+<p>Unikaa Bridal</p>                        </Nav.Link>
                       </div>
                       <div className="d-flex mobile-nav-acade">
                        
