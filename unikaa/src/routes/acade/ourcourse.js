@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import Navbar from "../../academy";
+// import Navbar from "../../academy";
+import Navbar from "../../components/Navbar/Header"
 import "./acadeour.css";
 import Acardefooter from "./acadefooter";
 

@@ -1,14 +1,14 @@
-.navbars {
+.acade-navbars {
   /* padding: 3rem 0; */
   width: 100%;
   /* height: 450px; */
 }
-.navbar-brand .navbar-nav-nav {
+.navbar-brand .acade-navbar-nav-nav {
   display: flex;
   position: relative;
   text-decoration: none;
 }
-.navbar-collapse {
+.acade-navbar-collapse {
   position: fixed;
   top: 0;
   right: 0;
@@ -22,22 +22,22 @@
   z-index: 999;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-.show-navbar-collapse {
+.acade-show-acade-navbar-collapse {
   transform: translateX(0);
 }
-.navbar-close-btn {
+.acade-navbar-close-btn {
   position: absolute;
   left: 0rem;
   top: 0rem;
 }
-.nav-item-acade {
+.acade-nav-item-acade {
   /* margin-bottom: 2rem; */
   list-style: none;
 }
-.navbar-nav-nav :hover {
+.acade-navbar-nav-nav :hover {
   color: aliceblue;
 }
-.navbar-nav-nav {
+.acade-navbar-nav-nav {
   /* background-image: url(https://naturalsbeautyacademy.co.in/wp-content/uploads/2023/07/DSC07904.jpg);
 background-size:cover; */
   /* background-color: #ca0159; */
@@ -48,25 +48,25 @@ background-size:cover; */
   position: absolute;
   padding: 41px;
 }
-.nav-item-acade img {
+.acade-nav-item-acade img {
   width: 350px;
   margin-top: 40px;
 }
 
 @media screen and (max-width: 850px) {
-  .nav-item-acade img {
+  .acade-nav-item-acade img {
     width: 150px;
     margin-top: 0px;
   }
 }
-.nav-link-nav {
+.acade-nav-link-nav {
   /* position: relative; */
   position: relative;
   text-decoration: none;
   color: black;
   --bs-white-rgb: 0, 0, 0;
 }
-.nav-link-nav::after {
+.acade-nav-link-nav::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -79,12 +79,12 @@ background-size:cover; */
   transition: var(--transition);
   list-style: none;
 }
-.nav-link-nav:hover::after {
+.acade-nav-link-nav:hover::after {
   opacity: 1;
 }
 
 @media screen and (min-width: 992px) {
-  .navbar-collapse {
+  .acade-navbar-collapse {
     transform: translateX(0);
     position: relative;
     width: 100%;
@@ -94,16 +94,16 @@ background-size:cover; */
     margin: 0;
   }
 
-  .nav-item-acade img {
+  .acade-nav-item-acade img {
     width: 350px;
     margin-top: 40px;
   }
-  .navbar-close-btn,
-  .navbar-open-btn {
+  .acade-navbar-close-btn,
+  .acade-navbar-open-btn {
     display: none;
   }
 
-  .navbar-nav-nav {
+  .acade-navbar-nav-nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,22 +118,22 @@ background-size:cover; */
     position: relative;
     top: 0rem;
   }
-  .nav-item-acade {
+  .acade-nav-item-acade {
     /* margin: 0;
     margin-left: 3.6rem; */
     margin-right: 270px;
   }
-  .nav-link-nav {
+  .acade-nav-link-nav {
     font-size: 1.2rem;
     font-weight: 500;
     transition: var(--transition);
     text-decoration: none;
     /* color: black; */
   }
-  .nav-link-nav:hover {
+  .acade-nav-link-nav:hover {
     color: var(--brown-color);
   }
-  .nav-link-nav::after {
+  .acade-nav-link-nav::after {
     display: none;
   }
 }

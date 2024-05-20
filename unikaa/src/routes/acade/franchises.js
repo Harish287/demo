@@ -1,5 +1,6 @@
 import React from "react";
-import Navbar from "../../academy";
+// import Navbar from "../acade/academy";
+import Navbar from "../../components/Navbar/Header"
 import "./franchiseacade.css";
 import Acardefooter from "./acadefooter";
 import Experts from "./acadeimg/exprets-acade.png";

@@ -14,7 +14,7 @@ function ColorSchemesExample() {
   const closeNavbar = () => setNavToggler(false);
   return (
     <>
-      <nav className="navbars">
+      <nav className="bride-navbars"> 
         <div className="contain">
           <div className="navbar-content">
             <div className="brand-and-toggler flex flex-sb">
@@ -26,7 +26,7 @@ function ColorSchemesExample() {
             </Link> */}
               <button
                 type="button"
-                className="navbar-open-btn text-white  "
+                className="bride-navbar-open-btn text-white  "
                 onClick={() => setNavToggler(!navToggler)}
               >
                 <FaBars size={30} color="crimson" />
@@ -35,30 +35,36 @@ function ColorSchemesExample() {
               <div
                 className={
                   navToggler
-                    ? "navbar-collapse show-navbar-collapse"
-                    : "navbar-collapse"
+                    ? "bride-navbar-collapse bride-show-navbar-collapse"
+                    : "bride-navbar-collapse"
                 }
               >
                 <button
                   type="button"
-                  className="navbar-close-btn text-white"
+                  className="bride-navbar-close-btn text-white"
                   onClick={closeNavbar}
                 >
                   <FaTimes size={30} color="crimson" />
                 </button>
 
-                
-                <Navbar bg="" className="bridal-nav-bg" data-bs-theme="dark" style={{    background:"linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%)"}}>
+                <Navbar
+                  bg=""
+                  className="bridal-nav-bg"
+                  data-bs-theme="dark"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%)",
+                  }}
+                >
                   <Container>
                     <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
                       <div>
-                       
                         <Nav.Link href="/">
                           {/* <img src={Bride} alt="" className="bridal-name" /> */}
-<p>Unikaa Bridal</p>                        </Nav.Link>
+                          <p>Unikaa Bridal</p>{" "}
+                        </Nav.Link>
                       </div>
-                      <div className="d-flex mobile-nav-acade">
-                       
+                      <div className="d-flex mobile-nav-bride">
                         <Nav.Link href="/homes">Home</Nav.Link>
                         <Nav.Link href="/Services">Services</Nav.Link>
                         <Nav.Link href="/makeup">Makeup Experts</Nav.Link>

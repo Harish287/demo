@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import "./routes/acade/academy.css";
+import ".//academy.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Imagelogo from "./unikaalogo.png";
+import Imagelogo from "../../unikaalogo.png";
 
-import ScrollTop from "./scrolltop";
+import ScrollTop from "../../scrolltop";
 
 const Navbar = () => {
   const [navToggler, setNavToggler] = useState(false);
   const closeNavbar = () => setNavToggler(false);
 
   return (
-    <nav className="navbars">
+    <nav className="acade-navbars">
       <div className="contain">
         <div className="navbar-content">
           <div className="brand-and-toggler flex flex-sb">
@@ -23,7 +23,7 @@ const Navbar = () => {
             </Link> */}
             <button
               type="button"
-              className="navbar-open-btn text-white"
+              className="acade-navbar-open-btn text-white"
               onClick={() => setNavToggler(!navToggler)}
             >
               <FaBars size={30} />
@@ -32,28 +32,28 @@ const Navbar = () => {
             <div
               className={
                 navToggler
-                  ? "navbar-collapse show-navbar-collapse"
-                  : "navbar-collapse"
+                  ? "acade-navbar-collapse acade-show-acade-navbar-collapse"
+                  : "acade-navbar-collapse"
               }
             >
               <button
                 type="button"
-                className="navbar-close-btn text-white"
+                className="acade-navbar-close-btn text-white"
                 onClick={closeNavbar}
               >
                 <FaTimes size={30} />
               </button>
-              <ul className="navbar-nav-nav">
+              <ul className="acade-navbar-nav-nav">
                 {/* <li>
                   <Link to="/" className="text-decoration-none text-secondary">home</Link>
                 </li> */}
                 <div>
-                  <li className="nav-item-acade">
+                  <li className="acade-nav-item-acade">
                     {/* <h1>unikaa</h1> */}
 
                     <Link
                       to="/"
-                      className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
+                      className="acade-acade-nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                     >
                       <img src={Imagelogo} alt="" />{" "}
                     </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/home"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
+                    className="acade-nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     Home
                   </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/about"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
+                    className="acade-nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     About
                   </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/franchises"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
+                    className="acade-nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     Franchise
                   </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/ourcourse"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
+                    className="acade-nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     OurCourse
                   </Link>
@@ -95,7 +95,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/contact"
-                    className="nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
+                    className="acade-nav-link-nav text-white ls-1 text-uppercase fw-6 fs-17"
                   >
                     Contact
                   </Link>

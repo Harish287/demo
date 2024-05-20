@@ -2,13 +2,12 @@
   display: flex;
   justify-content: center;
   /* background-image: linear-gradient( rgba(195, 55, 100, 0.8)) url("./Assets/about-us.webp"); */
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
       rgba(195, 55, 100, 0.3),
       rgba(205, 1, 92, 0.4)
     ),
-    url("./Assets/about-us.webp");
-  background: linear-gradient(rgba(195, 55, 100, 0.3), rgba(205, 1, 92, 0.4)),
-    url("./Assets/about-us.webp"); /* The least supported option. */
+    url("./Assets/about-us.webp"); */
+  background: linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)),     url("./Assets/about-us.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +106,7 @@
 }
 
 .droptext-rt {
-  background: gainsboro;
+  background: #2ed582;
   margin-top: 100px;
   color: black;
   padding: 15px;
@@ -117,7 +116,7 @@
 
 .droptext-lt {
   margin-top: 80px;
-  background: gainsboro;
+  background: #2ed582;
 
   color: black;
   padding: 15px;
@@ -152,7 +151,7 @@
   font-weight: 500;
   font-size: 19px;
   color: #333;
-  background-color: gainsboro;
+  background-color: #2ed582;
   position: relative;
   /* width: 134%; */
   margin-left: 0px;
@@ -200,7 +199,7 @@
 }
 
 .abt-end-para-btn:hover {
-  background-color: #fe5114;
+  background-color: #2ed582;
   transition: 2s;
 }
 .abt-end-para-btn:active {

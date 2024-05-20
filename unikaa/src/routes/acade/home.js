@@ -1,5 +1,6 @@
 import React from "react";
-import Navbar from "../../academy";
+// import Navbar from "../../academy";
+import Navbar from "../../components/Navbar/Header"
 import "./acadehome.css";
 // import Acutal from "./acutal.jpg";
 

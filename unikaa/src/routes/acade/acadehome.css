@@ -1,5 +1,5 @@
 .home-bg {
-  height: 270px;
+  height: 300px;
   width: 100%;
   /* position: absolute; */
   background-repeat: no-repeat;
@@ -17,7 +17,8 @@
 
   /* background: linear-gradient(rgb(254, 81, 20, 0.5), rgba(254, 81, 20, 0.5)),
     url("./acadeimg/701.jpg"); */
-    background: linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)),  url("./acadeimg/701.jpg");;
+  background: linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)),
+    url("./acadeimg/701.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -37,7 +38,11 @@
   gap: 35px;
 }
 .acard-btn:hover {
-  background-color: rgb(254, 81, 20, 0.8);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 61, 248, 1) 0%,
+    rgba(46, 213, 130, 1) 92%
+  );
   color: black;
   transition: 2s;
 }
@@ -73,7 +78,11 @@
 }
 .acard-abtbtn:hover {
   cursor: pointer;
-  background-color: rgb(254, 81, 20, 0.8);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 61, 248, 1) 0%,
+    rgba(46, 213, 130, 1) 92%
+  );
   color: black;
   transition: 2s;
 }
@@ -103,8 +112,7 @@
 
   .acade-back-text-color {
     width: 100%;
-   
-}
+  }
   .acade-nav p {
     /* font-size: 14px;
     color: white;
@@ -188,7 +196,11 @@
 .acard-moreinfo:hover {
   /* color: #cd015c; */
   transition: 2s;
-  background-color: rgb(254, 81, 20, 0.8);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 61, 248, 1) 0%,
+    rgba(46, 213, 130, 1) 92%
+  );
 }
 .acade-home-card-pic {
   transition-duration: 1500ms;
@@ -257,7 +269,11 @@
 }
 .master-moreinfo:hover {
   /* color: #cd015c; */
-  background-color: #eb3989;
+  background: linear-gradient(
+    90deg,
+    rgba(15, 61, 248, 1) 0%,
+    rgba(46, 213, 130, 1) 92%
+  );
   transition: 2s;
 }
 .greek {
@@ -331,8 +347,13 @@
 }
 
 .background-acade-home-btn:hover {
-  background-color: #eb3989;
-  transition: 2s;
+  background: linear-gradient(
+    90deg,
+    rgba(15, 61, 248, 1) 0%,
+    rgba(46, 213, 130, 1) 92%
+  );
+  color: white;
+  transition: 1s;
 }
 @media screen and (max-width: 850px) {
   .background-acade-home {
@@ -404,8 +425,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background: linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)), url(http://localhost:3000/static/media/701.575a383….jpg);
-}  
+  background: linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)),
+  url(https://homeservicebeautyparlour.com/assets/images/06/skin-care-slider.jpg);
+}
 
 .our-best-logo {
   width: 110px;

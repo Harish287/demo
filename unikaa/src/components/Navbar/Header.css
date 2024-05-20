@@ -2,8 +2,9 @@
   display: block;
   text-align: center;
   /* padding: 1px; */
-  background-color:#fe5114;
+  /* background-color:#fe5114; */
   color: white;
+  background-color: transparent;
 }
 .top h1{
   margin: 0;
