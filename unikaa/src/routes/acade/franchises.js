@@ -26,8 +26,8 @@ import {
 const franchise = () => {
   return (
     <>
-      <Navbar />
-      <div className="acade-franche">
+      {/* <Navbar /> */}
+      {/* <div className="acade-franche">
         <div className="acade-franche-nav">
           <h6>Unikaa Beauty Academy Passion And Inspiration</h6>
           <h4>A Business Tailor - Made For You</h4>
@@ -35,7 +35,7 @@ const franchise = () => {
             <button className="acade-franchebtn">CONTACTUS </button>
           </a>
         </div>
-      </div>
+      </div> */}
 
       <div className="acade-franchise-head">
         <h1>Welcome to Unikaa Beauty Academy</h1>
@@ -234,7 +234,7 @@ const franchise = () => {
         </div>
       </div>
 
-      <Acardefooter />
+      {/* <Acardefooter /> */}
     </>
   );
 };

@@ -31,8 +31,9 @@ function Contact() {
   };
 
   const handleSubmit = (event) => {
+    console.log(values,"value sdsadsas");
     event.preventDefault();
-    alert("Are you sure you want to submit the form?");
+    // alert("Are you sure you want to submit the form?");
     // event.target.reset();
 
     setErrors(Validation(values));
@@ -54,7 +55,7 @@ function Contact() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <br /> */}
       <div>
         <h1 className="academy-contact-h1"> Unikaa Academy Enquiry</h1>
@@ -212,7 +213,7 @@ function Contact() {
 
       <br />
 
-      <Acardefooter />
+      {/* <Acardefooter /> */}
     </>
   );
 }

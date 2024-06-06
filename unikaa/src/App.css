@@ -35,7 +35,7 @@ body {
   height: 80px;
   width: 100%;
 
-  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
+  background: linear-gradient(90deg, rgba(46, 213, 130, 1) 0% , rgba(15, 61, 248, 1)92%);
   /* background: #fe5114; */
   /* font-weight: 900; */
 }
@@ -117,7 +117,7 @@ h6 {
 .desktop-nav .menu-items a:hover,
 .desktop-nav .menu-items button:hover {
   /* background-color: #fe5114; */
-  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
+  background: linear-gradient(90deg, rgba(46, 213, 130, 1) 0% , rgba(15, 61, 248, 1)92%);
 
   color: #fff;
   box-sizing: border-box;
@@ -146,7 +146,7 @@ h6 {
   padding: 0.5rem 0;
   list-style: none;
   /* background-color: #fe5114; */
-  background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);
+  background: linear-gradient(90deg, rgba(46, 213, 130, 1) 0% , rgba(15, 61, 248, 1)92%);
 
   border-radius: 0.5rem;
   display: none;

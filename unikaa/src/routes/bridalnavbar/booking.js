@@ -11,17 +11,13 @@ function booking(values) {
     errors.email = "";
   }
 
-  if (values.Fname === "") {
-    errors.Fname = "First Name should not be empty";
+  if (values.Name === "") {
+    errors.Name = " Name should not be empty";
   } else {
-    errors.Fname = "";
+    errors.Name = "";
   }
 
-  if (values.Lname === "") {
-    errors.Lname = "Last Name should not be empty";
-  } else {
-    errors.Lname = "";
-  }
+  
 
   if (values.number === "") {
     errors.number = "Phone number should not be empty";
@@ -37,12 +33,17 @@ function booking(values) {
     errors.message = "";
   }
 
+  if (values.makeup === "") {
+    errors.makeup = "makeup should not to be empty";
+  } else {
+    errors.makeup = "";
+  }
+
   if (values.place === "") {
     errors.place = "place should not to be empty";
   } else {
     errors.place = "";
   }
-
   return errors;
 }
 

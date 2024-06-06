@@ -1,5 +1,7 @@
 import React from "react";
-import Navbar from "../bridalnavbar/bridal";
+// import Navbar from "../bridalnavbar/bridal";
+import Navbar from "../../components/Navbar/Header"
+
 import Pinkimg from "./blogimages/depositphotos_6354967-stock-photo-pink-flower.jpg";
 import Pinkimgs from "./blogimages/depositphotos_6354967-stock-photo-pink-flower.jpg";
 import Bookicon from "./blogimages/44621.png";
@@ -20,10 +22,11 @@ import { div, Card, Col } from "react-bootstrap";
 import img1 from "./blogimages/topquality.png";
 import Bridalfooter from "./bridalfooter";
 
+
 const services = () => {
   return (
     <div className="brideserv">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="brideSevice">
         <h1>Bridal Makeover</h1>
         <button className="servicebok">BookNow</button>
@@ -44,21 +47,21 @@ const services = () => {
         <div className="course-box1">
           <img src={Postbridalcare} className="post-icon" alt="" />
           <h4>Post bridal care </h4>
-          <a href="/booknow">
+          <a href="#booknow1">
             Book Now <img src={Bookicon} className="col-icon" alt="booknow" />
           </a>
         </div>
         <div className="course-box1">
           <img src={Cam} className="post-icon" alt="" />
           <h4>Pre bridal photoshoot</h4>
-          <a href="/booknow">
+          <a href="#booknow1">
             Book Now <img src={Bookicon} className="col-icon" alt="booknow" />
           </a>
         </div>
         <div className="course-box1">
           <img src={Bride} className="post-icon" alt="" />
           <h4>Bridal services</h4>
-          <a href="/booknow">
+          <a href="#booknow1">
             Book Now <img src={Bookicon} className="col-icon" alt="booknow" />
           </a>
         </div>
@@ -68,14 +71,14 @@ const services = () => {
         <div className="course-cole">
           <img src={Makeup} className="post-icon" alt="" />
           <h4>Pre bridal</h4>
-          <a href="/booknow">
+          <a href="#booknow1">
             Book Now <img src={Bookicon} className="col-icon" alt="booknow" />
           </a>
         </div>
         <div className="course-cole">
           <img src={Mehandhi} className="post-icon" alt="" />
           <h4>Mehndi</h4>
-          <a href="/booknow">
+          <a href="#booknow1">
             Book Now <img src={Bookicon} className="col-icon" alt="booknow" />
           </a>
         </div>
@@ -215,23 +218,23 @@ const services = () => {
           <div className="bridal-service-quality-image1">
             <img src={Bridesmaid} alt="" />
             <h4>Post bridal care </h4>
-            <a href="/booknow">Book Now</a>
+            <a href="#booknow1">Book Now</a>
           </div>
           <div className="bridal-service-quality-image1">
             <img src={Mother} alt="" />
             <h4>Post bridal care </h4>
-            <a href="/booknow">Book Now</a>
+            <a href="#booknow1">Book Now</a>
           </div>
 
           <div className="bridal-service-quality-image1">
             <img src={Postbride} alt="" />
             <h4>Post bridal care </h4>
-            <a href="/booknow">Book Now</a>
+            <a href="#booknow1">Book Now</a>
           </div>
         </div>
       </div>
 
-      <Bridalfooter />
+      {/* <Bridalfooter /> */}
     </div>
   );
 };

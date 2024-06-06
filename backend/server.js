@@ -130,17 +130,20 @@ app.get("/blog", (req, res) => {
   });
 });
 
-app.post("/contact", (req, res) => {
+
+
+app.post("/tbl_add_booking", (req, res) => {
   const values = [
-    req.body.Fname,
-    req.body.Lname,
+    req.body.Name,
     req.body.email,
     req.body.number,
     req.body.message,
+    req.body.makeup,
     req.body.place,
   ];
+  console.log(values)
   const sql =
-    "INSERT INTO contact (`Fname`,`Lname`, `email`,`number`,`message`,`place`) VALUES (?)";
+    "INSERT INTO tbl_add_booking (`Name`, `email`,`number`,`message`,`makeup`,`place`) VALUES (?)";
 
   con.query(sql, [values], (err, data) => {
     if (err) {
@@ -151,6 +154,9 @@ app.post("/contact", (req, res) => {
   });
 });
 
+
+
+
 app.post("/academy_count", (req, res) => {
   const values = [
     req.body.fname,
@@ -159,6 +165,7 @@ app.post("/academy_count", (req, res) => {
     req.body.course,
     req.body.message,
   ];
+
   const sql =
     "INSERT INTO academy_contact (`fname`,`number`, `email`,`course`,`message`) VALUES (?)";
 

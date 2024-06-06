@@ -112,8 +112,9 @@ function Logo() {
       </div>
 
       <div>
+ 
         <div className="logo-2line">
-          {/* <p>NATURALLY, YOU!</p> */}
+         
           <br />
           <h2>
             What Our Magicians Can

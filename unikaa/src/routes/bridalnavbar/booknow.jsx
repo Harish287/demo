@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Validation from "./booking";
 import axios from "axios";
-import Navbar from "../bridalnavbar/bridal";
+// import Navbar from "../bridalnavbar/bridal";
 import "./booknow.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
@@ -12,13 +12,13 @@ import { useNavigate } from "react-router-dom";
 
 function Booknow() {
   const [values, setValues] = useState({
-    Fname: "",
-    Lname: "",
+    Name: "",
     email: "",
     number: "",
-    place: "",
     message: "",
-  });
+     makeup:"",
+    place: "",
+     });
 
   const navigate = useNavigate();
 
@@ -32,20 +32,20 @@ function Booknow() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert("Are you sure you want to submit the form?");
+    // alert("Are you sure you want to submit the form?");
     // event.target.reset();
 
     setErrors(Validation(values));
     if (
-      errors.Fname === "" &&
-      errors.Lname === "" &&
+      errors.Name === "" &&
       errors.email === "" &&
       errors.number === "" &&
       errors.message === "" &&
+      errors.makeup === "" &&
       errors.place === ""
     ) {
       axios
-        .post("http://localhost:8081/contact", values)
+        .post("http://localhost:8081/tbl_add_booking", values)
         .then((res) => {
           navigate("/submit");
         })
@@ -54,13 +54,13 @@ function Booknow() {
   };
 
   return (
-    <>
-      <Navbar />
+    <div id="booknow1" >
+      {/* <Navbar /> */}
       <div>
       <h2
         style={{
           textAlign: "center",
-marginTop:"50px",
+           marginTop:"50px",
           fontSize: " 32px",
           lineheight: "55px",
           fontWeight: "400",
@@ -76,36 +76,21 @@ marginTop:"50px",
               <form action="" onSubmit={handleSubmit} style={{color:"white"}}>
                 <div className="container row g-5 mt-5">
                   <div className="col-md-6 ">
-                    <label htmlFor="Fname" className="form-label">
-                      <strong>First Name</strong>
+                    <label htmlFor="Name" className="form-label">
+                      <strong> Name</strong>
                     </label>
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Enter First Name"
-                      name="Fname"
+                      placeholder="Enter  Name"
+                      name="Name"
                       onChange={handleInput}
                     />
-                    {errors.Fname && (
-                      <span className="text-danger">{errors.Fname}</span>
+                    {errors.Name && (
+                      <span className="text-danger">{errors.Name}</span>
                     )}
                   </div>
 
-                  <div className="col-md-6 mb-3">
-                    <label htmlFor="Lname" className="form-label">
-                      <strong>Last Name</strong>
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="Enter Last Name"
-                      name="Lname"
-                      onChange={handleInput}
-                      className="form-control"
-                    />
-                    {errors.Lname && (
-                      <span className="text-danger">{errors.Lname}</span>
-                    )}
-                  </div>
 
                   <div className="col-md-6 mb-3">
                     <label htmlFor="email" className="form-label">
@@ -124,7 +109,7 @@ marginTop:"50px",
                   </div>
 
                   <div className="col-md-6 mb-3">
-                    <label htmlFor="phone" className="form-label">
+                    <label htmlFor="number" className="form-label">
                       <strong>Phone Number</strong>
                     </label>
                     <input
@@ -136,6 +121,23 @@ marginTop:"50px",
                     />
                     {errors.number && (
                       <span className="text-danger">{errors.number}</span>
+                    )}
+                  </div>
+
+
+                   <div className="col-md-6 mb-3">
+                    <label htmlFor="makeup" className="form-label">
+                      <strong>Last makeup</strong>
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Enter  makeup"
+                      name="makeup"
+                      onChange={handleInput}
+                      className="form-control"
+                    />
+                    {errors.makeup && (
+                      <span className="text-danger">{errors.makeup}</span>
                     )}
                   </div>
 
@@ -197,7 +199,7 @@ marginTop:"50px",
             </p>
             <div className="card-text">
               <a
-                href="https://www.instagram.com/_.mr.thunder_gray._"
+                href="https://www.instagram.com/unikaabeauty/"
                 class="card-link"
                 style={{ color: "black" }}
               >
@@ -212,7 +214,7 @@ marginTop:"50px",
       </div>
 
       </div>
-    </>
+    </div>
   );
 }
 

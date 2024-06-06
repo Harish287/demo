@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../bridalnavbar/bridal";
+// import Navbar from "../bridalnavbar/bridal";
 import Bridalfooter from "./bridalfooter";
 import "./bridalhome.css";
 
@@ -27,7 +27,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const home = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="homes-name">
         <h1 className="bride-home-head">90 Days Journey</h1>
@@ -128,7 +128,7 @@ const home = () => {
               highlights your best features and complements your personal style.
             </p>
             <br />
-            <a href="/booknow">
+            <a href="#booknow1">
               <button className="trialbooknow-btn">
                 BookNow
                 <img src={Bookicon} className="book-icon-bride" alt="" />
@@ -151,7 +151,7 @@ const home = () => {
               trial, our makeup artist will work with you to create a look that
               highlights your best features and complements your personal style.
             </p>
-            <a href="/booknow">
+            <a href="#booknow1">
               <button className="Trial-Makeup-btn">
                 BookNow
                 <img src={Bookicon} className="books-icon-bride" alt="" />
@@ -198,7 +198,7 @@ const home = () => {
         <br></br>
         <hr></hr>
       </div>
-      <Bridalfooter />
+      {/* <Bridalfooter /> */}
     </div>
   );
 };

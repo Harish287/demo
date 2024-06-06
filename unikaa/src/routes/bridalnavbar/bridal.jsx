@@ -13,7 +13,7 @@ import ScrollTop from "./scrolltop";
 function bridal() {
   return (
     <>
-      <Bridalnav />
+      {/* <Bridalnav /> */}
       <div className="container">
         <Routes>
           <Route path="/home" element={<Home />} />

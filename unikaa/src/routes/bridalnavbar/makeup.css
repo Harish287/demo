@@ -14,10 +14,16 @@
   position: relative;
   max-width: 60vw;
   max-height: 645px;
-  width: 100%;
+  width: 50%;
   margin: 10px 20px 0px 0px;
   border-radius: 0px 1190px 1190px 0px;
   background: gainsboro;
+}
+
+.all-button-mackup{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .name-of-the-artist {
@@ -41,6 +47,7 @@
 .slide-all-pic {
   margin-bottom: 190px;
   display: flex;
+  width: 100%;
 }
 
 .consultent-slideone {
@@ -48,7 +55,7 @@
   display: flex;
   overflow-x: scroll;
   overflow-y: hidden;
-  /* width: 32%; */
+  width: 50%;
   /* margin-top: -535px;
   margin-left: 1300px; */
   display: flex;
@@ -81,19 +88,21 @@
   padding: 0 100px;
 }
 
-.big-img svg {
+/* .big-img svg {
   margin-top: 380px;
   margin-left: 263px;
   margin-right: -140px;
   width: 40px;
   cursor: pointer;
-}
+} */
 .left-btn-slide svg {
-  margin-left: 200px;
+  /* margin-left: 200px; */
+width: 40px;
 }
 
 .right-btn-slide svg {
-  margin-left: 227px;
+  /* margin-left: 227px; */
+  width: 40px;
 }
 
 .big-img1 {
@@ -133,12 +142,12 @@
   width: 100%;
 }
 
-.big-img button {
+/* .big-img button {
   margin: 0;
   padding: 0;
   border: none;
   background-color: transparent;
-}
+} */
 
 .consults2 {
   min-width: 340px;
@@ -240,14 +249,14 @@
     margin: 0;
     width: 100%;
   }
-  .right-btn-slide svg {
+  /* .right-btn-slide svg {
     margin-left: 340px;
     margin-top: 20px;
-  }
-  .left-btn-slide svg {
+  } */
+  /* .left-btn-slide svg {
     margin-left: 400px;
     margin-top: -68px;
-  }
+  } */
 
   .big-img svg {
     margin-left: 175px;

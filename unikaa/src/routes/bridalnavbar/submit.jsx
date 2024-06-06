@@ -22,7 +22,7 @@ const submit = () => {
             boxSizing: "border-box",
           }}
         >
-         <a href="/homes"> <button style={{ padding: "8px 20px", borderRadius: "60px" }}>
+         <a href="/unikaaBridal"> <button style={{ padding: "8px 20px", borderRadius: "60px" }}>
             go back
           </button></a>
         </div>

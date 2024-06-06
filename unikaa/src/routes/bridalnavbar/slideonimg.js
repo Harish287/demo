@@ -85,16 +85,25 @@ function Slideonimg() {
             <img src={Consulting} alt="" className="second-slide-img" />
           )}
 
-          {first && (
-            <button className="right-btn-slide" onClick={fourthHandler}>
-              <FaCaretSquareLeft />
-            </button>
-          )}
-          {first && (
-            <button className="left-btn-slide" onClick={secondHandler}>
-              <FaCaretSquareRight />
-            </button>
-          )}
+          <div className="all-button-mackup">
+            {" "}
+            <div>
+              {" "}
+              {first && (
+                <button className="right-btn-slide" onClick={fourthHandler}>
+                  <FaCaretSquareLeft />
+                </button>
+              )}
+            </div>
+            <div>
+              {" "}
+              {first && (
+                <button className="left-btn-slide" onClick={secondHandler}>
+                  <FaCaretSquareRight />
+                </button>
+              )}
+            </div>
+          </div>
 
           {/*************************************************secondslide********************************************/}
 
@@ -118,18 +127,23 @@ function Slideonimg() {
           {second && (
             <img src={Consulting} alt="" className="second-slide-img" />
           )}
-
-          {second && (
-            <button className="right-btn-slide" onClick={firstHandler}>
-              <FaCaretSquareLeft />
-            </button>
-          )}
-          {second && (
-            <button className="left-btn-slide" onClick={thirdHandler}>
-              <FaCaretSquareRight />
-            </button>
-          )}
-
+          <div className="all-button-mackup">
+            <div>
+              {second && (
+                <button className="right-btn-slide" onClick={firstHandler}>
+                  <FaCaretSquareLeft />
+                </button>
+              )}
+            </div>
+            <div>
+              {" "}
+              {second && (
+                <button className="left-btn-slide" onClick={thirdHandler}>
+                  <FaCaretSquareRight />
+                </button>
+              )}
+            </div>
+          </div>
           {/*************************************************thirdslide********************************************/}
 
           {third && <h1 className="name-of-the-artist">kamala</h1>}
@@ -153,16 +167,24 @@ function Slideonimg() {
             <img src={Consulting} alt="" className="second-slide-img" />
           )}
 
-          {third && (
-            <button className="right-btn-slide" onClick={secondHandler}>
-              <FaCaretSquareLeft />
-            </button>
-          )}
-          {third && (
-            <button className="left-btn-slide" onClick={fourthHandler}>
-              <FaCaretSquareRight />
-            </button>
-          )}
+          <div className="all-button-mackup">
+            <div>
+              {" "}
+              {third && (
+                <button className="right-btn-slide" onClick={secondHandler}>
+                  <FaCaretSquareLeft />
+                </button>
+              )}
+            </div>
+            <div>
+              {" "}
+              {third && (
+                <button className="left-btn-slide" onClick={fourthHandler}>
+                  <FaCaretSquareRight />
+                </button>
+              )}
+            </div>
+          </div>
 
           {/*************************************************fourthslide********************************************/}
 
@@ -187,16 +209,23 @@ function Slideonimg() {
             <img src={Consulting} alt="" className="second-slide-img" />
           )}
 
-          {fourth && (
-            <button className="right-btn-slide" onClick={thirdHandler}>
-              <FaCaretSquareLeft />
-            </button>
-          )}
-          {fourth && (
-            <button className="left-btn-slide" onClick={firstHandler}>
-              <FaCaretSquareRight />
-            </button>
-          )}
+          <div className="all-button-mackup">
+            <div>
+              {fourth && (
+                <button className="right-btn-slide" onClick={thirdHandler}>
+                  <FaCaretSquareLeft />
+                </button>
+              )}
+            </div>
+            <div>
+              {" "}
+              {fourth && (
+                <button className="left-btn-slide" onClick={firstHandler}>
+                  <FaCaretSquareRight />
+                </button>
+              )}
+            </div>
+          </div>
         </div>
 
         <div className="consultent-slideone">

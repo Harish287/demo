@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../bridalnavbar/bridal";
+// import Navbar from "../bridalnavbar/bridal";
 import "./makeup.css";
 
 import Consulting from "./blogimages/consulting.jpg";
@@ -79,12 +79,12 @@ function Makeup() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
-      <h1 className="makeup-artists">Makeup Artists</h1>
+      {/* <h1 className="makeup-artists">Makeup Artists</h1>
       <div>
         <Slide />
-      </div>
+      </div> */}
       <br />
 
       <h1 className="our-top-art-head">Our Top Artists</h1>
@@ -210,7 +210,7 @@ function Makeup() {
       </div>
 
       <br />
-      <Bridalfooter />
+      {/* <Bridalfooter /> */}
     </>
   );
 }

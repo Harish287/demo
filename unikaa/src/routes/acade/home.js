@@ -3,7 +3,6 @@ import React from "react";
 import Navbar from "../../components/Navbar/Header"
 import "./acadehome.css";
 // import Acutal from "./acutal.jpg";
-
 import Hairdressing from "./acadeimg/hairdressings.avif";
 import Beautytherapy from "./acadeimg/beautytherapy.jpg";
 import Cosmetology from "./acadeimg/Cosmetology.jpg";
@@ -12,7 +11,6 @@ import Makeupartist from "./acadeimg/makeupartist.jpg";
 import Nailart from "./acadeimg/nailart.jpg";
 import Makeupartistert from "./acadeimg/makeupartistery.jpg";
 import Beautytherpy from "./acadeimg/Beauty-Therapy.webp";
-
 import Placement from "./acadeimg/placement-logo.png";
 import Practical from "./acadeimg/practical.png";
 import Certification from "./acadeimg/certification.png";
@@ -23,10 +21,15 @@ import { FaArrowRight } from "react-icons/fa";
 
 // import Master from "./acutal.jpg";
 import Acardefooter from "./acadefooter";
+
+import Franchise from "./franchises"
+import Ourcourse from "./ourcourse"
+import Contact from "./contact"
+
 const home = () => {
   return (
     <div className="acade-home">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="acade-nav">
         <div className="home-bg">
           <div className="acade-back-text-color">
@@ -303,7 +306,12 @@ const home = () => {
           </div>
         </div>
       </div>
-      <Acardefooter />
+
+<Franchise/>
+{/* <Ourcourse/> */}
+<Contact/>
+
+      {/* <Acardefooter /> */}
     </div>
   );
 };

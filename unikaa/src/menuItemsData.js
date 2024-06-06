@@ -32,18 +32,18 @@ export const menuItemsData = [
   {
     title: "Academy",
     url: "/academy",
-    submenu: [
-      { title: "Home", url: "/home" },
-      { title: "About", url: "/about" },
-      { title: "Franchise", url: "/franchises" },
-      { title: "Ourcourse", url: "/ourcourse" },
-      { title: "Academy Contact", url: "/contact" },
+    // submenu: [
+    //   { title: "Home", url: "/home" },
+    //   { title: "About", url: "/about" },
+    //   { title: "Franchise", url: "/franchises" },
+    //   { title: "Ourcourse", url: "/ourcourse" },
+    //   { title: "Academy Contact", url: "/contact" },
       
-    ],
+    // ],
   },
   {
     title: "Bridal",
-    url: "/homes",
+    url: "/unikaaBridal",
   },
   {
     title: "Offers",

@@ -24,7 +24,7 @@ const academysubmit = () => {
             boxSizing: "border-box",
           }}
         >
-          <a href="/home">
+          <a href="/academy">
             {" "}
             <button style={{ padding: "8px 20px", borderRadius: "60px" }}>
               go back

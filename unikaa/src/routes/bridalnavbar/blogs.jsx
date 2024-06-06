@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../bridalnavbar/bridal";
+// import Navbar from "../bridalnavbar/bridal";
 import image from "./blogimages/blog24.jpg";
 import image4 from "./blogimages/blogs12.jpg";
 import image1 from "./blogimages/blogs22.jpg";
@@ -16,7 +16,7 @@ import Bridalfooter from "./bridalfooter";
 function blogs() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />/ */}
 
       <div></div>
       <br></br>
@@ -255,7 +255,7 @@ function blogs() {
 
       <br></br>
 
-      <Bridalfooter />
+      {/* <Bridalfooter /> */}
     </>
   );
 }
