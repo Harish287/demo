@@ -1,6 +1,6 @@
 {
-	  "DEPLOYPATH" : "/home/unikaabeauty/public_html/git_deploy/",
-	  "task" :  {
-      "1" : "*",
-    }
+	"DEPLOYPATH" : "/home/unikaabeauty/public_html/git_deploy/",
+	"task" :  [
+		"*",
+    	]
 }
