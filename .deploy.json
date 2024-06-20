@@ -2,6 +2,7 @@
    "DEPLOYPATH":"/home/unikaabeauty/public_html/git_deploy/",
    "task":[
       "*",
-      ".vscode"
+      ".vscode",
+      ".git"
    ]
 }
