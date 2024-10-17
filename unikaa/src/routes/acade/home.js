@@ -19,6 +19,9 @@ import Trainingtime from "./acadeimg/triningtime.jpg";
 
 import { FaArrowRight } from "react-icons/fa";
 
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
+
 // import Master from "./acutal.jpg";
 import Acardefooter from "./acadefooter";
 
@@ -33,17 +36,17 @@ const home = () => {
       <div className="acade-nav">
         <div className="home-bg">
           <div className="acade-back-text-color">
-          
-            <h1>UNIKAA Beauty Academy</h1>
-            <h4>Learn From Beauty Experts</h4>
+
+            <h1>Welcome to Unikaa Beauty Academy</h1>
+            <h4>Empowering Future Beauty Professionals</h4>
             <p>
-              Unikaa Beauty Academy Learn From International Beauty Experts
-              Unikaa Beauty Academy: Empowering students with expert training in
-              hair, skin, makeup, and nails, unveiling the artistry within for
-              the pursuit of timeless beauty.
+              At Unikaa Beauty Academy, we are dedicated to nurturing the next generation of beauty
+              experts. Our comprehensive training programs are designed to equip aspiring beauty
+              professionals with the skills, knowledge, and confidence needed to thrive in the ever evolving
+              beauty industry
             </p>
           </div>
-          <br/>
+          <br />
           <div className="acard-btns">
             <a href="/ourcourse">
               <button className="acard-btn">COURSES </button>
@@ -63,29 +66,48 @@ const home = () => {
 
           <div className=" paraacadehome">
             <p>
-              Our goal at Unikaa Beauty Academy is to give applicants an
-              internationally acclaimed education with a focus on experiential
-              learning. By providing our students with the most advanced tools
-              and state-of-the-art facilities, we enable them to succeed in the
-              beauty industry. Our Beauty Tool Kit provides students with
-              extremely effective instruments that improve their talents to
-              worldwide standards, so benefitting their professional careers.
-              Every component in the package is intended for thorough
-              instruction and provides students with the practical information
-              they need to become productive professionals in the
-              business.Beauty Academy Unikaa: Our goal is to give candidates a
-              globally recognized education with a focus on practical
-              experience. By providing our students with the most advanced
-              facilities and equipment available, we enable them to succeed in
-              the beauty industry. With products that are incredibly effective,
-              our Beauty Tool Kit improves skills to meet international
-              standards and helps students in their professional careers.
-              Crafted to provide thorough instruction, every component of the
-              kit furnishes learners with the hands-on experience required to
-              develop into proficient industry experts.
+              Our mission is to provide exceptional education and hands-on training in various beauty
+              disciplines, including makeup artistry, hairstyling, skincare, and salon management. We aim to
+              empower our students with practical skills and theoretical knowledge, ensuring they are well
+              prepared for successful careers.
+
             </p>
           </div>
         </div>
+
+
+        {/* <div className=" container">
+          <h2 className="h3 " >Why Choose Unikaa Beauty Academy?</h2>
+          <div>
+            <h2 className="h5">1. Industry Relevant Curriculum:</h2>
+            <p> Our courses are carefully crafted to align with current beauty trends and industry standards.
+              Students will learn the latest techniques, products, and tools used in the beauty field.</p>
+          </div>
+          <div>
+            <h2 className="h5">2. Experienced Instructors:</h2>
+            <p>Learn from seasoned professionals with extensive experience in the beauty industry. Our
+              instructors bring real-world insights and practical tips to the classroom.</p>
+          </div>
+          <div>
+            <h2 className="h5">3. Hands-on Training:</h2>
+            <p> We believe in the power of experiential learning. Our students gain valuable hands-on
+              experience through practical sessions, workshops, and live demonstrations, ensuring they
+              leave confident in their abilities.</p>
+          </div>
+          <div>
+            <h2 className="h5">4. State-of-the-art Facilities:</h2>
+            <p>Our academy is equipped with modern facilities and the latest beauty technology, providing
+              students with an immersive learning environment</p>
+          </div>
+          <div>
+            <h2 className="h5">5. Career Support:</h2>
+            <p> We are committed to helping our graduates succeed. Our career support services include job
+              placement assistance, resume building, and networking opportunities within the beauty
+              industry.</p>
+          </div>
+
+        </div> */}
+
 
         {/*****************************************card***********************************************/}
 
@@ -103,11 +125,13 @@ const home = () => {
                 <h5 className="acade-home-dep-card-title">
                   Diploma in Basic Cosmetology
                 </h5>
-                <a href="/about">
+                <p>Training focused on the business side of beauty, including marketing, customer service, and
+                  salon operations</p>
+                {/* <a href="/about">
                   <button className="acard-moreinfo">
                     More Info <FaArrowRight />
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -119,11 +143,13 @@ const home = () => {
                 <h5 className="acade-home-dep-card-title">
                   Certificate in Beauty Therapy
                 </h5>
-                <a href="/about">
+                <p>Education on skincare treatments, product knowledge, and practical skills for facials,
+                  exfoliation, and more</p>
+                {/* <a href="/about">
                   <button className="acard-moreinfo">
                     More Info <FaArrowRight />
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -135,11 +161,13 @@ const home = () => {
                 <h5 className="acade-home-dep-card-title">
                   Certificate in Hairdressing
                 </h5>
-                <a href="/about">
+                <p>Courses covering haircutting, styling, coloring, and advanced techniques like braiding and
+                  updos</p>
+                {/* <a href="/about">
                   <button className="acard-moreinfo">
                     More Info <FaArrowRight />
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -153,11 +181,13 @@ const home = () => {
                 <h5 className="acade-home-dep-card-title">
                   Certificate in Pro Makeup Artistry Level 1
                 </h5>
-                <a href="/about">
+                <p>Comprehensive training in makeup techniques for various occasions, including bridal,
+                  editorial, and special effects makeup.</p>
+                {/* <a href="/about">
                   <button className="acard-moreinfo">
                     More Info <FaArrowRight />
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -169,11 +199,13 @@ const home = () => {
                 <h5 className="acade-home-dep-card-title">
                   Certificate in Hair Styling (Cut & Styling)
                 </h5>
-                <a href="/about">
+                <p>Courses covering haircutting, styling, coloring, and advanced techniques like braiding and
+                  updos</p>
+                {/* <a href="/about">
                   <button className="acard-moreinfo">
                     More Info <FaArrowRight />
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -245,11 +277,11 @@ const home = () => {
             the best possible learning experience and preparing them for
             rewarding careers in the beauty and grooming industry.
           </p>
-          <a href="/home">
-            <button className="background-acade-home-btn">
-              More Info <FaArrowRight />
-            </button>
-          </a>
+          {/* <a href="/home"> */}
+          <AnchorLink href="#contact"> <button className="background-acade-home-btn">
+            More Info <FaArrowRight />
+          </button></AnchorLink>
+          {/* </a> */}
         </div>
 
         {/*****************************************Our Best Features*****************************************/}
@@ -307,9 +339,9 @@ const home = () => {
         </div>
       </div>
 
-<Franchise/>
-{/* <Ourcourse/> */}
-<Contact/>
+      <Franchise />
+      {/* <Ourcourse/> */}
+      <div id="contact"><Contact  /></div>
 
       {/* <Acardefooter /> */}
     </div>

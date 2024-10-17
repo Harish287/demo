@@ -1,24 +1,22 @@
 .about-imag {
-  display: flex;
   justify-content: center;
-  /* background-image: linear-gradient( rgba(195, 55, 100, 0.8)) url("./Assets/about-us.webp"); */
-  /* background: -webkit-linear-gradient(
-      rgba(195, 55, 100, 0.3),
-      rgba(205, 1, 92, 0.4)
-    ),
-    url("./Assets/about-us.webp"); */
-  background: linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)),     url("./Assets/about-us.webp");
+  background: linear-gradient(
+      rgba(16, 65, 245, 0.7), 
+      rgba(46, 213, 130, 0.7)
+    ), 
+    url("./Assets/about.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* margin-top: 2px; */
-  font-size: 2rem;
+  /* height: 800px; 
+  width: 100%;  */
 }
+
 .abtheader h1 {
   width: 100%;
   padding: 100px 0;
   text-align: center;
   color: aliceblue;
+
 }
 .abtheader h2 {
   font-size: 30px;
@@ -134,7 +132,7 @@
 
 .vl {
   border-left: 2px solid gray;
-  height: 860px;
+  height: 460px;
   position: absolute;
   /* margin-left: 950px; */
 }

@@ -15,12 +15,12 @@ import SkinCare from "./components/ourservices/skincare";
 import Offers from "./routes/offers";
 
 // bridal subdivision
-// import Bridal from "./routes/bridalnavbar/bridal";
-// import Home from "./routes/bridalnavbar/homes";
-// import Services from "./routes/bridalnavbar/services";
-// import Makeup from "./routes/bridalnavbar/makeup";
-// import Blogs from "./routes/bridalnavbar/blogs";
-// import Booknow from "./routes/bridalnavbar/booknow";
+import Bridal from "./routes/bridalnavbar/bridal";
+import Home from "./routes/bridalnavbar/homes";
+import Services from "./routes/bridalnavbar/services";
+import Makeup from "./routes/bridalnavbar/makeup";
+import Blogs from "./routes/bridalnavbar/blogs";
+import Booknow from "./routes/bridalnavbar/booknow";
 import Submit from "./routes/bridalnavbar/submit";
 
 
@@ -134,53 +134,53 @@ const router = createBrowserRouter([
   },
   // **************************bridal********************//
 
-  // {
-  //   path: "bridal",
-  //   element: <Bridal />,
-  // },
-  // {
-  //   path: "homes",
-  //   element: <Home />,
-  // },
-  // {
-  //   path: "services",
-  //   element: <Services />,
-  // },
-  // {
-  //   path: "makeup",
-  //   element: <Makeup />,
-  // },
-  // {
-  //   path: "blogs",
-  //   element: <Blogs />,
-  // },
-  // {
-  //   path: "booknow",
-  //   element: <Booknow />,
-  // },
+  {
+    path: "bridal",
+    element: <Bridal />,
+  },
+  {
+    path: "homes",
+    element: <Home />,
+  },
+  {
+    path: "services",
+    element: <Services />,
+  },
+  {
+    path: "makeup",
+    element: <Makeup />,
+  },
+  {
+    path: "blogs",
+    element: <Blogs />,
+  },
+  {
+    path: "booknow",
+    element: <Booknow />,
+  },
   { path: "submit", element: <Submit /> },
   // ************************************************Acadamy*************************************//
 
-  // {
-  //   path: "home",
-  //   element: <Homess />,
-  // },
-  // {
-  //   path: "franchises",
-  //   element: <Franchises />,
-  // },
-  // {
-  //   path: "about",
-  //   element: <About />,
-  // },
-  // {
-  //   path: "contact",
-  //   element: <Contact />,
-  // },
-  // {
-  //   path: "ourcourse",
-  //   element: <Ourcourse />,
-  // },
+  {
+    path: "home",
+    element: <Homess />,
+  },
+  {
+    path: "franchises",
+    element: <Franchises />,
+  },
+  {
+    path: "about",
+    element: <About />,
+  },
+  {
+    path: "contact",
+    element: <Contact />,
+  },
+  {
+    path: "ourcourse",
+    element: <Ourcourse />,
+  },
   { path: "academysubmit", element: <Academysubmit /> },
   {
     path: "/diploma-in-cosmetology-at-unikaa-beauty-academy",

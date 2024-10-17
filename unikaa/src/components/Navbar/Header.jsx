@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 // import Logo from ".//1.png";
 import "../Navbar/Header.css";
-import Logo from "../../Assets/WhatsApp Image 2024-04-24 at 3.57.37 PM copy (3).png"
+import Logo from "../../Assets/Unikaa Logo PNG.png"
 
 
 
@@ -16,8 +16,8 @@ const Header = () => {
       </div> */}
       <div className="nav-area">
         <Link to="/logo" className="logo">
-          {/* <img src={Logo} alt="" /> */}
-          <p>UNIKAA</p>
+          <img src={Logo} alt="" />
+          {/* <p>UNIKAA</p> */}
         </Link>
 
         {/* for large screen */}

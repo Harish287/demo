@@ -12,12 +12,24 @@ import image5 from "./Assets/images 3.avif";
 import image6 from "./Assets/images 2.jpg";
 import jeniliya from "./Assets/Jenelia-1.webp";
 
+import Exclusive from "./Assets/exclusive-bridal.jpg"
+import Haircare from "./Assets/hair-care.jpg"
+
 import "./logo.css";
 
 // import ScrollToTop from "./scrolltop";
 
 import "animate.css/animate.min.css";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
+
+const Page = (props) => {
+  const { children, ...rest } = props;
+  return (
+    <div {...rest} className="page">
+      {children}
+    </div>
+  );
+};
 
 function Logo() {
   return (
@@ -26,7 +38,35 @@ function Logo() {
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
       ></link>
-      <div className="pallex-logo">
+
+      <div className="logotop">
+        <div className="overflow-auto">
+          <p className="logotopp">
+            <AnimatedOnScroll animationIn="bounceInLeft">
+              <Page children="UNIKAA BEAUTY" />
+            </AnimatedOnScroll>
+          </p>
+        </div>
+
+        <div className="logotop1p">
+          <AnimatedOnScroll animationIn="bounceInLeft">
+            <p>Beauty Beyond Borders</p>
+          </AnimatedOnScroll>
+        </div>
+        {/* <div className="logotop2p">
+          <AnimatedOnScroll animationIn="bounceInLeft">
+            <p>Enterpreneurship Opprtunity Of You</p>
+          </AnimatedOnScroll>
+        </div> */}
+        <div className="logotop3p">
+          <AnimatedOnScroll animationIn="bounceInLeft">
+            <Link to="/booknow"> <button className="book-now-slide5-btn">booknow</button></Link>
+          </AnimatedOnScroll>
+        </div>
+
+      </div>
+
+      {/* <div className="pallex-logo">
         <Carousel fade data-bs-theme="dark ">
           <Carousel.Item interval={5000}>
             <img
@@ -38,9 +78,9 @@ function Logo() {
             />
 
             <Carousel.Caption>
-            <Link to="/booknow"><button className="book-now-slide1-btn">
+              <Link to="/booknow"><button className="book-now-slide1-btn">
                 Book Now
-              </button></Link>  
+              </button></Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -53,7 +93,7 @@ function Logo() {
             />
 
             <Carousel.Caption>
-            <Link to="/booknow"> <button className="book-now-slide2-btn">booknow</button></Link> 
+              <Link to="/booknow"> <button className="book-now-slide2-btn">booknow</button></Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -66,7 +106,7 @@ function Logo() {
             />
 
             <Carousel.Caption>
-            <Link to="/booknow"> <button className="book-now-slide3-btn">booknow</button></Link> 
+              <Link to="/booknow"> <button className="book-now-slide3-btn">booknow</button></Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -79,7 +119,7 @@ function Logo() {
               alt="..."
             />{" "}
             <Carousel.Caption>
-            <Link to="/booknow"> <button className="book-now-slide4-btn">booknow</button></Link> 
+              <Link to="/booknow"> <button className="book-now-slide4-btn">booknow</button></Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -92,7 +132,7 @@ function Logo() {
             />
 
             <Carousel.Caption>
-            <Link to="/booknow"> <button className="book-now-slide5-btn">booknow</button></Link> 
+              <Link to="/booknow"> <button className="book-now-slide5-btn">booknow</button></Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
@@ -105,16 +145,28 @@ function Logo() {
             />
 
             <Carousel.Caption>
-            <Link to="/booknow"><button className="book-now-slide6-btn">booknow</button></Link> 
+              <Link to="/booknow"><button className="book-now-slide6-btn">booknow</button></Link>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </div>
+      </div> */}
 
       <div>
- 
+
+
+        {/* new content  14/10/24*/}
+        <div className=" container text-center">
+          <h2 className="text-center">Brief introduction about Unikaa Beauty Salon</h2>
+          <p className=" lead">“After 5 years of dedicated research and development, we are proud to introduce Unikaa Beauty
+            Salon, where luxury meets affordability. Experience top-notch beauty services designed for
+            everyone!</p>
+        </div>
+
+        {/* new */}
+
+
         <div className="logo-2line">
-         
+
           <br />
           <h2>
             What Our Magicians Can
@@ -126,7 +178,7 @@ function Logo() {
             <div className="col-lg-4 col-md-4 col-12 ">
               <AnimatedOnScroll animationIn="bounceInLeft">
                 <img
-                  src={image2}
+                  src={Exclusive}
                   alt="loading"
                   className="logo-left-card-img "
                   style={{ width: "100%" }}
@@ -168,7 +220,7 @@ function Logo() {
               <AnimatedOnScroll animationIn="bounceInLeft">
                 {" "}
                 <img
-                  src={image2}
+                  src={Haircare}
                   alt="loading"
                   className="logo-left-card-img2 "
                   style={{ width: "100%" }}
@@ -194,7 +246,7 @@ function Logo() {
                 <p className="pfist4">FRANCHISE</p>
                 <h4 className="logo-us-h4-4">
                   Join The
-                   {/* <br /> */}
+                  {/* <br /> */}
                   Unikaa Family
                 </h4>
 

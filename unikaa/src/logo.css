@@ -1,3 +1,55 @@
+
+.logotop {
+  background:linear-gradient(rgb(16, 65, 245, 0.7), rgb(46, 213, 130, 0.7)),
+  /* url(http://localhost:3000/static/media/701.575a383e2b74a9620fd8.jpg)  */
+  url(./Assets/images\ 2.jpg);
+  
+  height: 460px;
+  background-size: cover;
+}
+.logotopp {
+  /* text-align: center; */
+  font-size: 56px;
+  font-weight: bolder;
+  margin-top: 143px;
+  position: absolute;
+  margin-left: 120px;
+  color: aliceblue;
+}
+
+.logotop-width {
+  width: 50%;
+  margin: 0 auto;
+}
+.logotop1p {
+  font-size: 24px;
+  display: flex;
+  color: aliceblue;
+  justify-content: left;
+  margin-top: 214px;
+  margin-left: 120px;
+}
+.logotop2p {
+  font-size: 24px;
+  display: flex;
+  color: aliceblue;
+  justify-content: left;
+  margin-top: 0px;
+  margin-left: 120px;
+}
+
+.logotop3p {
+  font-size: 20px;
+  display: flex;
+  color: aliceblue;
+  justify-content: left;
+  margin-top: 40px;
+  margin-left: 110px;
+  
+}
+
+
+
 .logo-2line {
   text-align: center;
 }
@@ -8,7 +60,7 @@
 
 } */
 .logocontainer2 {
-  margin-top: 100px;
+  margin-top: 35px;
 }
 .log2-imagealine {
   display: flex;
@@ -174,7 +226,7 @@
   position: absolute;
   display: flex;
   margin-top: -30px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   /* background-color: #fe5114; */
 
   background: linear-gradient(90deg, rgba(15, 61, 248, 1) 0%, rgba(46, 213, 130, 1) 92%);

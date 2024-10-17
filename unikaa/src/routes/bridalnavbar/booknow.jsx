@@ -73,7 +73,7 @@ function Booknow() {
         <div className="container  card-alingnment">
           <div class="card bg-light card-body-all">
             <div class="card-body">
-              <form action="" onSubmit={handleSubmit} style={{color:"white"}}>
+              <form action="" onSubmit={handleSubmit} style={{color:"black"}}>
                 <div className="container row g-5 mt-5">
                   <div className="col-md-6 ">
                     <label htmlFor="Name" className="form-label">

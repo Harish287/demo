@@ -24,16 +24,137 @@ const aboutus = () => {
 
       <div className="abtheader">
         <div className="about-imag">
-          <h1>About Us</h1>
+          <h1 className="text-center">About Us</h1>
+          <div className="text-light " style={{ maxWidth: "600px", marginLeft: "auto" }}>
+            <h3 className="d-flex align-items-center" style={{ fontWeight: "300", fontSize: "24px" }}>The Journey of Unikaa Beauty Salon</h3>
+            <p style={{ fontSize: "16px" }}>
+              Unikaa Beauty Salon is the culmination of five years of unwavering passion, extensive research, and
+              dedicated development in the beauty industry. Our journey began with a vision: to create a space where
+              world-class beauty services could be accessible to everyone, regardless of budget.
+            </p>
+          </div>
+
+          <div className="text-light mr-auto mt-4" style={{ maxWidth: "600px", marginRight: "auto" }}>
+            <h2 className="d-flex align-items-center" style={{ color: "white", fontWeight: "300", fontSize: "24px" }}>The Beginning:</h2>
+            <p style={{ fontSize: "16px" }}>
+              The seed of Unikaa was planted in 2019 when our founder, Mr. G Agilan, driven by a love for beauty and
+              wellness, embarked on a mission to redefine beauty standards in India. Recognizing a gap in the market
+              for high-quality yet affordable beauty services, he set out to research the latest trends, techniques, and
+              technologies in the beauty sector.
+            </p>
+          </div>
         </div>
-        <div className="about-head">
-          <h2>Unikaa's - Creating Experiences With Businesses</h2>
-        </div>
-        <div></div>
+
+
+        {/*{ new content on 11/10/2024 */}
+
+        {/* <div className=" container">
+          <h2>A brief history of how Unikaa Beauty Salon came to be</h2>
+
+          <h3 className=" d-flex"><h3 className=" d-flex align-items-center justify-content-center" style={{ fontWeight: "600" }}>Our Story:</h3>The Journey of Unikaa Beauty Salon</h3>
+          <p>Unikaa Beauty Salon is the culmination of five years of unwavering passion, extensive research, and
+            dedicated development in the beauty industry. Our journey began with a vision: to create a space where
+            world-class beauty services could be accessible to everyone, regardless of budget.
+          </p>
+        </div> */}
+
+
         <br></br>
+        <br></br>
+        <div className=" container">
+          <h2 className=" d-flex align-items-center justify-content-center " style={{ fontWeight: "600" }}>Years of Research and Development:</h2>
+          {/* <br></br> */}
+          {/* <br></br> */}
+          <p> Over the next five years, our team immersed itself in learning and innovation. We traveled extensively,
+            attending international beauty conventions, workshops, and training sessions. This allowed us to gather
+            insights from industry experts and explore the best practices in beauty services around the globe.
+          </p>
+          <p>We conducted surveys and focus groups to understand the needs and preferences of our community.
+            This invaluable feedback shaped our offerings, ensuring that every service at Unikaa is designed with our
+            clients in mind. From skincare to hairstyling, we meticulously curated a menu that caters to diverse
+            beauty needs while maintaining high standards of quality.
+          </p>
+        </div>
+
+
+
+        {/* <div className=" container">
+          <h2 className=" d-flex align-items-center " style={{ fontWeight: "600" }}> The Unikaa Experience:</h2>
+          <p>At Unikaa Beauty Salon, we believe that beauty should not come with a hefty price tag. Our commitment
+            to affordability does not compromise our dedication to excellence. We carefully selected premium
+            products and state-of-the-art equipment to deliver exceptional results</p>
+          <p>The salon’s ambiance reflects our ethos—welcoming, relaxing, and inspiring. We aim to create a space
+            where clients feel pampered and rejuvenated, enhancing not just their appearance but their overall wellbeing.
+          </p>
+        </div> */}
+        {/* 
+        <div className=" container">
+          <h2 className=" d-flex align-items-center " style={{ fontWeight: "600" }}>Our Passion</h2>
+          <p>What truly sets Unikaa apart is our passion for beauty. We are not just a salon; we are a community of
+            beauty enthusiasts who believe in empowering our clients. Our skilled team, trained in the latest
+            techniques, is here to provide personalized consultations, ensuring each client leaves feeling confident
+            and beautiful.</p>
+          <p>Experience the fusion of innovation, passion, and affordability at Unikaa Beauty Salon, where your beauty
+            dreams come to life. Come visit us and discover a new level of beauty experience that goes beyond just a
+            salon visit. Let us help you unleash your inner beauty and confidence at Unikaa Beauty Salon. We are
+            committed to creating a welcoming and inclusive environment where everyone feels valued and
+            respected.</p>
+          <p>At Unikaa Beauty Salon, we strive to exceed expectations and deliver exceptional service that leaves a
+            lasting impression on our clients. Our team of skilled professionals is dedicated to providing personalized
+            services that cater to your unique beauty needs. From hair styling and makeup to skincare and spa
+            treatments, we offer a wide range of services to help you look and feel your best. Whether you're
+            preparing for a special event or simply want to pamper yourself, Unikaa Beauty Salon is the perfect
+            destination for all your beauty needs. Book your appointment today and let us help you achieve the
+            beautiful transformation you've been dreaming of</p> */}
+        {/* <div>
+            <div>
+              <div>
+                <h2 className=" d-flex align-items-center ">Our Mission:</h2>
+                <p>“Our mission is to make high-quality beauty services available to all, without compromising on
+                  excellence.”
+                </p>
+              </div>
+
+              <div>
+                <h2 className=" d-flex align-items-center ">Our Team:</h2>
+                <p> Introduce the team with short bios and qualifications
+                  Include photos if possible
+                </p>
+              </div>
+
+              <div>
+                <h2 className=" d-flex align-items-center "> Our Values:</h2>
+                <p>Customer satisfaction
+                  Quality and affordability
+                  Commitment to sustainability and cruelty-free products
+                </p>
+              </div>
+
+              <div>
+                <h2 className=" d-flex align-items-center ">Our Mission:</h2>
+                <p>“Our mission is to make high-quality beauty services available to all, without compromising on
+                  excellence.”
+                </p>
+              </div>
+            </div>
+          </div> */}
+        {/* </div> */}
+
+
+        <div className=" container">
+          <h2 className=" d-flex align-items-center " style={{ fontWeight: "600" }}></h2>
+          <p></p>
+        </div>
+
+        {/* new} */}
+
+        {/* <div className="about-head">
+          <h2>Unikaa's - Creating Experiences With Businesses</h2>
+        </div> */}
+        {/* <br></br> */}
         <br></br>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="row abt-imagealine">
           <div className="col-lg-4 col-md-4 col-12 ">
             <img
@@ -71,7 +192,7 @@ const aboutus = () => {
       </p>
 
       <br></br>
-      <br></br>
+      <br></br> */}
       <hr></hr>
 
       <div className="abt-drop">
@@ -86,6 +207,16 @@ const aboutus = () => {
       <div className="abt-droptext-lt-rt">
         <div className="abt-droptext-lt">
           <AnimatedOnScroll animationIn="bounceInRight">
+            <h3 className="droptext-lt">Our Mission: -“Our mission is to make high-quality beauty services available to all, without compromising on excellence.”</h3>
+          </AnimatedOnScroll>
+
+          <AnimatedOnScroll animationIn="bounceInRight">
+            <h3 className="droptext-lt">
+              Our Passion:
+              What truly sets Unikaa apart is our passion for beauty. We are not just a salon; we are a community of
+              beauty enthusiasts who believe in empowering our clients</h3>
+          </AnimatedOnScroll>
+          {/* <AnimatedOnScroll animationIn="bounceInRight">
             <h3 className="droptext-lt">2023 - First franchisee</h3>
           </AnimatedOnScroll>
           <AnimatedOnScroll animationIn="bounceInRight">
@@ -102,11 +233,25 @@ const aboutus = () => {
           </AnimatedOnScroll>
           <AnimatedOnScroll animationIn="bounceInRight">
             <h3 className="droptext-lt">2022 - 700+ Salons Across India</h3>
-          </AnimatedOnScroll>
+          </AnimatedOnScroll> */}
         </div>
 
         <div className="abt-droptext-rt">
+
           <AnimatedOnScroll animationIn="bounceInLeft">
+            <h3 className="droptext-rt">
+              Our Team-
+              Introduce the team with short bios and qualifications Include photos if possible
+            </h3>
+          </AnimatedOnScroll>
+
+          <AnimatedOnScroll animationIn="bounceInLeft">
+            <h3 className="droptext-rt">
+              Our Values-
+              Customer satisfaction Quality and affordability Commitment to sustainability and cruelty-free products
+            </h3>
+          </AnimatedOnScroll>
+          {/* <AnimatedOnScroll animationIn="bounceInLeft">
             <h3 className="droptext-rt">
               2023 - Launch Of Unikaa's Training Academy
             </h3>
@@ -130,16 +275,16 @@ const aboutus = () => {
             <h3 className="droptext-rt">
               2023 - Launch Of Unikaa's School of makeup{" "}
             </h3>
-          </AnimatedOnScroll>
+          </AnimatedOnScroll> */}
         </div>
       </div>
       <br />
       <br />
 
-      <div className="container2">
+      {/* <div className="container2">
         <div className="row abt2-imagealine">
           <div className="col-lg-4 col-md-4 col-12 ">
-            <img src={image2} alt="loading" style={{ width: "100%" ,height:"100%", objectFit:"cover"}}></img>
+            <img src={image2} alt="loading" style={{ width: "100%", height: "100%", objectFit: "cover" }}></img>
           </div>
           <div className="col-lg-4 col-md-4 col-12">
             <div className="abtus-p2" style={{ width: "100%" }}>
@@ -156,28 +301,47 @@ const aboutus = () => {
                 created 400 women franchise partners and trained over 10000
                 staff. Thanks to our 30 lakh+ customers!
                 <p></p> Because when you look good, you feel good!
+
               </p>
             </div>
           </div>
         </div>
+      </div> */}
+
+      <div className="abt-end-para-all">
+        <h4 className="abt-end-para">The Unikaa Experience:</h4>
+        <p className="abt-end-para-p">
+          <p>  At Unikaa Beauty Salon, we believe that beauty should not come with a hefty price tag. Our commitment
+            to affordability does not compromise our dedication to excellence. We carefully selected premium
+            products and state-of-the-art equipment to deliver exceptional results</p> <p>
+            The salon’s ambiance reflects our ethos—welcoming, relaxing, and inspiring. We aim to create a space
+            where clients feel pampered and rejuvenated, enhancing not just their appearance but their overall wellbeing.  </p>
+        </p>
+        <a href="/">
+          {" "}
+          <button className="abt-end-para-btn"> join us </button>{" "}
+        </a>
       </div>
 
       <div className="abt-end-para-all">
-        <h4 className="abt-end-para">To Helping Women Be Boundless</h4>
+        <h4 className="abt-end-para">Our Passion</h4>
         <p className="abt-end-para-p">
-          It is impossible to revolutionize the beauty industry without
-          beginning at home. Unikaa's female entrepreneurship programs have
-          given many aspiring businesswomen a head start. Our strategy offers
-          each franchisee the assistance they need to launch a firm without any
-          difficulties.In other words, At Unikaa's, we support women's financial
-          independence and, over the previous 22 years, we have enabled 400
-          women to launch their own businesses. Our goal is to establish a
-          society in India devoid of housewives, where women are inspired to
-          follow their passions as a means of employment. Because there is no
-          better way to make a style statement than to stand on your own two
-          feet, Unikaa's wants to empower 2000 women entrepreneurs, open 3000
-          salons, and create one million employment by the year 2025. Come be a
-          part of the Unikaa's family!
+          <p>What truly sets Unikaa apart is our passion for beauty. We are not just a salon; we are a community of
+            beauty enthusiasts who believe in empowering our clients. Our skilled team, trained in the latest
+            techniques, is here to provide personalized consultations, ensuring each client leaves feeling confident
+            and beautiful.</p>
+          <p>Experience the fusion of innovation, passion, and affordability at Unikaa Beauty Salon, where your beauty
+            dreams come to life. Come visit us and discover a new level of beauty experience that goes beyond just a
+            salon visit. Let us help you unleash your inner beauty and confidence at Unikaa Beauty Salon. We are
+            committed to creating a welcoming and inclusive environment where everyone feels valued and
+            respected.</p>
+          <p>At Unikaa Beauty Salon, we strive to exceed expectations and deliver exceptional service that leaves a
+            lasting impression on our clients. Our team of skilled professionals is dedicated to providing personalized
+            services that cater to your unique beauty needs. From hair styling and makeup to skincare and spa
+            treatments, we offer a wide range of services to help you look and feel your best. Whether you're
+            preparing for a special event or simply want to pamper yourself, Unikaa Beauty Salon is the perfect
+            destination for all your beauty needs. Book your appointment today and let us help you achieve the
+            beautiful transformation you've been dreaming of</p>
         </p>
         <a href="/">
           {" "}

@@ -77,30 +77,22 @@ const franchise = () => {
         <div className="franchise-academy-mission">
           <h4>Unikaa Beauty Academy's Mission</h4>
           <p>
-            Unikaa Beauty Academy is managed by visionary entrepreneurs
-            ___________ And ____________, leaders in beauty industry with 22
-            years of experience. Awarded the ‘Best Health & Beauty Retailer’ and
-            ‘Most Admired Salon’, Unikaa began from scratch and today dominates
-            the Industry with 700+ salons in 26 cities. With the best In-house
-            R&D Team, placement cell with placement partners in India and
-            overseas, Unikaa is home to 10,000 employees.
+            After 5 years of dedicated research and development, we are proud to introduce Unikaa Beauty Salon, where luxury meets affordability. Experience top-notch beauty services designed for everyone!
             <br />
-            <br />A Unikaa Beauty Academy franchise is simple and easy, even for
-            first-time entrepreneurs, you can set up a franchise with minimum
-            advertising and marketing costs, zero hassles of identifying
-            locations. We understand that continuous training is key to this
-            business, and have established the Unikaa Beauty Academy in Chennai,
-            which offers multiple Certificate, Diploma, Master & Short term
-            courses to upgrade the skills of our partners & students.
+            <br />At Unikaa Beauty Salon, we believe that beauty should not come with a hefty price tag. Our commitment
+            to affordability does not compromise our dedication to excellence. We carefully selected premium
+            products and state-of-the-art equipment to deliver exceptional results.
+            The salon’s ambiance reflects our ethos—welcoming, relaxing, and inspiring. We aim to create a space
+            where clients feel pampered and rejuvenated, enhancing not just their appearance but their overall well being.
           </p> </div>
-          <div className="franchise-academy-mission-img">
-            <div className="franchise-academy-mission-text">
-              <h3>Unikaa beauty acadamy</h3>
-              <h5>hair|skin|makeup|nails</h5>
-              <p>Franchise</p>
-            </div>
-            <img src={Beauty} alt="" className="beauty-acadamy-img" />
-         
+        <div className="franchise-academy-mission-img">
+          <div className="franchise-academy-mission-text">
+            <h3>Unikaa beauty acadamy</h3>
+            <h5>hair|skin|makeup|nails</h5>
+            <p>Franchise</p>
+          </div>
+          <img src={Beauty} alt="" className="beauty-acadamy-img" />
+
         </div>
       </div>
 
@@ -210,26 +202,26 @@ const franchise = () => {
 
       <div className="acade-franchise-WhyToChoose">
         <h1>Why To Choose The Beauty Industry?</h1>
-        <div className="acade-franchise-para-why-us">
+        <div className="acade-franchise-para-why-us container">
           <p className="para-color-1">
-            The Indian beauty industry, which is presently the eighth largest in
-            the world, is one of the fastest growing sectors and is predicted to
-            develop much more in the upcoming years.
+            1. Industry Relevant Curriculum:
+            Our courses are carefully crafted to align with current beauty trends and industry standards. Students will learn the latest techniques, products, and tools used in the beauty field.
           </p>
           <p className="para-color-2">
-            According to a Euromonitor International Study, the Indian beauty
-            and personal care (BPC) industry is estimated to be worth $1 billion
-            and is expanding at a rate of -10%.
+            2. Experienced Instructors:
+            Learn from seasoned professionals with extensive experience in the beauty industry. Our instructors bring real-world insights and practical tips to the classroom.
           </p>
           <p className="para-color-3">
-            Market is estimated to be worth $1 billion and is expanding at a
-            rate of -10% (Euro monitor International Study). The report also
-            indicates that skin care and cosmetics are anticipated to drive the
-            market's expansion, with a doubling of the market by 2030.
+            3. Hands-on Training:
+            We believe in the power of experiential learning. Our students gain valuable hands-on experience through practical sessions, workshops, and live demonstrations, ensuring they leave confident in their abilities.
           </p>
           <p className="para-color-4">
-            The Indian government encourages and prioritizes raising vocational
-            skill levels to meet international norms.
+            4. State-of-the-art Facilities:
+            Our academy is equipped with modern facilities and the latest beauty technology, providing students with an immersive learning environment
+          </p>
+          <p className="para-color-4">
+            5. Career Support:
+            We are committed to helping our graduates succeed. Our career support services include job placement assistance, resume building, and networking opportunities within the beauty industry.
           </p>
         </div>
       </div>

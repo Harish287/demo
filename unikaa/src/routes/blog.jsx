@@ -23,6 +23,17 @@ import image18 from "../Assets/WhatsApp Image 2024-05-14 at 12.58.18 PM (1).jpeg
 function blog() {
   return (
     <>
+      <div className="bg">
+        <img
+          src={image}
+          alt="pic"
+          style={{
+            width: "100%",
+            height: 300,
+            position: "relative",
+            zIndex: "-1",
+          }}
+        ></img>          </div>
       <div></div>
       <br></br>
       <br></br>
@@ -30,22 +41,12 @@ function blog() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-12">
-            <div className="bg">
-              <img
-                src={image}
-                alt="pic"
-                style={{
-                  width: "100%",
-                  height: 300,
-                  position: "relative",
-                  zIndex: "-1",
-                }}
-              ></img>
-              <div className="content blog-image-ablsoute-content ">
-                <p>"Beauty Whisperers - Blogs"</p>
-              </div>
+
+            <div className="content blog-image-ablsoute-content ">
+              <p>"Beauty Whisperers - Blogs"</p>
             </div>
           </div>
+
         </div>
       </div>
       <br></br>
@@ -391,6 +392,7 @@ function blog() {
           </div>
         </div>
       </div>
+      <hr></hr>
       <hr></hr>
       {/* <div className="container">
         <div className="row">
