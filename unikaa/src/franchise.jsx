@@ -32,7 +32,7 @@ const franchise = () => {
     <>
       {/********************************************scrollanimation*******************************************/}
 
-  
+
 
       <link
         rel="stylesheet"
@@ -60,30 +60,25 @@ const franchise = () => {
         </div>
       </div>
 
-{/* Form for fanchise */}
+      {/* Form for fanchise */}
 
       <Fanchise />
 
-      <div className="franchise2h">
+      {/* <div className="franchise2h">
         <h3>
-          Over 400 Women Entrepreneurs <br/>Have Found Their Calling. Are <br/> You Next?
+          Over 400 Women Entrepreneurs <br />Have Found Their Calling. Are <br /> You Next?
         </h3>
         <p>
           Become A Successful Entrepreneur With India’s Largest Family Salon
           Chain
         </p>
-      </div>
+      </div> */}
 
-      <Card
+      {/* <Card
         className="frenchisecard"
-        // style={{
-        //   width: "80rem",
-        //   display: "flex",
-        //   justifyContent: "center",
-        //   marginLeft: "120px",
-        //   alignItems: "center",
-        //   backgroundColor: "pink",
-        // }}
+
+
+
       >
         <Card.Title
           style={{
@@ -98,8 +93,8 @@ const franchise = () => {
         <Card.Text
           style={{
             textAlign: "center",
-            // padding: "0 126px",
-            fontSize: "17px", 
+          
+            fontSize: "17px",
             fontFamily: "Inner-sans-serif",
             marginTop: "20px",
           }}
@@ -108,20 +103,20 @@ const franchise = () => {
           franchise partners. Unikaa is fortunate to have many such success
           stories to tell. Hear from our partners how Unikaa have empowered them
           and have opened new growth vistas.
-        </Card.Text>
+        </Card.Text> */}
         {/* <Card.Img variant="top" src="../Assets/abc.jpg" /> */}
 
-        <Card.Body
+        {/* <Card.Body
           style={{
             textAlign: "center",
-            // padding: "0 126px",
+        
             fontSize: "17px",
             fontFamily: "Inner-sans-serif",
             marginTop: "20px",
             display: "flex",
             position: "relative",
           }}
-        >
+        > */}
           {/* <Card.Body>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={imagefra1} />
@@ -135,13 +130,13 @@ const franchise = () => {
             </Card>
           </Card.Body> */}
 
-          <Card.Body>
+          {/* <Card.Body>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={imagefra2} />
               <Card.Body>
                 <Card.Title>Be Ready </Card.Title>
                 <Card.Text>
-                We have fantastic opportunities for you to franchise our beauty salon.
+                  We have fantastic opportunities for you to franchise our beauty salon.
 
                 </Card.Text>
               </Card.Body>
@@ -154,7 +149,7 @@ const franchise = () => {
               <Card.Body>
                 <Card.Title>Be Ready</Card.Title>
                 <Card.Text>
-                We have fantastic opportunities for you to franchise our beauty salon.
+                  We have fantastic opportunities for you to franchise our beauty salon.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -166,7 +161,7 @@ const franchise = () => {
               <Card.Body>
                 <Card.Title>Be Ready</Card.Title>
                 <Card.Text>
-                We have fantastic opportunities for you to franchise our beauty salon.
+                  We have fantastic opportunities for you to franchise our beauty salon.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -178,11 +173,11 @@ const franchise = () => {
               <Card.Body>
                 <Card.Title>Be Ready</Card.Title>
                 <Card.Text>
-                We have fantastic opportunities for you to franchise our beauty salon.
+                  We have fantastic opportunities for you to franchise our beauty salon.
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Card.Body>
+          </Card.Body> */}
 
           {/* <a
             class="carousel-control-prev"
@@ -203,8 +198,8 @@ const franchise = () => {
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a> */}
-        </Card.Body>
-      </Card>
+        {/* </Card.Body> */}
+      {/* </Card> */}
 
       <div className="francise3h">
         <h1>The Unikaa Nationwide Wave</h1>
@@ -384,9 +379,7 @@ const franchise = () => {
               <Card.Body>
                 <Card.Title style={{ color: "white" }}>Brand Value</Card.Title>
                 <Card.Text style={{ color: "white" }}>
-                  Unikaa Salon has grown from 1 salon to 650 salons by building
-                  its brand over the past 16 years. Now we are inviting you to
-                  be part of this success story.
+                  Over the next five years, our team immersed itself in learning and innovation. We traveled extensively, attending international beauty conventions, workshops, and training sessions.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -425,7 +418,7 @@ const franchise = () => {
         </div>
       </Card>
       <br></br>
-   
+
     </>
   );
 };

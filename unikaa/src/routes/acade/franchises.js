@@ -98,7 +98,7 @@ const franchise = () => {
 
       {/*******************************Benefits Of Owning Unikaa Beauty Academy***************************/}
 
-      <div className="all-card-franchise-acard">
+      {/* <div className="all-card-franchise-acard">
         <h2>Benefits Of Owning Unikaa Beauty Academy</h2>
       </div>
 
@@ -196,7 +196,7 @@ const franchise = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/********************************Why To Choose The Beauty Industry?************************************************/}
 
