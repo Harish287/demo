@@ -1,8 +1,0 @@
-{
-   "DEPLOYPATH":"/home/unikaabeauty/public_html/kairaa-deploy/",
-   "task":[
-      "*",
-      ".vscode",
-      ".git"
-   ]
-}

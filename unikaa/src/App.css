@@ -34,10 +34,15 @@ body {
   font-size: larger;
   height: 80px;
   width: 100%;
+  background: white;
 
-  background: linear-gradient(90deg, rgba(46, 213, 130, 1) 0% , rgba(15, 61, 248, 1)92%);
+  /* background: linear-gradient(90deg, rgba(46, 213, 130, 1) 0% , rgba(15, 61, 248, 1)92%); */
   /* background: #fe5114; */
   /* font-weight: 900; */
+}
+
+.desktop-nav{
+  color: black;
 }
 
 .logo {
