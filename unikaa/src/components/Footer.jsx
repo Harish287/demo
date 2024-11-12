@@ -11,7 +11,7 @@ import youtube from "../Assets/48968.png";
 
 //******************************* fonticon import***************////
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope ,faPhone} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -63,7 +63,7 @@ const Footer = () => {
           </a> */}
         </div>
         <div className="sb__footer-links_div">
-   
+
           <h4> Business</h4>
           <a href="/franchise">
             <p>Franchise Opportunities</p>
@@ -73,16 +73,22 @@ const Footer = () => {
           <h4>Contact Us</h4>
 
           <p>location</p>
+          <p className="" style={{ lineHeight:"22px"}}>NO:131 1st floor DB road(near ramraj cotton showroom) RS puram , coimbatore 641002</p>
           <br />
         </div>
 
         <div className="sb__footer-links_div">
           <h4>Get IN Touch</h4>
-          <p>phoneNumber</p>
+          {/* <div className=" d-flex"> */}
+          <p><FontAwesomeIcon className=" px-lg-1" icon={faPhone} />phone </p>
+          <p>7092770199</p>
+          {/* </div> */}
           <p>
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon className=" px-lg-1" icon={faEnvelope} />
             Email Id
           </p>
+          <p>unikaabeauty@gmail.com</p>
+      
 
           <div className="socialmedia">
             <p>
