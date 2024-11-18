@@ -65,7 +65,7 @@ const BodyCare = () => {
             Alleviate the tension in your system with a pick of one of our
             therapeutic full body massages. Whether it’s Deep Tissue or Swedish,
             a beneficial Balinese, an Aroma Relax, a De-stress or a Signature
-            Studio11 massage; these therapies will improve circulation,
+            Unikaa massage; these therapies will improve circulation,
             rebalance your energies and help you reconnect with your inner self
           </p>
         </div>
@@ -92,7 +92,7 @@ const BodyCare = () => {
           </p>
         </div>
 
-        <div className="bodycares-div">
+        {/* <div className="bodycares-div">
           <img src={bodymassage} className="body-img" alt="logo" />
           <h1>body Spa</h1>
           <p>
@@ -114,7 +114,7 @@ const BodyCare = () => {
               <li>Nourishing body Spa</li>
             </ul>
           </p>
-        </div>
+        </div> */}
         {/* 
         <div className="bodycare-div">
           <img src={bodyimg} className="body-img" alt="logo" />
