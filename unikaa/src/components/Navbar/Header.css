@@ -28,8 +28,8 @@
 } */
 .logo img {
   position: relative;
-  height: 70px;
-  width: 150px;
+  height: 85px;
+  width: 140px;
   justify-content: center;
 }
 @media screen and (max-width: 850px) {

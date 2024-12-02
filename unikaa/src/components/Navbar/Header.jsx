@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 // import Logo from ".//1.png";
 import "../Navbar/Header.css";
-import Logo from "../../Assets/Unikaa Logo PNG.png"
+import Logo from "../../Assets/Unikaa-Logo-14.png"
 
 
 
